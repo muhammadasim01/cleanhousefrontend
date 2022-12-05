@@ -4,6 +4,8 @@ import { HiMenu } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
+import Link from "next/link";
+
 function MobileMenu() {
   return (
     <div className="text-center flex flex-col sm:hidden bg-darkColor bg-opacity-80 absolute w-[100%] z-40">
@@ -23,11 +25,11 @@ function MobileMenu() {
       <nav>
         <ul>
           <li className="text-lightColor text-start font-subHeading text-xl  font-bold py-3 ml-5">
-            Sign In / Sign Up
+            <Link href="/auth">Sign In / Sign Up</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            Book A Cleaner
+            <Link href="bookACleaner">Book A Cleaner</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">

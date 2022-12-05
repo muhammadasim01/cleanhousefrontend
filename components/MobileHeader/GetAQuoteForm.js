@@ -8,6 +8,8 @@ import GetAQuoteForm1 from "./GetAQuoteForm1";
 import GetAQuoteForm2 from "./GetAQuoteForm2";
 import GetAQuoteForm3 from "./GetAQuoteForm3";
 import GetAQuoteForm4 from "./GetAQuoteForm4";
+import Link from "next/link";
+
 function GetAQuoteForm() {
   const [toggle, setToggle] = useState({
     bookingInfo: true,
@@ -145,8 +147,9 @@ function GetAQuoteForm() {
             Payment
           </button>
         </div>
+        <GetAQuoteForm1 />
       </div>
-      {toggle.bookingInfo && <GetAQuoteForm1 />}
+      {/* {toggle.bookingInfo && } */}
       {toggle.date && <GetAQuoteForm2 />}
       {toggle.address && <GetAQuoteForm3 />}
       {toggle.payment && <GetAQuoteForm4 />}

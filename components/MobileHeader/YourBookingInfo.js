@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
 import LargeButton from "./LargeButton";
 import { GoPrimitiveDot } from "react-icons/go";
 function YourBookingInfo() {
+  const router = useRouter();
   const [toggle, setToggle] = useState(true);
   const handleYes = () => {
     !toggle && setToggle(true);
@@ -2106,6 +2108,7 @@ function YourBookingInfo() {
         color="text-lightColor"
         customCode="justify-center bg-secondaryColor"
         font="font-bold"
+        toggle={() => router.push("/bookCleanerDate")}
       />
     </div>
   );
