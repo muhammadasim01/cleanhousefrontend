@@ -6,9 +6,12 @@
     src:url('../public/fonts/TTNorms-Bold.otf');
     font-family: "TTNorm-Bold";
 }
-.Bold{
+.font-heading{
     font-family: "TTNorm-Bold";
 }
-.Regular{
+.font-subHeading{
+    font-family: "TTNorm-Bold";
+}
+.font-text{
     font-family: "TTNorm-Regular";
 }

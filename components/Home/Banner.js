@@ -6,13 +6,10 @@ import { FaStar } from "react-icons/fa";
 import { AiTwotoneStar } from "react-icons/ai";
 import { BsCheckLg } from "react-icons/bs";
 import { useState } from "react";
-// import "../../fontstyle.css";
-
 const Banner = () => {
   const [inputVal, setInputVal] = useState();
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log("The Form Data is", inputVal);
     setInputVal("");
   };
   return (
@@ -27,7 +24,7 @@ const Banner = () => {
               <AiTwotoneStar className="text-[#FFCE31] h-5 w-5" />
               <AiTwotoneStar className="text-[#FFCE31] h-5 w-5" />
             </span>
-            <h1 className="Bold  text-lightColor text-3xl font-bold px-7">
+            <h1 className="font-heading text-lightColor text-3xl font-bold px-7">
               Book a local cleaner in your area
               <span className="font-subHeading text-lg font-light">
                 Canada & USA

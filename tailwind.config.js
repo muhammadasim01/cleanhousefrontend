@@ -14,13 +14,6 @@ module.exports = {
       darkColor: "#000000",
       lightShade: "#FFF6E2",
     },
-    extend: {
-      fontFamily: {
-        heading: ["Poppins"],
-        subHeading: ["Poppins"],
-        text: ["Montserrat"],
-      },
-    },
   },
   plugins: [require("@tailwindcss/line-clamp")],
   plugins: [require("@tailwindcss/forms")],
