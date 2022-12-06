@@ -2,8 +2,14 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import LargeButton from "./LargeButton";
 import { GoPrimitiveDot } from "react-icons/go";
+import Link from "next/link";
 function YourBookingInfo() {
   const router = useRouter();
+
+  const navigation = (e) => {
+    e.preventDefault();
+    router.push("/cleanerdate");
+  };
   const [toggle, setToggle] = useState(true);
   const handleYes = () => {
     !toggle && setToggle(true);
@@ -2103,13 +2109,19 @@ function YourBookingInfo() {
         right to refuse the cleaning job and the clean will be cancelled and can
         be rescheduled.
       </p>
-      <LargeButton
+      {/* <LargeButton
         Text="Continue"
         color="text-lightColor"
         customCode="justify-center bg-secondaryColor"
         font="font-bold"
-        toggle={() => router.push("/bookCleanerDate")}
-      />
+        toggle={() => router.push("/cleanerDate")}
+      /> */}
+      <button className="next" type="submit" onClick={navigation}>
+        Next
+      </button>
+      {/* <Link href="/cleanerdate">
+        <a>next</a>
+      </Link> */}
     </div>
   );
 }

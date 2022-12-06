@@ -1,7 +1,7 @@
 import GetAQuoteForm2 from "../components/MobileHeader/GetAQuoteForm2";
 
-function bookCleanerDate() {
+function BookCleanerDate() {
   return <GetAQuoteForm2 />;
 }
 
-export default bookCleanerDate;
+export default BookCleanerDate;

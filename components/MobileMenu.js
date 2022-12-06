@@ -29,7 +29,7 @@ function MobileMenu() {
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            <Link href="bookACleaner">Book A Cleaner</Link>
+            <Link href="/bookacleaner">Book A Cleaner</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">

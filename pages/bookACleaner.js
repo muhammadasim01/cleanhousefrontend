@@ -1,7 +1,7 @@
-import GetAQuoteForm from "../components/MobileHeader/GetAQuoteForm";
+import GetAQuoteForm1 from "../components/MobileHeader/GetAQuoteForm1";
 
-function bookACleaner() {
-  return <GetAQuoteForm />;
+function BookACleaner() {
+  return <GetAQuoteForm1 />;
 }
 
-export default bookACleaner;
+export default BookACleaner;

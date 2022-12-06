@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { BsApple, BsFacebook } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
@@ -9,6 +10,11 @@ function SignUp() {
   const handlePassword = (e) => {
     e.preventDefault();
     setPassword(!password);
+  };
+  const router = useRouter();
+  const navigate = (e) => {
+    e.preventDefault();
+    router.push("/verifyaccount");
   };
   return (
     <div className="flex flex-col h-[1300px] items-center justify-between">
@@ -135,7 +141,7 @@ function SignUp() {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <SecondryButton Title="Sign Up" />
+          <SecondryButton Title="Sign Up" navigate={navigate} />
         </div>
       </form>
       <p className="w-full flex items-center justify-center">

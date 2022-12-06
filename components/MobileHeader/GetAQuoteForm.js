@@ -10,50 +10,11 @@ import GetAQuoteForm3 from "./GetAQuoteForm3";
 import GetAQuoteForm4 from "./GetAQuoteForm4";
 import Link from "next/link";
 
-function GetAQuoteForm() {
-  const [toggle, setToggle] = useState({
-    bookingInfo: true,
-    date: false,
-    address: false,
-    payment: false,
-  });
+function GetAQuoteForm({ Title }) {
   const [showDropDown, setShowDropDown] = useState(false);
   const [isCanada, setIsCanada] = useState(false);
-  const bookingInfo = () => {
-    console.log("Your booking information");
-    setToggle({
-      bookingInfo: true,
-      date: false,
-      address: false,
-      payment: false,
-    });
-  };
-  const date = () => {
-    setToggle({
-      bookingInfo: false,
-      date: true,
-      address: false,
-      payment: false,
-    });
-  };
-  const address = () => {
-    setToggle({
-      bookingInfo: false,
-      date: false,
-      address: true,
-      payment: false,
-    });
-  };
-  const payment = () => {
-    setToggle({
-      bookingInfo: false,
-      date: false,
-      address: false,
-      payment: true,
-    });
-  };
   return (
-    <div className="border-2 h-auto">
+    <div className="h-auto">
       <div className=" absolute right-0">
         <div className="h-[80px] w-[70px] text-right ">
           <div
@@ -98,61 +59,26 @@ function GetAQuoteForm() {
         </div>
       </div>
       <div className="w-full mt-5">
-        <h2 className="font-heading  text-3xl font-bold py-2 px-4">
-          Customise Your Clean
-        </h2>
+        <h2 className="font-heading  text-3xl font-bold py-2 px-4">{Title}</h2>
         <div className="flex h-10  border-2 border-secondaryColor px-1 items-center bg-secondaryColor bg-opacity-10 rounded-lg ">
-          <button
-            onClick={bookingInfo}
-            className="font-text text-[10px] font-extrabold text-darkColor flex items-center w-[34%]"
-          >
-            <p
-              className={`h-2 w-2 border-2 border-secondaryColor ${
-                toggle.bookingInfo && "bg-secondaryColor"
-              } rounded-full mx-[3px]`}
-            ></p>
+          <button className="font-text text-[10px] font-extrabold text-darkColor flex items-center w-[34%]">
+            <p className="h-2 w-2 border-2 border-secondaryColor bg-secondaryColor rounded-full mx-1"></p>
             Your Booking Info
           </button>
-          <button
-            onClick={date}
-            className="font-text text-[10px] font-bold text-darkColor flex items-center w[22%]"
-          >
-            <p
-              className={`h-2 w-2 border-2 border-secondaryColor ${
-                toggle.date && "bg-secondaryColor"
-              } rounded-full mx-1`}
-            ></p>
+          <button className="font-text text-[10px] font-bold text-darkColor flex items-center w[22%]">
+            <p className="h-2 w-2 border-2 border-secondaryColor bg-secondaryColor rounded-full mx-1"></p>
             Date/Time
           </button>
-          <button
-            onClick={address}
-            className="font-text text-[10px] font-bold text-darkColor flex items-center w-[22%]"
-          >
-            <p
-              className={`h-2 w-2 border-2 border-secondaryColor ${
-                toggle.address && "bg-secondaryColor"
-              }  rounded-full mx-1`}
-            ></p>
+          <button className="font-text text-[10px] font-bold text-darkColor flex items-center w-[22%]">
+            <p className="h-2 w-2 border-2 border-secondaryColor bg-secondaryColor rounded-full mx-1"></p>
             Address
           </button>
-          <button
-            onClick={payment}
-            className="font-text text-[10px] font-bold text-darkColor flex items-center w-[22%]"
-          >
-            <p
-              className={`h-2 w-2 border-2 border-secondaryColor ${
-                toggle.payment && "bg-secondaryColor"
-              } rounded-full mx-1`}
-            ></p>
+          <button className="font-text text-[10px] font-bold text-darkColor flex items-center w-[22%]">
+            <p className="h-2 w-2 border-2 border-secondaryColor bg-secondaryColor rounded-full mx-1"></p>
             Payment
           </button>
         </div>
-        <GetAQuoteForm1 />
       </div>
-      {/* {toggle.bookingInfo && } */}
-      {toggle.date && <GetAQuoteForm2 />}
-      {toggle.address && <GetAQuoteForm3 />}
-      {toggle.payment && <GetAQuoteForm4 />}
     </div>
   );
 }

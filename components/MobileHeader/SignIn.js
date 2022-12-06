@@ -10,14 +10,20 @@ import {
   FacebookAuthProvider,
 } from "firebase/auth";
 import auth from "../../firebase";
+import { useRouter } from "next/router";
 function SignIn() {
   const [password, setPassword] = useState(false);
   const Googleprovider = new GoogleAuthProvider();
   const Facebookprovider = new FacebookAuthProvider();
-
+  const router = useRouter();
   const handlePassword = (e) => {
     e.preventDefault();
     setPassword(!password);
+  };
+
+  const navigate = (e) => {
+    e.preventDefault();
+    router.push("/");
   };
 
   const SignInWithGoogle = () => {
@@ -113,7 +119,7 @@ function SignIn() {
           Forgot your password?
         </p>
         <div className="flex items-center justify-center">
-          <SecondryButton Title="Sign In" />
+          <SecondryButton Title="Sign In" navigate={navigate} />
         </div>
       </form>
       <p className="text-center px-5 pb-5 font-text text-base font-semibold">
