@@ -15,10 +15,10 @@ function Subscription() {
         Subscribe to our newsletter{" "}
       </h2>
       <p className="text-center font-text text-lg font-normal leading-7 py-3 px-3 md:w-[781px] text-lightColor">
-        Want to stay updated on My Clean House latest news, offers, and
-        promotions? Subscribe to our newsletter! You can opt out of receiving
-        future communications from us at any time by unsubscribing from
-        promotional emails.
+        Want to stay updated on Maidzly latest news, offers, and promotions?
+        Subscribe to our newsletter! You can opt out of receiving future
+        communications from us at any time by unsubscribing from promotional
+        emails.
       </p>
       <form
         onSubmit={subscriptionHandler}

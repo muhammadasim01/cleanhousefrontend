@@ -167,14 +167,14 @@ function SignUp() {
       />
       <p className="font-text text-base font-normal my-4 px-3">
         By tapping “Sign Up” or “Continue with Google, Facebook, or Apple” you
-        agree to My Clean House{" "}
+        agree to Maidzly{" "}
         <span className="text-primaryColor">Terms & Services </span> and{" "}
         <span className="text-primaryColor">Privacy Policy</span>.
       </p>
       <div className="border-b-2 w-72 text-[#A9A9A9]"></div>
       <div className="text-center my-5">
         <p className="font-text text-base font-semibold mt-4 px-3">
-          Already have a My Clean House account?
+          Already have a Maidzly account?
         </p>
         <button className="p-3 text-primaryColor font-subHeading text-xl font-light underline">
           Sign In Now

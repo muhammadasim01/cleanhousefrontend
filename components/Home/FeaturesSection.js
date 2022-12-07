@@ -6,7 +6,7 @@ function FeaturesSection() {
   return (
     <div className="flex flex-col justify-center items-center px-4">
       <h2 className="font-subHeading text-4xl font-bold text-center leading-10">
-        My Clean House cleaning services is the best!
+        Maidzly cleaning services is the best!
       </h2>
       <p className="font-text text-xl font-medium text-center leading-7 mt-8">
         What sets us apart from other home cleaning services is our attention to
@@ -15,18 +15,18 @@ function FeaturesSection() {
         process as seamless as possible, from booking to payment to clean-up.
       </p>
       <p className="font-text text-xl font-extrabold text-center leading-7 mt-8">
-        Here are some of the benefits of choosing My Clean House for your home
-        cleaning needs:
+        Here are some of the benefits of choosing Maidzly for your home cleaning
+        needs:
       </p>
       <div className="flex flex-col md:flex-row md:w-[760px] lg:w-[900px] md:justify-between">
         <FeaturedCard1 />
         <FeaturedCard2 />
       </div>
       <p className="font-subHeading text-darkColor text-center text-base font-extrabold py-5 leading-7">
-        At My Clean House we aim to make your life easier by taking on those
-        extra, time-consuming tasks that you just dont have the time for.
-        Whether its mopping your floors, doing the laundry or ironing your
-        clothes, well take care of it so you dont have to.
+        At Maidzly we aim to make your life easier by taking on those extra,
+        time-consuming tasks that you just dont have the time for. Whether its
+        mopping your floors, doing the laundry or ironing your clothes, well
+        take care of it so you dont have to.
       </p>
       <p className="font-text text-darkColor text-center text-xl font-medium leading-6 mb-5">
         You can add extra tasks to your cleaning schedule in seconds through

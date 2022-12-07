@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import LargeButton from "./LargeButton";
 import { GoPrimitiveDot } from "react-icons/go";
 import Link from "next/link";
+import MobileMenu from "../MobileMenu";
+import Header from "../Header";
 function YourBookingInfo() {
   const router = useRouter();
 
@@ -2109,16 +2111,16 @@ function YourBookingInfo() {
         right to refuse the cleaning job and the clean will be cancelled and can
         be rescheduled.
       </p>
-      {/* <LargeButton
+      <LargeButton
         Text="Continue"
         color="text-lightColor"
         customCode="justify-center bg-secondaryColor"
         font="font-bold"
-        toggle={() => router.push("/cleanerDate")}
-      /> */}
-      <button className="next" type="submit" onClick={navigation}>
+        toggle={navigation}
+      />
+      {/* <button className="next" type="submit" onClick={navigation}>
         Next
-      </button>
+      </button> */}
       {/* <Link href="/cleanerdate">
         <a>next</a>
       </Link> */}

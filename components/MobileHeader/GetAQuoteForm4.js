@@ -13,6 +13,7 @@ import LargeButton from "./LargeButton";
 import GetAQuoteForm from "./GetAQuoteForm";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Header from "../Header";
 function GetAQuoteForm4() {
   const router = useRouter();
   const navigation = (e) => {
@@ -21,6 +22,7 @@ function GetAQuoteForm4() {
   };
   return (
     <>
+      <Header bgColor="bg-primaryColor" position={"relative"} />
       <GetAQuoteForm Title="Get Your Quote" />
       <div className="p-4">
         <h2 className="font-subHeading  text-xl font-bold text-left my-2">
@@ -143,22 +145,22 @@ function GetAQuoteForm4() {
               </div>
               <div className="w-[80%] py-2 px-4">
                 <p className="font-text text-sm text-left font-normal leading-5">
-                  My Clean House uses 256-bit SSL encryption and 3D secure
+                  Maidzly uses 256-bit SSL encryption and 3D secure
                   authentication to protect your peronal information.
                 </p>
               </div>
             </div>
           </div>
-          {/* <LargeButton
+          <LargeButton
             Text="Complete"
             customCode="justify-center bg-secondaryColor"
             color="text-lightColor"
             font="font-bold"
-            toggle={() => router.push("/")}
-          /> */}
-          <button className="next" type="submit" onClick={navigation}>
+            toggle={navigation}
+          />
+          {/* <button className="next" type="submit" onClick={navigation}>
             next
-          </button>
+          </button> */}
           {/* <Link href="/">
             <a>next</a>
           </Link> */}

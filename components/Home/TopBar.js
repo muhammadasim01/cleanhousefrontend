@@ -9,7 +9,7 @@ function TopBar() {
         <div className="bg-primaryColor h-14 my-1 flex items-center justify-center rounded-lg">
           <Image src={logo} height={45} width={55} />
         </div>
-        <p className="font-text text-sm font-medium mx-5">My Clean House</p>
+        <p className="font-text text-sm font-medium mx-5">Maidzly</p>
       </div>
       <div className="w-[50%] flex items-center justify-end mx-24">
         <p className="font-text text-sm font-medium mx-5">GET Our APP</p>

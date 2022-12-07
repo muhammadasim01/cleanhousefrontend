@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { RiCheckboxBlankLine } from "react-icons/ri";
+import Header from "../Header";
 import GetAQuoteForm from "./GetAQuoteForm";
 import LargeButton from "./LargeButton";
 function GetAQuoteForm3() {
@@ -11,6 +12,7 @@ function GetAQuoteForm3() {
   };
   return (
     <>
+      <Header bgColor="bg-primaryColor" position={"relative"} />
       <GetAQuoteForm Title="Get Your Quote" />
       <div className="p-4">
         <h2 className="font-subHeading  text-xl font-bold text-left">
@@ -96,16 +98,16 @@ function GetAQuoteForm3() {
               className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
             />
           </div>
-          {/* <LargeButton
+          <LargeButton
             Text="Continue"
             customCode="justify-center bg-secondaryColor"
             color="text-lightColor"
             font="font-bold"
-            toggle={() => router.push("/cleanerPayment")}
-          /> */}
-          <button className="next" type="submit" onClick={navigation}>
+            toggle={navigation}
+          />
+          {/* <button className="next" type="submit" onClick={navigation}>
             next
-          </button>
+          </button> */}
           {/* <Link href="/cleanerpayment">
             <a>next</a>
           </Link> */}

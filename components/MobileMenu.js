@@ -9,8 +9,8 @@ import Link from "next/link";
 function MobileMenu() {
   return (
     <div className="text-center flex flex-col sm:hidden bg-darkColor bg-opacity-80 absolute w-[100%] z-40">
-      <div className="self-start">
-        <Image src={logo2} height={80} width={100} />
+      <div className="self-start mt-[12px] ml-[8px]">
+        <Image src={logo2} height={75} width={75} />
       </div>
       <form className="flex items-center justify-center w-full pl-7 sm:w-[600px]">
         <input

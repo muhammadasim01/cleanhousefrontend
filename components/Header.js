@@ -12,21 +12,13 @@ import { MdClose } from "react-icons/md";
 import { AiOutlineClose } from "react-icons/ai";
 import MobileMenu from "./MobileMenu";
 const Header = ({ bgColor, position }) => {
-  let Links = [
-    { name: "Our Guarantee", link: "/" },
-    { name: "About Us", link: "/" },
-    { name: "Book A Cleaner", link: "/" },
-    { name: "Blogs", link: "/" },
-    { name: "Contact Us", link: "/" },
-  ];
   const [navbarOpen, setNavbarOpen] = useState(false);
-  console.log("The State is", navbarOpen);
   return (
     <>
       <div
-        className={`${position} sm:w-full flex justify-between px-2 py-3 w-[100%] ${bgColor}`}
+        className={`${position} h-auto sm:w-full flex justify-between px-2 py-3 w-[100%] ${bgColor}`}
       >
-        <Image src={logo2} height={80} width={100} />
+        <Image src={logo2} height={75} width={75} />
         <button
           className="z-50  text-lightColor "
           type="button"
@@ -77,100 +69,3 @@ const Header = ({ bgColor, position }) => {
 };
 
 export default Header;
-{
-  /* <nav className="absolute bg-primaryColor w-full h-14">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <Link
-              className="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-white"
-              href="/"
-            >
-              <Image src={logo} height={50} width={50} />
-            </Link>
-            <button
-              className="text-white cursor-pointer text-xl leading-none border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              {navbarOpen ? (
-                <AiOutlineClose className="text-lightColor" />
-              ) : (
-                <HiMenu className="text-lightColor" />
-              )}
-            </button>
-          </div>
-          <div
-            className={
-              "border-4 border-secondaryColor lg:flex flex-grow  items-center" +
-              (navbarOpen ? " flex" : " hidden")
-            }
-            id="example-navbar-danger"
-          >
-            <ul className="flex bg-secondaryColor flex-col px-5 lg:flex-row list-none border-2 border-primaryColor w-[39rem] justify-between  lg:ml-auto">
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/"
-                >
-                  <span className="ml-2 fab fa-facebook-square font-popins font-medium text-lg leading-lg text-lightColor opacity-75">
-                    Our Guarantee
-                  </span>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/"
-                >
-                  <span className="ml-2 fab fa-twitter text-lg font-popins font-medium leading-lg text-lightColor opacity-75">
-                    About Us
-                  </span>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/"
-                >
-                  <span className="ml-2 fab fa-pinterest text-lg font-popins font-medium leading-lg text-lightColor opacity-75">
-                    Book A Cleaner
-                  </span>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/"
-                >
-                  <span className="ml-2 fab fa-pinterest text-lg font-popins font-medium leading-lg text-lightColor opacity-75">
-                    Blogs
-                  </span>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/"
-                >
-                  <span className="ml-2 fab fa-pinterest text-lg font-popins font-medium leading-lg text-lightColor opacity-75">
-                    Contact Us
-                  </span>
-                </Link>
-              </li>
-            </ul>
-            <div className="pl-8">
-              <PrimaryButton
-                text="Login"
-                bgColor={"bg-lightColor"}
-                textColor={"text-primaryColor"}
-              />
-              <PrimaryButton
-                text="Register"
-                bgColor={"bg-primaryColor"}
-                textColor={"text-lightColor"}
-              />
-            </div>
-          </div>
-        </div>
-      </nav> */
-}

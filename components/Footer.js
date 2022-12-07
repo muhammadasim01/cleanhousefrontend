@@ -103,7 +103,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="copyrigh font-text font-light sm:w-[50%] sm:text-right text-sm mt-3 text-lightColor">
-            copyright 2022 my clean house
+            copyright 2022 maidzly
           </div>
         </div>
       </footer>

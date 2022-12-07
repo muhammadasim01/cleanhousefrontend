@@ -123,7 +123,7 @@ function SignIn() {
         </div>
       </form>
       <p className="text-center px-5 pb-5 font-text text-base font-semibold">
-        By signing in, I agree to My Clean House{" "}
+        By signing in, I agree to Maidzly{" "}
         <span className="text-primaryColor">Terms of Services </span> and{" "}
         <span className="text-primaryColor mr-2">Privacy</span>
         Policy, confirm that I am 18 years of age or older, and concent to

@@ -16,7 +16,7 @@ function ServiceSection() {
       <div className="flex justify-center flex-wrap">
         <RectangularCard
           Title="Reliable and Trustworthy"
-          Description="At My Clean House, we ensure to hire experienced and reliable
+          Description="At Maidzly, we ensure to hire experienced and reliable
           cleaners. All of our house cleaners have at least 3 months of
           professional cleaning experience. This allows us to guarantee a high
           level of quality and service. They also must take our online free

@@ -6,6 +6,7 @@ import PrimaryButton from "./PrimaryButton";
 import GetAQuoteForm from "./GetAQuoteForm";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Header from "../Header";
 function GetAQuoteForm2() {
   const router = useRouter();
   const navigation = (e) => {
@@ -14,7 +15,7 @@ function GetAQuoteForm2() {
   };
   return (
     <>
-      {" "}
+      <Header bgColor="bg-primaryColor" position={"relative"} />
       <GetAQuoteForm Title="Get Your Quote" />
       <div className="p-4">
         <h2 className="font-subHeading  text-xl font-bold text-left">
@@ -157,16 +158,16 @@ function GetAQuoteForm2() {
             arround their arrival time.
           </p>
         </div>
-        {/* <LargeButton
+        <LargeButton
           Text="Continue"
           customCode="justify-center bg-secondaryColor"
           color="text-lightColor"
           font="font-bold"
-          toggle={() => router.push("/cleanerAddress")}
-        /> */}
-        <button className="next" type="submit" onClick={navigation}>
+          toggle={navigation}
+        />
+        {/* <button className="next" type="submit" onClick={navigation}>
           next
-        </button>
+        </button> */}
         {/* <Link href="/cleaneraddress">
           <a>next</a>
         </Link> */}

@@ -14,9 +14,9 @@ function GetAQuoteForm({ Title }) {
   const [showDropDown, setShowDropDown] = useState(false);
   const [isCanada, setIsCanada] = useState(false);
   return (
-    <div className="h-auto">
-      <div className=" absolute right-0">
-        <div className="h-[80px] w-[70px] text-right ">
+    <div className="h-44 px-2">
+      <div className="absolute top-28 right-0">
+        <div className="h-[80px] w-[70px] text-right">
           <div
             className="w-[70px] text-center rounded-lg flex justify-center items-center cursor-pointer"
             onClick={() => setShowDropDown(!showDropDown)}
@@ -58,7 +58,7 @@ function GetAQuoteForm({ Title }) {
           )}
         </div>
       </div>
-      <div className="w-full mt-5">
+      <div className="w-full mt-7">
         <h2 className="font-heading  text-3xl font-bold py-2 px-4">{Title}</h2>
         <div className="flex h-10  border-2 border-secondaryColor px-1 items-center bg-secondaryColor bg-opacity-10 rounded-lg ">
           <button className="font-text text-[10px] font-extrabold text-darkColor flex items-center w-[34%]">
