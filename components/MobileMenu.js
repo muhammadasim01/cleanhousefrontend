@@ -1,18 +1,19 @@
 import { useState } from "react";
-import logo2 from "../public/assets/logo-2.png";
 import { HiMenu } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
 import Link from "next/link";
 
-function MobileMenu() {
+function MobileMenu({ logo }) {
   return (
     <div className="text-center flex flex-col sm:hidden bg-darkColor bg-opacity-80 absolute w-[100%] z-40">
-      <div className="self-start mt-[12px] ml-[8px]">
-        <Image src={logo2} height={75} width={75} />
-      </div>
-      <form className="flex items-center justify-center w-full pl-7 sm:w-[600px]">
+      {logo && (
+        <div className="self-start mt-[12px] ml-[8px]">
+          <Image src={logo} height={75} width={75} />
+        </div>
+      )}
+      <form className="flex items-center justify-center w-full pl-7 mt-3 sm:w-[600px]">
         <input
           type="text"
           placeholder="Search Cleaners"

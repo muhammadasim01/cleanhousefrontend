@@ -17,7 +17,7 @@ function SignUp() {
     router.push("/verifyaccount");
   };
   return (
-    <div className="flex flex-col h-[1300px] items-center justify-between">
+    <div className="flex flex-col h-[1300px] w-[320px] items-center justify-between">
       <form className="w-full">
         <div className="flex">
           <div>

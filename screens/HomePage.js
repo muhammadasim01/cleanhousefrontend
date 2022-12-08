@@ -13,12 +13,13 @@ import ServiceSection from "../components/Home/ServiceSection";
 import Footer from "../components/Footer";
 import MobileTopBar from "../components/Home/MobileTopBar";
 import TopBar from "../components/Home/TopBar";
+import logo2 from "../public/assets/logo-2.png";
 const HomePage = () => {
   return (
     <div>
       <MobileTopBar />
       <TopBar />
-      <Header position={"absolute"} />
+      <Header position={"absolute"} logo={logo2} />
       <Banner />
       <BoxCards />
       <HowItWorks />

@@ -11,7 +11,7 @@ import { HiMenu } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { AiOutlineClose } from "react-icons/ai";
 import MobileMenu from "./MobileMenu";
-const Header = ({ bgColor, position }) => {
+const Header = ({ bgColor, position, logo }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
@@ -63,7 +63,7 @@ const Header = ({ bgColor, position }) => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MobileMenu /> : <div className="hidden"></div>}
+      {navbarOpen ? <MobileMenu logo={logo} /> : <div className="hidden"></div>}
     </>
   );
 };

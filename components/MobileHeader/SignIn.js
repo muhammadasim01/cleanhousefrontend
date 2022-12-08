@@ -62,7 +62,7 @@ function SignIn() {
       });
   };
   return (
-    <div className="flex flex-col justify-between items-center h-[800px]">
+    <div className="flex flex-col w-[320px] justify-between items-center h-[800px]">
       <PrimaryButton
         action={SignInWithGoogle}
         logo={<FcGoogle />}
@@ -92,21 +92,21 @@ function SignIn() {
         <p className="text-left font-subHeading text-2xl font-bold mx-2 my-2">
           Email
         </p>
-        <div className="w-[300px] flex bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-2 border-secondaryColor border-opacity-70 rounded-md mx-2 my-2">
+        <div className="w-[270px] flex bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-2 border-secondaryColor border-opacity-70 rounded-md mx-2 my-2">
           <input
             type="email"
             name="lastName"
-            className="w-[300px] decoration-0 outline-none border-none bg-secondaryColor bg-opacity-10"
+            className="w-[270px] decoration-0 outline-none border-none bg-secondaryColor bg-opacity-10"
           />
         </div>
         <p className="text-left font-subHeading text-2xl font-bold mx-2 my-2">
           Password
         </p>
-        <div className="w-[300px] flex bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-2 border-secondaryColor border-opacity-70 rounded-md mx-2 my-2">
+        <div className="w-[270px] flex bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-2 border-secondaryColor border-opacity-70 rounded-md mx-2 my-2">
           <input
             type={password ? "text" : "password"}
             name="lastName"
-            className="w-[300px] decoration-0 outline-none border-none bg-secondaryColor bg-opacity-10"
+            className="w-[270px] decoration-0 outline-none border-none bg-secondaryColor bg-opacity-10"
           />
           <button
             onClick={handlePassword}
