@@ -1,0 +1,80 @@
+import Image from "next/image";
+import Banner from "../components/RegisterAsACleaner/Banner";
+import Card from "../components/RegisterAsACleaner/Card";
+import DetailsSection from "../components/RegisterAsACleaner/DetailsSection";
+import ListItem from "../components/RegisterAsACleaner/ListItem";
+import SecondBanner from "../components/RegisterAsACleaner/SecondBanner";
+import image from "../public/assets/RegisterAsACleaner_Banner3.png";
+
+function RegisterAsACleaner() {
+  return (
+    <div>
+      <Banner />
+      <div className="border-2 mx-4">
+        <h1 className="font-heading text-4xl text-center font-bold leading-9">
+          Earn Great Money Being Your Own Boss As A Cleaner!
+        </h1>
+        <DetailsSection
+          description="Are you an experienced and professional house cleaner? 
+        Do you want to be your own boss and work flexible hours? If so, we would love to hear from you! 
+        Maidzly is always on the lookout for talented, passionate, and hardworking individuals to join our team.
+         We are Canada's and USA's best cleaning agency and we take pride in matching our clients with the 
+         very best cleaners."
+        />
+        <DetailsSection
+          description="We're growing fast, with new clients signing up every day, 
+        so there are always opportunities for our cleaners to pick up new jobs. And, if you ever 
+        have any questions or need any support, our team is available 24/7 to help you out."
+        />
+        <SecondBanner />
+        <DetailsSection
+          description="Cleaners working with Maidzly can set their own schedule and rates, 
+        which means you have complete control over how much you work and how much you earn. Plus, 
+        we use a secure payment system so you can be sure you'll get paid promptly and without any fuss 48 hours 
+        after every job, straight to your bank account."
+        />
+        <DetailsSection
+          description="Work as a private contractor and be your own boss while covered under our 
+        insurance! We believe in taking care of our cleaners, which is why we offer a comprehensive insurance package
+         to all of our contractors. This way, you can relax and focus on doing what you do best - providing an 
+         outstanding cleaning service to our clients."
+        />
+        <div>
+          <h3>The Benefits</h3>
+          <ListItem />
+        </div>
+      </div>
+      <div>
+        <Image src={image} />
+      </div>
+      <div className="border-2 mx-4">
+        <h3 className="font-heading text-4xl text-center font-bold text-darkColor">
+          How To Sign Up
+        </h3>
+        <Card
+          no="1"
+          heading="Application Form"
+          description=" Simply fill out the online form. Once we have reviewed your
+            application within 48 hours, we will email you to let you know if
+            you are accepted."
+        />
+        <Card
+          no="2"
+          heading="Background Check"
+          description="All applicants must undergo a background check before they can start working with us.
+           This is to ensure the safety of our clients and cleaners. We will provide you with all the information
+            you need to complete the background check during the application process."
+        />
+        <Card
+          no="3"
+          heading="Take Our Free Online Course"
+          description="To be a certified cleaner, take our easy free online course!
+          Once you have completed these steps, you will be ready to start working with Maidzly immediately
+           and earning great money!"
+        />
+      </div>
+    </div>
+  );
+}
+
+export default RegisterAsACleaner;

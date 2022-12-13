@@ -21,6 +21,7 @@ import BackgroundCheck from "../components/MobileHeader/BackgroundCheck";
 import UploadPhotoId from "../components/MobileHeader/UploadPhotoId";
 import CleanerProfile from "../components/MobileHeader/CleanerProfile";
 import BookingDetails from "../components/MobileHeader/BookingDetails";
+import RegisterAsACleaner from "../screens/RegisterAsACleaner";
 
 export default function Home() {
   return (
@@ -45,8 +46,9 @@ export default function Home() {
         {/* <UploadPhotoId /> */}
         {/* <CleanerProfile /> */}
         {/* <BookingDetails /> */}
+        <RegisterAsACleaner />
         {/*Other All Screens */}
-        <HomePage />
+        {/* <HomePage /> */}
         {/* <Blogs /> */}
         {/* <FaQ /> */}
         {/* <About /> */}
