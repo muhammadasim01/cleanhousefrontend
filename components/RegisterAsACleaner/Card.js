@@ -1,17 +1,19 @@
 function Card({ no, heading, description }) {
   return (
     <div>
-      <div className="border-2">
-        <div className="border-2 border-secondaryColor flex items-center justify-around">
-          <p className="bg-secondaryColor py-1 px-3 text-lightColor rounded-full">
-            {no}
-          </p>
-          <p className="mr-[55px] text-start font-subHeading text-xl font-bold text-darkColor">
+      <div>
+        <div className="flex">
+          <div className="w-[20%] flex justify-center">
+            <p className="h-7 w-7 bg-secondaryColor rounded-full flex items-center justify-center text-lightColor mt-2">
+              {no}
+            </p>
+          </div>
+          <p className="mr-2 my-1 flex-1 font-subHeading text-[22px] text-darkColor font-bold leading-6 pl-2 mt-2">
             {heading}
           </p>
         </div>
-        <div className="mr-4 ml-12">
-          <p className="border-2 border-primaryColor text-start font-text text-lg leading-6">
+        <div className="pl-16 pr-2 mr-2 mb-4">
+          <p className="font-text text-darkColor text-xl leading-6">
             {description}
           </p>
         </div>

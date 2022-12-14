@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Accordian from "../components/RegisterAsACleaner/Accordian";
 import Banner from "../components/RegisterAsACleaner/Banner";
 import Card from "../components/RegisterAsACleaner/Card";
 import DetailsSection from "../components/RegisterAsACleaner/DetailsSection";
@@ -47,8 +48,8 @@ function RegisterAsACleaner() {
       <div>
         <Image src={image} />
       </div>
-      <div className="border-2 mx-4">
-        <h3 className="font-heading text-4xl text-center font-bold text-darkColor">
+      <div className="mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)]">
+        <h3 className="font-heading text-4xl text-center font-bold text-darkColor my-4">
           How To Sign Up
         </h3>
         <Card
@@ -72,6 +73,38 @@ function RegisterAsACleaner() {
           Once you have completed these steps, you will be ready to start working with Maidzly immediately
            and earning great money!"
         />
+      </div>
+      <div className="mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)]">
+        <h3 className="font-heading text-4xl text-left ml-5 font-bold text-darkColor my-4">
+          After Your Approval
+        </h3>
+        <Card
+          no="1"
+          heading="Make your profile"
+          description="Make your profile so thousands of clients can find you!"
+        />
+        <Card
+          no="2"
+          heading="Get Client Requests"
+          description="Tell your clients when you are able to work and make your own schedule."
+        />
+        <Card
+          no="3"
+          heading="Receive Your Payments"
+          description="You get paid 48 hours after every cleaning job straight to your bank account."
+        />
+      </div>
+      <div className="mx-4 flex items-center justify-center">
+        <button className="bg-secondaryColor py-2 px-12 rounded-md font-text font-bold text-xl text-lightColor">
+          Get Started Now
+        </button>
+      </div>
+      <div className="mx-4 my-5">
+        <h3 className="font-heading text-4xl font-bold text-darkColor py-5">
+          Questions?
+        </h3>
+        {/* <p className="border-b-2 border-accentColor border-opacity-20"></p> */}
+        <Accordian />
       </div>
     </div>
   );
