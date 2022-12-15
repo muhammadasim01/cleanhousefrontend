@@ -46,12 +46,12 @@ export default function Home() {
         {/* <UploadPhotoId /> */}
         {/* <CleanerProfile /> */}
         {/* <BookingDetails /> */}
-        {/* <RegisterAsACleaner /> */}
+        <RegisterAsACleaner />
         {/*Other All Screens */}
         {/* <HomePage /> */}
         {/* <Blogs /> */}
         {/* <FaQ /> */}
-        <About />
+        {/* <About /> */}
         {/* <HowItsWorks /> */}
       </div>
     </>

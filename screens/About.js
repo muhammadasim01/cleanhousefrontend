@@ -11,6 +11,7 @@ import { BiStar } from "react-icons/bi";
 import Image from "next/image";
 import likedImage from "../public/assets/Liked-Icon.png";
 import { BsCheck2 } from "react-icons/bs";
+import image from "../public/assets/AboutBanner-2.png";
 function About() {
   return (
     <>
@@ -94,7 +95,7 @@ function About() {
             are some benefits of booking with us:
           </p>
         </div>
-        <div className="border-2">
+        <div>
           <div className="flex items-center">
             <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
             <p className="ml-2 font-subHeading text-xl w-[90%]">
@@ -102,8 +103,8 @@ function About() {
             </p>
           </div>
           <div className="flex items-center">
-            <BsCheck2 className=" ml-2 text-secondaryColor mt-2 text-3xl mb-16 font-bold w-[10%]" />
-            <p className="ml-2 font-subHeading mb-8 text-xl w-[90%]">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-6 font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%]">
               Always free to use our platform
             </p>
           </div>
@@ -114,25 +115,25 @@ function About() {
             </p>
           </div>
           <div className="flex items-center">
-            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-12 font-bold w-[10%]" />
             <p className="ml-2 font-subHeading text-xl w-[90%]">
               Professional, experienced, and vetted cleaners
             </p>
           </div>
           <div className="flex items-center">
-            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-6 font-bold w-[10%]" />
             <p className="ml-2 font-subHeading text-xl w-[90%]">
               GPS location of your cleaner from your app
             </p>
           </div>
           <div className="flex items-center">
-            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-6 font-bold w-[10%]" />
             <p className="ml-2 font-subHeading text-xl w-[90%]">
               Customize your clean online
             </p>
           </div>
           <div className="flex items-center">
-            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-6 font-bold w-[10%]" />
             <p className="ml-2 font-subHeading text-xl w-[90%]">
               Option to change your bookings plan online
             </p>
@@ -142,13 +143,13 @@ function About() {
             <p className="ml-2 font-subHeading text-xl w-[90%]">No contracts</p>
           </div>
           <div className="flex items-center">
-            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
-            <p className="ml-2 font-subHeading text-xl w-[90%]">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-8 font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] mt-2">
               Can choose the same cleaner depending on availability
             </p>
           </div>
           <div className="flex items-center">
-            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-6 font-bold w-[10%]" />
             <p className="ml-2 font-subHeading text-xl w-[90%]">
               Quality, consistent, and reliable service
             </p>
@@ -160,7 +161,7 @@ function About() {
             </p>
           </div>
           <div className="flex items-center">
-            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-6 font-bold w-[10%]" />
             <p className="ml-2 font-subHeading text-xl w-[90%]">
               2 million dollar liability insurance
             </p>
@@ -174,6 +175,206 @@ function About() {
             with the highest quality service possible with great customer
             support and satisfaction guaranteed.
           </p>
+        </div>
+        <div className="mx-4 my-5">
+          <h3 className="font-heading text-[44px] font-bold text-darkColor text-center leading-10">
+            Cleaning services we offer
+          </h3>
+        </div>
+        <div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className="ml-2 text-secondaryColor text-3xl mb-8 font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6 mt-12">
+              House cleaning, apartment cleaning, condo cleaning, office
+              cleaning, commercial cleaning, holiday rental & Airbnb cleaning
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-8 font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6 mt-3">
+              Weekly cleaning, bi-weekly, monthly and one time cleaning
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Regular cleaning services
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Deep cleaning services
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Spring cleaning services
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Move in/out cleaning services
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Post construction cleaning services
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Organizing & decluttering services
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Appliance cleaning services
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Laundry services
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Ironing
+            </p>
+          </div>
+          <div className="flex items-center my-2">
+            <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+            <p className="ml-2 font-subHeading text-xl w-[90%] leading-6">
+              Wash dishes
+            </p>
+          </div>
+        </div>
+        <div>
+          <Image src={image} />
+        </div>
+        <div className="mx-4 my-5">
+          <h3 className="font-heading text-[44px] font-bold text-darkColor text-center leading-10">
+            Let us give you back your time!
+          </h3>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="fon-text text-xl font-normal text-darkColor leading-6 text-center">
+            In the past, House Cleaning Services were considered a luxury rather
+            than a necessity. In today's busy world, people rarely have time to
+            enjoy their weekend as they are busy cleaning! We normally hear
+            people speak about the amount of time cleaning takes and not
+            enjoying their time off from work with their families.
+          </p>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="fon-text text-xl font-normal text-darkColor leading-6 text-center">
+            That's where we come in. We connect independent cleaners to busy
+            families who need affordable cleaning services in their area. While
+            cleaning agencies can be expensive, hiring a private cleaner is
+            usually a lot more affordable. One of the benefits with hiring
+            through Maidzly is that we insure our independent cleaners through
+            our extensive insurance coverage giving you the same benefits as a
+            cleaning agency!
+          </p>
+        </div>
+        <div className="mx-4 my-5">
+          <h3 className="font-heading text-2xl leading-6 text-center font-bold text-darkColor">
+            One of our key value propositions we offer our clients is
+            flexibility - the flexibility that comes with working around your
+            schedule.
+          </h3>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="fon-text text-xl font-normal text-darkColor leading-6 text-center">
+            Think about it - for the cost of an evening out, you can come home
+            to a clean house allowing you more time to do the things you want to
+            do. Is there anything better than coming home to the clean smell of
+            your home!
+          </p>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="font-text text-2xl text-center font-normal leading-7">
+            Let <span className="font-subHeading">"Maidlzly"</span>turn your
+            house into a sparkling clean home!
+          </p>
+        </div>
+        <div className="mx-4 flex items-center justify-center">
+          <button className="bg-secondaryColor py-2 px-12 rounded-md font-text font-bold text-xl text-lightColor">
+            Search Cleaners
+          </button>
+        </div>
+        <div className="mx-4 my-5">
+          <h3 className="font-heading text-[44px] font-bold text-darkColor text-center leading-10">
+            Maidzly house cleaners
+          </h3>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="fon-text text-lg font-normal text-darkColor leading-6 text-center">
+            At Maidzly we understand that it is important to have a cleaner who
+            is reliable, trustworthy, and dedicated. That's why, all the
+            cleaners are carefully vetted, background checked, and trained to
+            provide excellent service. We make sure that each of our cleaners
+            are vetted, cleared though a criminal record check and covered under
+            our <span className="text-secondaryColor">Maidzly guarantee</span>,
+            so that you can rest assured that your home is in safe hands.
+          </p>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="fon-text text-lg font-normal text-darkColor leading-6 text-center">
+            We are committed to providing the highest quality of service and
+            strive to exceed our customer's expectations. We know that having
+            someone come into your home is a big deal and we take the security
+            of your home very seriously.
+          </p>
+        </div>
+        <div className="mx-4 my-5">
+          <h3 className="font-heading text-[44px] font-bold text-darkColor text-center leading-10">
+            We offer a seamless cleaning experience, built with you in mind.
+          </h3>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="fon-text text-lg font-normal text-darkColor leading-6 text-center">
+            At Maidzly, we believe that when it comes to house cleaning,
+            everyone deserves the same quality of service. We value and honor
+            people from diverse backgrounds, cultures, and walks of life. We
+            strive to create a warm and welcome environment for our cleaners and
+            clients alike.
+          </p>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="fon-text text-lg font-normal text-darkColor leading-6 text-center">
+            Our commitment to inclusion, equity, and diversity means that we
+            prioritize hiring independent cleaners who represent a wide range of
+            backgrounds. We know that having an inclusive workforce is essential
+            to providing the best possible service. We value our cleaners and
+            appreciate the hard work they put in to make your home sparkle!
+          </p>
+        </div>
+        <div className="mx-4 my-5">
+          <h3 className="font-heading text-[44px] font-bold text-darkColor text-center leading-10">
+            Build a house cleaning business
+          </h3>
+        </div>
+        <div className="mx-4 my-5">
+          <p className="fon-text text-lg font-normal text-darkColor leading-6 text-center">
+            As a Maidzly Cleaner, you can have the opportunity to grow a
+            successful house-cleaning business. This can be an opportunity to be
+            your own boss and to make money and sign up from the comfort of your
+            home. Our self-service platform will provide you with the tools to
+            get your business up and running quickly.
+          </p>
+        </div>
+        <div className="mx-4 flex items-center justify-center">
+          <button className="bg-secondaryColor py-2 px-12 rounded-md font-text font-bold text-xl text-lightColor">
+            Sign Up Now
+          </button>
         </div>
       </div>
     </>

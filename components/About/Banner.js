@@ -3,7 +3,7 @@ import BannerImage from "../../public/assets/AboutBanner.png";
 
 function Banner() {
   return (
-    <div className="border-2 w-full">
+    <div className="w-full">
       <Image src={BannerImage} />
     </div>
   );
