@@ -9,9 +9,9 @@ import image from "../public/assets/RegisterAsACleaner_Banner3.png";
 
 function RegisterAsACleaner() {
   return (
-    <div>
+    <div className="">
       <Banner />
-      <div className="border-2 mx-4">
+      <div className="mx-4">
         <h1 className="font-heading text-4xl text-center font-bold leading-9">
           Earn Great Money Being Your Own Boss As A Cleaner!
         </h1>
@@ -41,59 +41,75 @@ function RegisterAsACleaner() {
          outstanding cleaning service to our clients."
         />
         <div>
-          <h3>The Benefits</h3>
+          <h3 className="font-subHeading text-[44px] font-bold text-left">
+            The Benefits
+          </h3>
           <ListItem />
         </div>
       </div>
-      <div>
-        <Image src={image} />
-      </div>
-      <div className="mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)]">
-        <h3 className="font-heading text-4xl text-center font-bold text-darkColor my-4">
-          How To Sign Up
-        </h3>
-        <Card
-          no="1"
-          heading="Application Form"
-          description=" Simply fill out the online form. Once we have reviewed your
+      <div className="relative border-2 border-secondaryColor">
+        <div className="">
+          <Image src={image} />
+        </div>
+        <div
+          className=" relative bottom-[5rem] z-50 mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)] bg-lightColor"
+          // className="relative  bottom-[2rem]"
+          // style={{
+          //   position: "relative",
+          //   bottom: "3rem",
+          //   backgroundColor: "white",
+          //   border: "4px solid black",
+          //   marginRight: "2rem",
+          //   marginLeft: "2rem",
+          // }}
+        >
+          <h3 className="font-heading text-[40px] text-center font-bold text-darkColor my-4">
+            How To Sign Up
+          </h3>
+          <Card
+            no="1"
+            heading="Application Form"
+            description=" Simply fill out the online form. Once we have reviewed your
             application within 48 hours, we will email you to let you know if
             you are accepted."
-        />
-        <Card
-          no="2"
-          heading="Background Check"
-          description="All applicants must undergo a background check before they can start working with us.
+          />
+          <Card
+            no="2"
+            heading="Background Check"
+            description="All applicants must undergo a background check before they can start working with us.
            This is to ensure the safety of our clients and cleaners. We will provide you with all the information
             you need to complete the background check during the application process."
-        />
-        <Card
-          no="3"
-          heading="Take Our Free Online Course"
-          description="To be a certified cleaner, take our easy free online course!
+          />
+          <Card
+            no="3"
+            heading="Take Our Free Online Course"
+            description="To be a certified cleaner, take our easy free online course!
           Once you have completed these steps, you will be ready to start working with Maidzly immediately
            and earning great money!"
-        />
+          />
+        </div>
+        <div className="mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)]">
+          <h3 className="font-heading text-4xl text-left ml-5 font-bold text-darkColor my-4">
+            After Your Approval
+          </h3>
+          <Card
+            no="1"
+            heading="Make your profile"
+            description="Make your profile so thousands of clients can find you!"
+          />
+          <Card
+            no="2"
+            heading="Get Client Requests"
+            description="Tell your clients when you are able to work and make your own schedule."
+          />
+          <Card
+            no="3"
+            heading="Receive Your Payments"
+            description="You get paid 48 hours after every cleaning job straight to your bank account."
+          />
+        </div>
       </div>
-      <div className="mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)]">
-        <h3 className="font-heading text-4xl text-left ml-5 font-bold text-darkColor my-4">
-          After Your Approval
-        </h3>
-        <Card
-          no="1"
-          heading="Make your profile"
-          description="Make your profile so thousands of clients can find you!"
-        />
-        <Card
-          no="2"
-          heading="Get Client Requests"
-          description="Tell your clients when you are able to work and make your own schedule."
-        />
-        <Card
-          no="3"
-          heading="Receive Your Payments"
-          description="You get paid 48 hours after every cleaning job straight to your bank account."
-        />
-      </div>
+
       <div className="mx-4 flex items-center justify-center">
         <button className="bg-secondaryColor py-2 px-12 rounded-md font-text font-bold text-xl text-lightColor">
           Get Started Now

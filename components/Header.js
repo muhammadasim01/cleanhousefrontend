@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import PrimaryButton from "./Home/PrimaryButton";
-import { color } from "../styles/global.css";
 import logo from "../public/assets/logo.png";
 import logo2 from "../public/assets/logo-2.png";
 import mobileLogo from "../public/assets/logo-mobile.png";

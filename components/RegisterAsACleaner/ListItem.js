@@ -1,7 +1,7 @@
 import { BsCheck2 } from "react-icons/bs";
 function ListItem() {
   return (
-    <div className="border-2">
+    <div className="my-5">
       <div className="flex items-center">
         <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
         <p className="ml-2 font-subHeading text-xl w-[90%]">
@@ -9,7 +9,7 @@ function ListItem() {
         </p>
       </div>
       <div className="flex items-center">
-        <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-16 font-bold w-[10%]" />
+        <BsCheck2 className=" ml-2 text-secondaryColor text-3xl mb-10 font-bold w-[10%]" />
         <p className="ml-2 font-subHeading text-xl mt-3 w-[90%]">
           Manage your jobs through your online schedule calendar on our app
         </p>
@@ -22,7 +22,7 @@ function ListItem() {
       </div>
       <div className="flex items-center">
         <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
-        <p className="ml-2 font-subHeading text-xl mt-5 w-[90%]">
+        <p className="ml-2 font-subHeading text-xl mt-6 w-[90%]">
           Flexible work hours and days
         </p>
       </div>
@@ -39,19 +39,19 @@ function ListItem() {
         </p>
       </div>
       <div className="flex items-center">
-        <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold mb-8 w-[10%]" />
+        <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold mb-2 w-[10%]" />
         <p className="ml-2 font-subHeading text-xl mt-5 w-[90%]">
           Maidzly app makes it easy to manage everything
         </p>
       </div>
       <div className="flex items-center">
-        <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
+        <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold mb-1 w-[10%]" />
         <p className="ml-2 font-subHeading text-xl mt-5 w-[90%]">
           Access 7 days a week support
         </p>
       </div>
       <div className="flex items-center">
-        <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold mb-7 w-[10%]" />
+        <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold mb-6 w-[10%]" />
         <p className="ml-2 font-subHeading text-xl mt-5 w-[90%]">
           Become a certified cleaner when you take our free online course!
         </p>
