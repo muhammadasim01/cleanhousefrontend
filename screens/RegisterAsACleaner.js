@@ -6,10 +6,17 @@ import DetailsSection from "../components/RegisterAsACleaner/DetailsSection";
 import ListItem from "../components/RegisterAsACleaner/ListItem";
 import SecondBanner from "../components/RegisterAsACleaner/SecondBanner";
 import image from "../public/assets/RegisterAsACleaner_Banner3.png";
-
+import MobileTopBar from "../components/Home/MobileTopBar";
+import logo2 from "../public/assets/Maidzly-logo.png";
+import Header from "../components/Header";
+import TopBar from "../components/Home/TopBar";
+import Footer from "../components/Footer";
 function RegisterAsACleaner() {
   return (
     <div className="">
+      <MobileTopBar />
+      <TopBar />
+      <Header position={"relative"} logo={logo2} />
       <Banner />
       <div className="mx-4">
         <h1 className="font-heading text-4xl text-center font-bold leading-9">
@@ -47,12 +54,12 @@ function RegisterAsACleaner() {
           <ListItem />
         </div>
       </div>
-      <div className="relative border-2 border-secondaryColor">
+      <div className="relative">
         <div className="">
           <Image src={image} />
         </div>
         <div
-          className=" relative bottom-[5rem] z-50 mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)] bg-lightColor"
+          className="relative bottom-[5rem] z-50 mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)] bg-lightColor"
           // className="relative  bottom-[2rem]"
           // style={{
           //   position: "relative",
@@ -122,6 +129,7 @@ function RegisterAsACleaner() {
         {/* <p className="border-b-2 border-accentColor border-opacity-20"></p> */}
         <Accordian />
       </div>
+      <Footer />
     </div>
   );
 }

@@ -215,7 +215,7 @@ function BasicInfo() {
       <div className="my-2">
         <p className="font-text text-sm font-medium leading-5 py-2">
           We use this to conduct background checks when signing up to be a
-          cleaner. We don't share or display this on your profile.
+          cleaner. We don&#39;t share or display this on your profile.
         </p>
       </div>
       <div className="my-4">

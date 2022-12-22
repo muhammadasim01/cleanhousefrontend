@@ -48,7 +48,7 @@ function CleanerProfile() {
         training, cleaning services you can offer and why you like to clean.{" "}
       </p>
       <p className="font-text text-[12px] font-normal pt-2">
-        Check for spelling and grammar, don't add any personal information{" "}
+        Check for spelling and grammar, don&#39;t add any personal information{" "}
       </p>
       <div className="my-2">
         <p className="font-text text-xs font-normal leading-5 pb-2">
@@ -64,9 +64,9 @@ function CleanerProfile() {
       </p>
       <p className="font-text text-lg font-normal">Examples:</p>
       <p className="font-text text-sm font-normal">
-        " Hi, my name is Jen! I have 2 years experience cleaning homes and
+        &#34;Hi, my name is Jen! I have 2 years experience cleaning homes and
         condos. I can do regular or deep cleaning. I love to clean as I find it
-        relaxing. ..."
+        relaxing....&#34;
       </p>
       <h3 className="font-subHeading text-xl text-darkColor font-bold py-5">
         Your schedule.
@@ -88,8 +88,8 @@ function CleanerProfile() {
       <p className="font-text text-lg font-normal">Examples:</p>
       <p className="font-text text-sm font-normal">
         {" "}
-        "I am available every week on these days 8am-6pm: Monday, Wednesday,
-        Friday and Sundays"
+        &#34;I am available every week on these days 8am-6pm: Monday, Wednesday,
+        Friday and Sundays&#34;
       </p>
       <h3 className="font-subHeading text-xl text-darkColor font-bold py-5">
         Availability

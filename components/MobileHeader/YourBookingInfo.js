@@ -1400,8 +1400,8 @@ function YourBookingInfo() {
       </p>
       <p className="font-text text-sm font-normal text-darkColor py-2">
         (Make sure to have the laundry ready and colours separated into baskets.
-        Leave baskets in laundry room with a note attached 'Please wash'. Each
-        load on average takes 1 hour to wash and 1 hour to dry.)
+        Leave baskets in laundry room with a note attached &#39;Please
+        wash&#39;. Each load on average takes 1 hour to wash and 1 hour to dry.)
       </p>
       <div className="my-4">
         <select className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
@@ -1479,8 +1479,8 @@ function YourBookingInfo() {
       <p className="font-text text-sm font-normal text-darkColor py-2">
         (Make sure to have the ironing placed in a basket next to the ironing
         board and have the iron unplugged on the ironing board. Please attach
-        note on the basket 'Please iron'. Each regular piece on average takes 5
-        minutes to iron. Extra time needed for larger pieces)
+        note on the basket &#39;Please iron&#39;. Each regular piece on average
+        takes 5 minutes to iron. Extra time needed for larger pieces)
       </p>
       <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
         <button
@@ -1971,10 +1971,10 @@ function YourBookingInfo() {
               We do not lift, pull out, or move heavy furniture or appliances
               such as: couches, fridges, ovens, bookshelves, washers, dryers,
               etc. The cleaners will try to reach underneath or around but we
-              can't guarantee that that area will be completely cleaned under
-              and around all furniture. If you want to have the area cleaned
-              under a heavy piece of furniture or appliance, please move any
-              large furniture beforehand.
+              can&#39;t guarantee that that area will be completely cleaned
+              under and around all furniture. If you want to have the area
+              cleaned under a heavy piece of furniture or appliance, please move
+              any large furniture beforehand.
             </p>
           </div>
         </div>
@@ -2035,12 +2035,13 @@ function YourBookingInfo() {
           </div>
           <div className="w-[90%]">
             <p className="font-text text-sm font-normal text-darkColor leading-5 pr-4">
-              The cleaners do not clean ceilings or areas outside of a cleaner's
-              reasonable reach (ie. high walls, high chandeliers, high shelves,
-              light fixtures, or the tops of windows, any surfaces/area that is
-              out of reach to the cleaner) If you provide a step ladder they
-              will use that to reach areas just out of their reach, the cleaners
-              do NOT climb on full ladders to clean chandeliers, for example.
+              The cleaners do not clean ceilings or areas outside of a
+              cleaner&#39;s reasonable reach (ie. high walls, high chandeliers,
+              high shelves, light fixtures, or the tops of windows, any
+              surfaces/area that is out of reach to the cleaner) If you provide
+              a step ladder they will use that to reach areas just out of their
+              reach, the cleaners do NOT climb on full ladders to clean
+              chandeliers, for example.
             </p>
           </div>
         </div>

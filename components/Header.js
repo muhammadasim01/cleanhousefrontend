@@ -17,16 +17,16 @@ const Header = ({ bgColor, position, logo }) => {
       <div
         className={`${position} h-auto sm:w-full flex justify-between px-2 py-3 w-[100%] ${bgColor}`}
       >
-        <Image src={logo2} height={75} width={75} />
+        <Image src={logo} />
         <button
           className="z-50  text-lightColor "
           type="button"
           onClick={() => setNavbarOpen(!navbarOpen)}
         >
           {navbarOpen ? (
-            <MdClose className="h-7 w-10 sm:hidden z-50 " />
+            <MdClose className="h-7 w-10 sm:hidden z-50 text-primaryColor " />
           ) : (
-            <HiMenu className="h-7 w-10 sm:hidden " />
+            <HiMenu className="h-7 w-10 sm:hidden text-primaryColor " />
           )}
         </button>
         <div className="hidden sm:block px-5 h-auto w-[100%] lg:w-[85%] sm:w-[60rem] lg-[70%] sm:text-xs text-lightColor sm:py-2">

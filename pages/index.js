@@ -46,9 +46,9 @@ export default function Home() {
         {/* <UploadPhotoId /> */}
         {/* <CleanerProfile /> */}
         {/* <BookingDetails /> */}
-        <RegisterAsACleaner />
+        {/* <RegisterAsACleaner /> */}
         {/*Other All Screens */}
-        {/* <HomePage /> */}
+        <HomePage />
         {/* <Blogs /> */}
         {/* <FaQ /> */}
         {/* <About /> */}

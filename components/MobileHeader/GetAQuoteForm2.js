@@ -154,8 +154,8 @@ function GetAQuoteForm2() {
             <BsFillEmojiSmileFill className="text-secondaryColor text-2xl border-2 rounded-full mt-1" />
           </div>
           <p className="font-text text-sm w-full px-2 py-1 leading-4">
-            Selecting a 'Flexible' option allows your cleaner more flexibility
-            arround their arrival time.
+            Selecting a &#39;Flexible&#39; option allows your cleaner more
+            flexibility arround their arrival time.
           </p>
         </div>
         <LargeButton

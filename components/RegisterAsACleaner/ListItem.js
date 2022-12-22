@@ -35,7 +35,7 @@ function ListItem() {
       <div className="flex items-center">
         <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold w-[10%]" />
         <p className="ml-2 font-subHeading text-xl mt-6 w-[90%]">
-          Start immediately once you're registered
+          Start immediately once you&#39;re registered
         </p>
       </div>
       <div className="flex items-center">
@@ -59,8 +59,8 @@ function ListItem() {
       <div className="flex items-center">
         <BsCheck2 className=" ml-2 text-secondaryColor text-3xl font-bold mb-28 w-[10%]" />
         <p className="ml-2 font-subHeading text-xl mt-5 w-[90%]">
-          We're here to help you grow your business and answer any questions you
-          have as we have over 20 years experience in the cleaning industry!
+          We&#39;re here to help you grow your business and answer any questions
+          you have as we have over 20 years experience in the cleaning industry!
         </p>
       </div>
     </div>

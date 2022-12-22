@@ -100,7 +100,7 @@ function BookingSummary() {
       <div className="border-b-2 w-full text-[#A9A9A9]"></div>
       <div className="w-full flex items-center justify-between py-2">
         <div className="w-[70%] font-text text-lg font-normal text-darkColor">
-          Your cleaner's tip
+          Your cleaner&#39;s tip
         </div>
         <div className="w-[30%] font-text text-lg font-bold text-right text-darkColor leading-6">
           $

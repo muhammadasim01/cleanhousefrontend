@@ -48,7 +48,7 @@ const Banner = () => {
             <form className="flex items-center justify-center w-full pl-7 sm:w-[600px]">
               <input
                 type="number"
-                placeholder="Enter your postcode"
+                placeholder="Enter your post / zip-code"
                 className="h-10 w-full my-4 rounded-md"
                 value={inputVal}
                 onChange={(e) => setInputVal(e.target.value)}

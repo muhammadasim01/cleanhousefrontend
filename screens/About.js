@@ -5,13 +5,16 @@ import Banner from "../components/About/Banner";
 import OurTeam from "../components/About/OurTeam";
 import Reviews from "../components/About/Reviews";
 import Story from "../components/About/Story";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { BiStar } from "react-icons/bi";
 import Image from "next/image";
 import likedImage from "../public/assets/Liked-Icon.png";
 import { BsCheck2 } from "react-icons/bs";
 import image from "../public/assets/AboutBanner-2.png";
+import MobileTopBar from "../components/Home/MobileTopBar";
+import TopBar from "../components/Home/TopBar";
+import logo2 from "../public/assets/Maidzly-logo.png";
+import Footer from "../components/Footer";
 function About() {
   return (
     <>
@@ -24,6 +27,9 @@ function About() {
       <AboutSecondBanner />
       <Footer />
     </div> */}
+      <MobileTopBar />
+      <TopBar />
+      <Header position={"relative"} logo={logo2} />
       <Banner />
       <div className="mx-4 my-5">
         <h1 className="font-heading text-4xl text-center font-bold leading-9">
@@ -34,7 +40,7 @@ function About() {
           independent house cleaners!
         </p>
         <div className="flex items-center justify-center">
-          <div className="border-2 w-30">
+          <div className="border-4 w-30">
             <p className="flex">
               <BiStar className="text-5xl" />
               <BiStar className="text-5xl" />
@@ -377,6 +383,7 @@ function About() {
           </button>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

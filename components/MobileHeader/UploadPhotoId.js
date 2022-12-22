@@ -15,10 +15,10 @@ function UploadPhotoId() {
         <p className="font-text text-sm font-normal leading-[19px] py-2 text-left">
           To verify your ID please take <br /> a picture of one piece of <br />
           government photo ID and <br /> upload it by clicking the <br /> button
-          'Upload Your ID'. This could either be your passport, your driver's
-          license, government issued ID card, health card with photo ID,
-          Canadian citizenship card, U.S permanent resident card. Your ID will
-          not be shown on your profile page.
+          &#39;Upload Your ID&#39;. This could either be your passport, your
+          driver&#39;s license, government issued ID card, health card with
+          photo ID, Canadian citizenship card, U.S permanent resident card. Your
+          ID will not be shown on your profile page.
         </p>
       </div>
       <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg flex flex-col items-center py-3">

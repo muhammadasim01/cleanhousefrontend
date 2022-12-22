@@ -15,7 +15,7 @@ function VerifyEmail() {
       </div>
       <p className="text-center font-text text-base mx-4  font-medium">
         We just sent you a verification code. Check your spam folder if you
-        don't see it in your inbox.
+        don&#39;t see it in your inbox.
       </p>
       <form>
         <p className="text-left font-subHeading text-2xl font-bold my-2 px-4">
