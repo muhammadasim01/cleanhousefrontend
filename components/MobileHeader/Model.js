@@ -8,13 +8,13 @@ export const ModalPage = ({ isOpen, toggle }) => {
     <>
       <Modal isOpen={isOpen} toggle={toggle} className="bg-secondaryColor">
         <ModalBody>
-          {/* <Image
+          <Image
             src="/assets/Model-Image.png"
             alt=""
-            height={250}
-            width={250}
-          /> */}
-          <img src="/assets/Model-Image.png" />
+            height={200}
+            width={300}
+          />
+          {/* <img src="/assets/Model-Image.png" /> */}
           <h3 className="font-subHeading text-2xl font-bold text-center leading-6 py-3">
             Guide for Entering Bank Details
           </h3>
