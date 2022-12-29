@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-// import ModelPic from "../../public/assets/Model-Image.png";
 //comment heree
 import LargeButton from "./LargeButton";
 
@@ -9,7 +8,12 @@ export const ModalPage = ({ isOpen, toggle }) => {
     <>
       <Modal isOpen={isOpen} toggle={toggle} className="bg-secondaryColor">
         <ModalBody>
-          {/* <Image src={ModelPic} alt="" /> */}
+          {/* <Image
+            src="/assets/Model-Image.png"
+            alt=""
+            height={250}
+            width={250}
+          /> */}
           <img src="/assets/Model-Image.png" />
           <h3 className="font-subHeading text-2xl font-bold text-center leading-6 py-3">
             Guide for Entering Bank Details
