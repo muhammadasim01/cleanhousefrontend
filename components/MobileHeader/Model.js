@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import ModelPic from "../../public/assets/Model_img.png";
+import ModelPic from "../../public/assets/Model-Image.png";
 import LargeButton from "./LargeButton";
 
 export const ModalPage = ({ isOpen, toggle }) => {

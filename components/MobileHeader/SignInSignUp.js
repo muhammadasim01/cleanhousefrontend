@@ -3,6 +3,7 @@ import MobileMenu from "../MobileMenu";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import Header from "../Header";
+import logo2 from "../../public/assets/Maidzly-logo.png";
 function SignInSignUp() {
   const [isSignIn, setIsSignIn] = useState(true);
   const handleSignInButton = () => {
@@ -13,7 +14,7 @@ function SignInSignUp() {
   };
   return (
     <>
-      <Header bgColor="bg-primaryColor" position={"relative"} />
+      <Header position={"relative"} logo={logo2} />
       <div className="flex flex-col w-auto h-auto justify-between items-center">
         <h2 className="font-heading text-3xl font-bold py-8 px-5">
           Sign In or Sign Up
