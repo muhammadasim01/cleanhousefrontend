@@ -56,7 +56,7 @@ function RegisterAsACleaner() {
       </div>
       <div className="relative">
         <div className="">
-          <Image src={image} />
+          <img src="/assets/RegisterAsACleaner_Banner3.png" alt="" />
         </div>
         <div
           className="relative bottom-[5rem] z-50 mx-4 my-5 py-4 rounded-lg shadow-[-10px_1px_20px_10px_rgba(0,0,0,0.1)] bg-lightColor"

@@ -614,7 +614,7 @@ function CleanerProfile() {
       <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg flex items-center  py-3 my-5 px-5">
         <div className="w-[20%] mt-3 mr-2">
           {/* <FaFileUpload className="text-4xl text-secondaryColor" /> */}
-          <Image src={galleryIcon} alt="" />
+          <img src="assets/Gallery_Icon.png" alt="" />
         </div>
         <div className="w-[80%]">
           <p className="font text-sm font-normal pt-3">

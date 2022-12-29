@@ -16,7 +16,7 @@ function SecondBanner() {
         </p>
       </div>
       <span className="flex items-center justify-center w-full px-5 border-b-2 border-b-primaryColor">
-        <Image src={Banner} alt="" />
+        <img src="assets/Banner-2.png" alt="" />
       </span>
     </div>
   );

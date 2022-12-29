@@ -29,7 +29,7 @@ function Story() {
         </p>
       </div>
       <div className="w-[100%] p-5 mt-10 flex justify-center sm:h-auto">
-        <Image src={storyImage} alt="" />
+        <img src="/assets/About-Story.png" alt="" />
       </div>
     </div>
   );

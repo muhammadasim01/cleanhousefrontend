@@ -14,8 +14,8 @@ function TopBar() {
       <div className="w-[50%] flex items-center justify-end mx-24">
         <p className="font-text text-sm font-medium mx-5">GET Our APP</p>
         <div className="w-[75px] flex justify-between">
-          <Image src={PlayStoreIcon} alt="" />
-          <Image src={AppStoreIcon} alt="" />
+          <img src="assets/Google_Play_Icon.png" alt="" />
+          <img src="assets/Appstore_Icon.png" alt="" />
         </div>
       </div>
     </div>

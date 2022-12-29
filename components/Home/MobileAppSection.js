@@ -23,8 +23,8 @@ function MobileAppSection() {
             Download App
           </button>
           <div className="mt-5 flex justify-between w-44">
-            <Image src={PlayStoreIcon} alt="" />
-            <Image src={AppStoreIcon} alt="" />
+            <img src="assets/playStore-icon.png" alt="" />
+            <img src="assets/appStore-icon.png" alt="" />
           </div>
         </div>
       </div>

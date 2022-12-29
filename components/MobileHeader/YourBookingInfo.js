@@ -70,7 +70,7 @@ function YourBookingInfo() {
         </div>
         <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
           <p className="px-2 text-center">
-            Laundry <br /> Only{" "}
+            Laundry <br /> Only
           </p>
         </div>
         <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
@@ -81,9 +81,9 @@ function YourBookingInfo() {
       </div>
       <p className="font-text text-base font-medium text-darkColor">
         Not sure which <span className="font-bold">cleaning </span> service you
-        need? Here in the table is our{" "}
+        need? Here in the table is our
         <span className="font-bold">cleaning checklists </span> for each of the
-        services provided.{" "}
+        services provided.
       </p>
       <LargeButton
         Text="Cleaning Checklist"
@@ -93,8 +93,8 @@ function YourBookingInfo() {
       />
       <p className="font-text text-base leading-6">
         Let us know below if there is anything from the cleaning checklist from
-        the service you requested that you{" "}
-        <span className="font-bold">DO NOT NEED TO BE CLEANED</span> below.{" "}
+        the service you requested that you
+        <span className="font-bold">DO NOT NEED TO BE CLEANED</span> below.
       </p>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal">
@@ -255,7 +255,7 @@ function YourBookingInfo() {
         Bedroom extra tasks
       </h3>
       <p className="font-text text-lg font-normal leading-5">
-        Extra tasks required to be added to your{" "}
+        Extra tasks required to be added to your
         <span className="font-subHeading font-bold ">REGULAR CLEANING</span>.
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
@@ -451,7 +451,7 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal">
-          Priority to clean in the{" "}
+          Priority to clean in the
           <span className="font-subHeading font-bold">bathroom </span> areas:
         </p>
         <input
@@ -461,7 +461,7 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal">
-          Do <span className="font-subHeading font-bold">NOT CLEAN </span>{" "}
+          Do <span className="font-subHeading font-bold">NOT CLEAN </span>
           items/areas in the bathroom:
         </p>
         <input
@@ -473,13 +473,13 @@ function YourBookingInfo() {
         Bathrooms extra tasks
       </h3>
       <p className="font-text text-lg font-normal leading-5">
-        Extra tasks required to be added to your{" "}
+        Extra tasks required to be added to your
         <span className="font-subHeading font-bold">REGULAR CLEANING</span>.
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
       </p>
       <p className="font-text text-lg font-normal leading-5 py-3">
-        Click how many{" "}
+        Click how many
         <span className="font-subHeading font-bold">bathrooms</span> to request
         extra tasks.
       </p>
@@ -626,11 +626,10 @@ function YourBookingInfo() {
         Living Rooms/Family Rooms
       </h3>
       <p className="font-text text-lg font-normal leading-5 py-2">
-        How many{" "}
+        How many
         <span className="font-subHeading font-bold">
-          {" "}
           living rooms/family rooms
-        </span>{" "}
+        </span>
         need cleaning? (including the basement area)
       </p>
       <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
@@ -652,10 +651,10 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
-          Priority to clean in the{" "}
+          Priority to clean in the
           <span className="font-subHeading font-bold">
-            living room/family room{" "}
-          </span>{" "}
+            living room/family room
+          </span>
           areas:
         </p>
         <input
@@ -665,7 +664,7 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
-          Do <span className="font-subHeading font-bold">NOT CLEAN </span>{" "}
+          Do <span className="font-subHeading font-bold">NOT CLEAN </span>
           items/areas in the living room/family room:
         </p>
         <input
@@ -677,16 +676,16 @@ function YourBookingInfo() {
         Living room/family room extra tasks
       </h3>
       <p className="font-text text-lg font-normal leading-5">
-        Extra tasks required to be added to your{" "}
+        Extra tasks required to be added to your
         <span className="font-subHeading font-bold">REGULAR CLEANING</span>.
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
       </p>
       <p className="font-text text-lg font-normal leading-5 py-3">
-        Click how many{" "}
+        Click how many
         <span className="font-subHeading font-bold">
           Living room/family room extra tasks
-        </span>{" "}
+        </span>
         to request extra tasks.
       </p>
       <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
@@ -850,11 +849,11 @@ function YourBookingInfo() {
       </div>
       <h3 className="font-subHeading text-2xl font-bold py-3">Extra rooms</h3>
       <p className="font-text text-lg font-normal leading-5">
-        How many{" "}
+        How many
         <span className="font-subHeading font-bold">
           extra rooms including: dining rooms, office rooms, sun rooms, laundry
-          rooms, gym rooms and any other rooms{" "}
-        </span>{" "}
+          rooms, gym rooms and any other rooms
+        </span>
         need cleaning? (including the basement area)
       </p>
       <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
@@ -874,7 +873,7 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
-          Please describe what are the{" "}
+          Please describe what are the
           <span className="font-subHeading font-bold">extra rooms </span> you
           want cleaned:
         </p>
@@ -885,8 +884,8 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
-          Do <span className="font-subHeading font-bold">NOT CLEAN </span>{" "}
-          items/areas in these rooms:{" "}
+          Do <span className="font-subHeading font-bold">NOT CLEAN </span>
+          items/areas in these rooms:
         </p>
         <input
           type="text"
@@ -897,7 +896,7 @@ function YourBookingInfo() {
         Extra room tasks
       </h3>
       <p className="font-text text-lg font-normal leading-5">
-        Extra tasks required to be added to your{" "}
+        Extra tasks required to be added to your
         <span className="font-subHeading font-bold">REGULAR CLEANING</span>.
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
@@ -1060,7 +1059,7 @@ function YourBookingInfo() {
       </div>
       <h3 className="font-subHeading text-2xl font-bold py-3">Kitchen</h3>
       <p className="font-text text-lg font-normal leading-5 py-3">
-        How many <span className="font-subHeading font-bold"> kitchens </span>{" "}
+        How many <span className="font-subHeading font-bold"> kitchens </span>
         need cleaning?
       </p>
       <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
@@ -1080,7 +1079,7 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
-          Priority and notes to clean in the{" "}
+          Priority and notes to clean in the
           <span className="font-subHeading font-bold">kitchen</span> area:
         </p>
         <input
@@ -1090,7 +1089,7 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
-          Do <span className="font-subHeading font-bold">NOT CLEAN</span>{" "}
+          Do <span className="font-subHeading font-bold">NOT CLEAN</span>
           items/areas in the kitchen:
         </p>
         <input
@@ -1102,13 +1101,13 @@ function YourBookingInfo() {
         Kitchen extra tasks
       </h3>
       <p className="font-text text-lg font-normal leading-5">
-        Extra tasks required to be added to your{" "}
+        Extra tasks required to be added to your
         <span className="font-subHeading font-bold">REGULAR CLEANING</span>.
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
       </p>
       <p className="font-text text-lg font-normal leading-5 py-3">
-        Click how many{" "}
+        Click how many
         <span className="font-subHeading font-bold">kitchens</span> need extra
         tasks.
       </p>
@@ -1341,7 +1340,7 @@ function YourBookingInfo() {
         </div>
       </div>
       <p className="font-text text-lg font-normal leading-6 py-3">
-        Do you require any{" "}
+        Do you require any
         <span className="font-subHeading font-bold">laundry</span> to be done?
       </p>
       <p className="font-text text-sm font-normal">
@@ -1369,7 +1368,7 @@ function YourBookingInfo() {
         </div>
       </div>
       <p className="font-text text-lg font-normal leading-6">
-        Do you require this service to be{" "}
+        Do you require this service to be
         <span className="font-subHeading font-bold">added ontop</span> of your
         CLEANING SERVICE?
       </p>
@@ -1394,7 +1393,7 @@ function YourBookingInfo() {
         </div>
       </div>
       <p className="fon-text text-base font-normal leading-6 text-darkColor">
-        How many loads of{" "}
+        How many loads of
         <span className="font-subHeading font-bold">laundry</span> do you need
         done?
       </p>
@@ -1420,7 +1419,7 @@ function YourBookingInfo() {
         />
       </div>
       <p className="fon-text text-base font-normal leading-6 text-darkColor py-2">
-        Do you require any{" "}
+        Do you require any
         <span className="font-subHeading font-bold">ironing </span> to be done?
       </p>
       <p className="font-text text-sm font-normal">
@@ -1448,7 +1447,7 @@ function YourBookingInfo() {
         </div>
       </div>
       <p className="font-text text-lg font-normal leading-6">
-        Do you require this service to be{" "}
+        Do you require this service to be
         <span className="font-subHeading font-bold">added ontop</span> of your
         CLEANING SERVICE?
       </p>
@@ -1473,7 +1472,7 @@ function YourBookingInfo() {
         </div>
       </div>
       <p className="fon-text text-base font-normal leading-6 text-darkColor">
-        How pieces do you need{" "}
+        How pieces do you need
         <span className="font-subHeading font-bold">ironed</span>?
       </p>
       <p className="font-text text-sm font-normal text-darkColor py-2">
@@ -1507,7 +1506,7 @@ function YourBookingInfo() {
         />
       </div>
       <p className="font-text text-lg font-normal leading-6">
-        Do you require any{" "}
+        Do you require any
         <span className="font-subHeading font-bold">organizing</span> to be
         done?
       </p>
@@ -1540,7 +1539,7 @@ function YourBookingInfo() {
         </div>
       </div>
       <p className="font-text text-lg font-normal leading-6">
-        Do you require this service to be{" "}
+        Do you require this service to be
         <span className="font-subHeading font-bold">added ontop</span> of your
         CLEANING SERVICE?
       </p>
@@ -1583,8 +1582,8 @@ function YourBookingInfo() {
         </button>
       </div>
       <p className="font-text text-lg font-normal leading-6 text-darkColor">
-        Do you require{" "}
-        <span className="font-subHeading font-bold">appliance cleaning </span>{" "}
+        Do you require
+        <span className="font-subHeading font-bold">appliance cleaning </span>
         only?
       </p>
       <p className="font-text text-sm font-normal leading-5 py-3">
@@ -1672,7 +1671,7 @@ function YourBookingInfo() {
         Your Time Estimate
       </h3>
       <p className="font-text text-xl font-normal leading-6 text-darkColor py-3">
-        We recommend selecting{" "}
+        We recommend selecting
         <span className="font-subHeading font-bold">______hours</span>
       </p>
       <p className="font-text text-sm font-normal">
@@ -1721,7 +1720,7 @@ function YourBookingInfo() {
       </h3>
       <p className="font-text text-sm font-normal text-darkColor leading-6">
         Note: you may be asked to click on fewer or more tasks based on your
-        requested time.{" "}
+        requested time.
       </p>
       <h3 className="font-subHeading text-2xl font-bold text-darkColor leading-7 my-3">
         Estimated time to clean a home
@@ -1771,7 +1770,7 @@ function YourBookingInfo() {
         />
       </div>
       <p className="font-text text-lg font-normal leading-6">
-        Do you have an{" "}
+        Do you have an
         <span className="font-subHeading font-bold mr-2">alarm system</span>on?
       </p>
       <div className="my-4">
@@ -1810,10 +1809,8 @@ function YourBookingInfo() {
         />
       </div>
       <p className="font-text text-lg font-normal leading-6">
-        Is there{" "}
-        <span className="font-subHeading font-bold mr-2">
-          visitors parking{" "}
-        </span>{" "}
+        Is there
+        <span className="font-subHeading font-bold mr-2">visitors parking</span>
         available?
       </p>
       <div className="my-4">
@@ -1847,7 +1844,7 @@ function YourBookingInfo() {
         />
       </div>
       <p className="font-text text-lg font-normal leading-6">
-        Do you have any{" "}
+        Do you have any
         <span className="font-subHeading font-bold mr-2">pets</span> in the
         house when the cleaner will arrive?
       </p>
@@ -1892,7 +1889,7 @@ function YourBookingInfo() {
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal leading-6 py-2">
-          Please explain where your{" "}
+          Please explain where your
           <span className="font-subHeading font-bold mr-2">products</span>and
           <span className="font-subHeading font-bold mx-2">supplies</span>be
           kept:
@@ -1920,7 +1917,7 @@ function YourBookingInfo() {
         (Explain for example: where to dispose the trash, where to leave the
         dirty rags, if a family member will enter the home while the cleaner is
         there, what rooms or levels of the house you would prefer the cleaner to
-        start and any other important notes your cleaner should know of){" "}
+        start and any other important notes your cleaner should know of)
       </p>
       <div className="w-full my-5">
         <input
@@ -1938,7 +1935,6 @@ function YourBookingInfo() {
         <div className="flex py-4 px-4">
           {/*ICOn*/}
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -1950,7 +1946,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -1963,7 +1958,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -1980,7 +1974,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -1993,7 +1986,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -2005,7 +1997,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -2017,7 +2008,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -2030,7 +2020,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -2047,7 +2036,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -2058,7 +2046,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -2070,7 +2057,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -2081,7 +2067,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">
@@ -2094,7 +2079,6 @@ function YourBookingInfo() {
         </div>
         <div className="flex py-2 px-4">
           <div className="w-[10%]">
-            {" "}
             <GoPrimitiveDot className="text-secondaryColor text-lg mt-[3px] ml-1" />
           </div>
           <div className="w-[90%]">

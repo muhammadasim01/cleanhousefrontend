@@ -21,7 +21,7 @@ function ContactCleaner() {
         </div>
       </div>
       <div className="pt-10 sm:w-[50%] lg:flex lg:items-center lg:justify-center lg:p-20 xl:p-30">
-        <Image src={contactImage} alt="" />
+        <img src="assets/contact-cleaner.png" alt="" />
       </div>
     </div>
   );

@@ -78,7 +78,7 @@ function About() {
           </p>
         </div>
         <div className="my-5 flex items-center justify-center">
-          <Image src={likedImage} />
+          <img src="/assets/Liked-Icon.png" alt="" />
         </div>
         <div className="my-5">
           <p className="fon-text text-xl font-normal text-darkColor leading-6 text-center">
@@ -263,7 +263,7 @@ function About() {
           </div>
         </div>
         <div>
-          <Image src={image} />
+          <img src="/assets/AboutBanner-2.png" />
         </div>
         <div className="mx-4 my-5">
           <h3 className="font-heading text-[44px] font-bold text-darkColor text-center leading-10">

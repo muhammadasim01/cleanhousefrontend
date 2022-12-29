@@ -1,11 +1,11 @@
 import Header from "../Header";
 import GetAQuoteForm from "./GetAQuoteForm";
 import YourBookingInfo from "./YourBookingInfo";
-
+import logo2 from "../../public/assets/Maidzly-logo.png";
 function GetAQuoteForm1() {
   return (
     <>
-      <Header bgColor="bg-primaryColor" position={"relative"} />
+      <Header logo={logo2} position={"relative"} />
       <div className="px-4 h-auto">
         <GetAQuoteForm Title="Customise Your Clean" />
         <YourBookingInfo />

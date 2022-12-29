@@ -4,7 +4,7 @@ function AboutSecondBanner() {
   return (
     <div className="pt-10">
       <span className="flex items-center justify-center w-full px-5 ">
-        <Image src={Banner} alt=" " />
+        <img src="/assets/About-Banner-2.png" alt=" " />
       </span>
     </div>
   );

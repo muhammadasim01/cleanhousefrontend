@@ -12,6 +12,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import LargeButton from "./LargeButton";
 import GetAQuoteForm from "./GetAQuoteForm";
 import { useRouter } from "next/router";
+import logo2 from "../../public/assets/Maidzly-logo.png";
 import Link from "next/link";
 import Header from "../Header";
 function GetAQuoteForm4() {
@@ -22,7 +23,7 @@ function GetAQuoteForm4() {
   };
   return (
     <>
-      <Header bgColor="bg-primaryColor" position={"relative"} />
+      <Header logo={logo2} position={"relative"} />
       <GetAQuoteForm Title="Get Your Quote" />
       <div className="p-4">
         <h2 className="font-subHeading  text-xl font-bold text-left my-2">
@@ -96,7 +97,7 @@ function GetAQuoteForm4() {
           <div className="flex items-center py-3">
             <p className="w-[18%] border-[2px] border-secondaryColor rounded-md  py-[2px] flex items-center justify-center">
               {/* <BsPaypal className="text-2xl text-secondaryColor" /> */}
-              <Image src={materCard} alt="" />
+              <img src="/assets/mastercard.png" alt="" />
             </p>
             <p className="w-[82%] px-2 font-text text-base font-normal">
               Mastercard
@@ -133,9 +134,9 @@ function GetAQuoteForm4() {
               <div className="flex">
                 <div className="w-[20%]"></div>
                 <p className="w-[80%] text-left flex justify-evenly py-2">
-                  <Image src={materCard} alt="" />
-                  <Image src={visaCard} alt="" />
-                  <Image src={americanCard} alt="" />
+                  <img src="/assets/mastercard.png" alt="" />
+                  <img src="/assets/visacard.png" alt="" />
+                  <img src="/assets/americancard.png" alt="" />
                 </p>
               </div>
             </div>

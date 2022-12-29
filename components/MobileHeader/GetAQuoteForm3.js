@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { RiCheckboxBlankLine } from "react-icons/ri";
+import logo2 from "../../public/assets/Maidzly-logo.png";
 import Header from "../Header";
 import GetAQuoteForm from "./GetAQuoteForm";
 import LargeButton from "./LargeButton";
@@ -12,7 +13,7 @@ function GetAQuoteForm3() {
   };
   return (
     <>
-      <Header bgColor="bg-primaryColor" position={"relative"} />
+      <Header logo={logo2} position={"relative"} />
       <GetAQuoteForm Title="Get Your Quote" />
       <div className="p-4">
         <h2 className="font-subHeading  text-xl font-bold text-left">

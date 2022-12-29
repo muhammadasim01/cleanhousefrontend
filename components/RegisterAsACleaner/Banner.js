@@ -4,7 +4,7 @@ function Banner() {
   return (
     <>
       <div className="w-full">
-        <Image src={BannerImage} alt="" />
+        <img src="/assets/Register-Cleaner-Banner.png" alt="" />
       </div>
     </>
   );

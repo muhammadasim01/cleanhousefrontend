@@ -5,6 +5,8 @@ import LargeButton from "./LargeButton";
 import PrimaryButton from "./PrimaryButton";
 import GetAQuoteForm from "./GetAQuoteForm";
 import { useRouter } from "next/router";
+import logo2 from "../../public/assets/Maidzly-logo.png";
+
 import Link from "next/link";
 import Header from "../Header";
 function GetAQuoteForm2() {
@@ -15,7 +17,7 @@ function GetAQuoteForm2() {
   };
   return (
     <>
-      <Header bgColor="bg-primaryColor" position={"relative"} />
+      <Header logo={logo2} position={"relative"} />
       <GetAQuoteForm Title="Get Your Quote" />
       <div className="p-4">
         <h2 className="font-subHeading  text-xl font-bold text-left">

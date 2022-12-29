@@ -3,7 +3,11 @@ import image from "../../public/assets/RegisterAsACleaner-details.png";
 function SecondBanner() {
   return (
     <div className="my-3">
-      <Image src={image} className="rounded-lg" alt="" />
+      <img
+        src="/assets/RegisterAsACleaner-details.png"
+        className="rounded-lg"
+        alt=""
+      />
     </div>
   );
 }
