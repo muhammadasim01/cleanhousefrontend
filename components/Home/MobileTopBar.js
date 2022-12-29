@@ -6,7 +6,7 @@ function TopBar() {
     <div className="w-[100%] h-[90px] flex sm:hidden">
       <div className="w-[80%] flex">
         <figure className="bg-primaryColor rounded-md h-[53.94px] w-[53.94px] mt-5 mb-5 ml-5 pt-3">
-          <Image src={logo} />
+          <Image src={logo} alt="" />
         </figure>
         <div className="flex flex-col items-start p-2 mt-3">
           <h2 className="font-subHeading text-sm">Maidzly App</h2>

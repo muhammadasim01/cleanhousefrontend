@@ -7,7 +7,7 @@ function MobileAppSection() {
   return (
     <div className=" border-primaryColor flex flex-col-reverse items-center justify-center sm:flex sm:flex-row md:px-10">
       <div className="flex justify-center items-center pb-0 sm:w-[50%] lg:flex lg:items-center lg:justify-center">
-        <Image src={phoneImage} height={450} width={350} />
+        <Image src={phoneImage} height={450} width={350} alt="" />
       </div>
       <div className=" border-secondaryColor py-10  sm:flex sm:flex-col  sm:justify-center md:items-center sm:w-[50%]">
         <h2 className="text-center font-subHeading text-3xl font-bold text-darkColor p-3 md:text-lg sm:text-left lg:text-xl xl:text-2xl 2xl:text-3xl">
@@ -23,8 +23,8 @@ function MobileAppSection() {
             Download App
           </button>
           <div className="mt-5 flex justify-between w-44">
-            <Image src={PlayStoreIcon} />
-            <Image src={AppStoreIcon} />
+            <Image src={PlayStoreIcon} alt="" />
+            <Image src={AppStoreIcon} alt="" />
           </div>
         </div>
       </div>

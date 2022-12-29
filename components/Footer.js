@@ -13,7 +13,7 @@ const Footer = () => {
       <footer className="relative bottom-0 left-0 right-0 w-[100%] flex flex-col items-start bg-primaryColor py-5 px-3">
         <div className="flex items-start flex-col sm:flex-row sm:items-center lg:w-full">
           <div className=" flex flex-col w-full  text-lightColor items-start sm:self-start lg:pr-10">
-            <Image src={logo} width={100} height={100} />
+            <Image src={logo} width={100} height={100} alt="" />
             <p className="text-lightColor font-text text-[22px] font-normal leading-6 w-full text-sm 2xl:w-[18rem] mt-3">
               Rated 5 star cleaners. Pay and book online. GPS tracking when your
               cleaner is on route.
@@ -155,13 +155,13 @@ const Footer = () => {
                 </p>
                 <div className="pt-2 flex justify-between sm:pt-1">
                   <Link href="/">
-                    <Image src={linkedin}></Image>
+                    <Image src={linkedin} alt=""></Image>
                   </Link>
                   <Link href="/">
-                    <Image src={instagram}></Image>
+                    <Image src={instagram} alt=""></Image>
                   </Link>
                   <Link href="/">
-                    <Image src={twitter}></Image>
+                    <Image src={twitter} alt=""></Image>
                   </Link>
                 </div>
               </div>
@@ -173,13 +173,13 @@ const Footer = () => {
           <div className="bottom text-lightColor flex items-center justify-center sm:w-[50%] sm:text-sm mt-5">
             <div className="cards flex items-center justify-between sm:justify-start h-8 w-[50%]">
               <span className="mx-2">
-                <Image src={mastercard}></Image>
+                <Image src={mastercard} alt=""></Image>
               </span>
               <span className="mx-2">
-                <Image src={visacard}></Image>
+                <Image src={visacard} alt=""></Image>
               </span>
               <span className="mx-2">
-                <Image src={americancard}></Image>
+                <Image src={americancard} alt=""></Image>
               </span>
             </div>
           </div>

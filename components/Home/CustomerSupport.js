@@ -30,7 +30,7 @@ function CustomerSupport() {
         </div>
       </div>
       <div className="pt-10 sm:w-[50%] lg:flex lg:items-center lg:justify-center lg:p-20 xl:p-30">
-        <Image src={customersupportImage} />
+        <Image src={customersupportImage} alt="" />
       </div>
     </div>
   );

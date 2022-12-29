@@ -96,7 +96,7 @@ function GetAQuoteForm4() {
           <div className="flex items-center py-3">
             <p className="w-[18%] border-[2px] border-secondaryColor rounded-md  py-[2px] flex items-center justify-center">
               {/* <BsPaypal className="text-2xl text-secondaryColor" /> */}
-              <Image src={materCard} />
+              <Image src={materCard} alt="" />
             </p>
             <p className="w-[82%] px-2 font-text text-base font-normal">
               Mastercard
@@ -133,9 +133,9 @@ function GetAQuoteForm4() {
               <div className="flex">
                 <div className="w-[20%]"></div>
                 <p className="w-[80%] text-left flex justify-evenly py-2">
-                  <Image src={materCard} />
-                  <Image src={visaCard} />
-                  <Image src={americanCard} />
+                  <Image src={materCard} alt="" />
+                  <Image src={visaCard} alt="" />
+                  <Image src={americanCard} alt="" />
                 </p>
               </div>
             </div>

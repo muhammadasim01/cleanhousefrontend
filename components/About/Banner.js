@@ -4,7 +4,7 @@ import BannerImage from "../../public/assets/AboutBanner.png";
 function Banner() {
   return (
     <div className="w-full">
-      <Image src={BannerImage} />
+      <Image src={BannerImage} alt="" />
     </div>
   );
 }

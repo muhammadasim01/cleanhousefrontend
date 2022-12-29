@@ -17,7 +17,7 @@ const Header = ({ bgColor, position, logo }) => {
       <div
         className={`${position} h-auto sm:w-full flex justify-between px-2 py-3 w-[100%] ${bgColor}`}
       >
-        <Image src={logo} />
+        <Image src={logo} alt="" />
         <button
           className="z-50  text-lightColor "
           type="button"

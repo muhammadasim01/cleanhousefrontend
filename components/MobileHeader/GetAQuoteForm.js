@@ -23,11 +23,13 @@ function GetAQuoteForm({ Title }) {
           >
             {isCanada ? (
               <>
-                <Image src={Flag1} width="20" height="15" /> <span>$0</span>
+                <Image src={Flag1} width="20" height="15" alt="" />{" "}
+                <span>$0</span>
               </>
             ) : (
               <>
-                <Image src={Flag2} width="20" height="15" /> <span>$0</span>
+                <Image src={Flag2} width="20" height="15" alt="" />{" "}
+                <span>$0</span>
               </>
             )}
             <MdKeyboardArrowDown />
@@ -42,7 +44,7 @@ function GetAQuoteForm({ Title }) {
                   setShowDropDown(false);
                 }}
               >
-                <Image src={Flag1} width="20" height="15" /> $0
+                <Image src={Flag1} width="20" height="15" alt="" /> $0
               </div>
 
               <div
@@ -52,7 +54,7 @@ function GetAQuoteForm({ Title }) {
                   setShowDropDown(false);
                 }}
               >
-                <Image src={Flag2} width="20" height="15" /> $0
+                <Image src={Flag2} width="20" height="15" alt="" /> $0
               </div>
             </div>
           )}

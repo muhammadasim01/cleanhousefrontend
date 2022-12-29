@@ -29,7 +29,7 @@ function OurProcess() {
         </p>
       </div>
       <div className="w-[100%] p-5 mt-10 flex justify-center sm:h-auto">
-        <Image src={OurProcessImg} />
+        <Image src={OurProcessImg} alt="" />
       </div>
     </div>
   );

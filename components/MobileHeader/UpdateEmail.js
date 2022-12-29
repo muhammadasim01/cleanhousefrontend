@@ -11,7 +11,7 @@ function UpdateEmail() {
       </h2>
       <div className="flex h-52 w-full flex-col justify-center items-center bg-[url('../public/assets/VerifyEmail-1.png')] bg-no-repeat bg-center">
         {/* <Image src={VerifyEmailImage1} /> */}
-        <Image src={VerifyEmailImage2} />
+        <Image src={VerifyEmailImage2} alt="" />
       </div>
       <p className="font-text text-base mx-4 text-center font-medium leading-6 ">
         We will send a new verification link to this email. After verifying ,

@@ -15,7 +15,7 @@ function BoxCard({
        `}
     >
       <div className="w-[30%]  pt-2 pr-3">
-        <Image src={imageSrc} height={95} width={75} />
+        <Image src={imageSrc} height={95} width={75} alt="" />
       </div>
       <div className="w-[70%] md:h-[70%] lg:h-[70%] flex flex-col items-center">
         <div>

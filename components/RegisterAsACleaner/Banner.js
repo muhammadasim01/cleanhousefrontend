@@ -4,7 +4,7 @@ function Banner() {
   return (
     <>
       <div className="w-full">
-        <Image src={BannerImage} />
+        <Image src={BannerImage} alt="" />
       </div>
     </>
   );

@@ -65,7 +65,7 @@ const Banner = () => {
             </form>
           </div>
           <div className="hidden lg:block lg:pr-[2rem] ">
-            <Image src={BannerMain} />
+            <Image src={BannerMain} alt="" />
           </div>
         </div>
       </div>

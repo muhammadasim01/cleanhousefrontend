@@ -2,7 +2,7 @@ import Image from "next/image";
 function Card({ Date, Title, category, description, PostImage }) {
   return (
     <div className="my-5 mx-2 md:mx-4  w-[280px]  rounded-md shadow-lg shadow-[#737373] sm:w-[270px] md:w-[330px] lg:w-[350px] xl:w-[370px]">
-      <Image src={PostImage} className="bg-contain" />
+      <Image src={PostImage} className="bg-contain" alt="" />
       <div className="px-4">
         <div className="flex justify-between items-center pt-5">
           <p className="text-[#737373] font-subHeading text-xs font-thin">

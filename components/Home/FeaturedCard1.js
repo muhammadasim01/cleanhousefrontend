@@ -6,7 +6,7 @@ function FeaturedCard1({ Title, src }) {
     <div className="px-5 bg-lightColor mt-10 rounded-md shadow-[-10px_1px_20px_15px_rgba(0,0,0,0.1)]">
       <h3 className="font-subHeading text-3xl font-bold py-5">Benifits</h3>
       <div>
-        <Image src={photo} />
+        <Image src={photo} alt="" />
       </div>
       <div className="py-5">
         <span className="flex items-center text-xl font-normal mb-2 ">
