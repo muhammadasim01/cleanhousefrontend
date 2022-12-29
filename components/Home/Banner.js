@@ -14,13 +14,7 @@ const Banner = () => {
   };
   return (
     <>
-      <div
-        className="bg-top sm:bg-[url('../backgroundImages/banner.png')] sm:bg-center bg-no-repeat h-[616px] w-[100%] bg-cover  sm:h-[780px]  md:h-[700px] md:bg-center lg:bg-cover xl:bg:contain 2xl:bg:contain xl-h-[500px] 2xl:h-[800px]"
-        // style={{
-        //   background: 'url("/assets/Mobile-Banner.png")',
-        //   backgroundRepeat: "no-repeat",
-        // }}
-      >
+      <div className="bg-[url('../public/assets/Mobile-Banner.png')] bg-top sm:bg-[url('../public/assets/Banner.png')] sm:bg-center bg-no-repeat h-[616px] w-[100%] bg-cover  sm:h-[780px]  md:h-[700px] md:bg-center lg:bg-cover xl:bg:contain 2xl:bg:contain xl-h-[500px] 2xl:h-[800px]">
         <div className="flex flex-row items-center justify-center pt-[9rem] md:pt-[15rem] lg:pt-[10rem] xl:pt-[7rem]">
           <div className="flex flex-col">
             <span className="flex self-start px-7 pb-5">
