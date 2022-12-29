@@ -45,10 +45,10 @@ export default function Home() {
         {/* <BackgroundCheck /> */}
         {/* <UploadPhotoId /> */}
         {/* <CleanerProfile /> */}
-        {/* <BookingDetails /> */}
+        <BookingDetails />
         {/* <RegisterAsACleaner /> */}
         {/*Other All Screens */}
-        <HomePage />
+        {/* <HomePage /> */}
         {/* <Blogs /> */}
         {/* <FaQ /> */}
         {/* <About /> */}
