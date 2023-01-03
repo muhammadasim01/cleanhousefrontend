@@ -21,43 +21,47 @@ function MobileMenu({ logo }) {
       <nav>
         <ul>
           <li className="text-lightColor text-start font-subHeading text-xl  font-bold py-3 ml-5">
-            <Link href="/auth">Sign In / Sign Up</Link>
+            <Link href="/">Search Cleaners</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            <Link href="/bookacleaner">Book A Cleaner</Link>
+            <Link href="/">Our Services</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            Inbox
+            <Link href="/">Register As A Cleaner</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            Your Profile
+            <Link href="/">Sign Up</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            Register As A Cleaner
+            <Link href="/">Sign In</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            Your Booking History
+            <Link href="/">Book A Cleaning</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            Settings
+            <Link href="/">Post a Job</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            FAQ&#39;s
+            <Link href="/">Job board</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            Our Blog
+            <Link href="/">FAQ&#39;s</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            Log Out
+            <Link href="/">Inbox</Link>
+          </li>
+          <p className="border-b-2 border-lightColor mx-5"></p>
+          <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <Link href="/">Log Out</Link>
           </li>
         </ul>
       </nav>

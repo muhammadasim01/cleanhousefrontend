@@ -22,6 +22,8 @@ import UploadPhotoId from "../components/MobileHeader/UploadPhotoId";
 import CleanerProfile from "../components/MobileHeader/CleanerProfile";
 import BookingDetails from "../components/MobileHeader/BookingDetails";
 import RegisterAsACleaner from "../screens/RegisterAsACleaner";
+import Banner from "../components/Services/Banner";
+import MaidzlyServices from "../components/Services/MaidzlyServices";
 
 export default function Home() {
   return (
@@ -47,8 +49,10 @@ export default function Home() {
         {/* <CleanerProfile /> */}
         {/* <BookingDetails /> */}
         {/* <RegisterAsACleaner /> */}
+        {/* <Banner /> */}
+        <MaidzlyServices />
         {/*Other All Screens */}
-        <HomePage />
+        {/* <HomePage /> */}
         {/* <Blogs /> */}
         {/* <FaQ /> */}
         {/* <About /> */}
