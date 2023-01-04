@@ -6,10 +6,10 @@ import DetailsSection from "../components/RegisterAsACleaner/DetailsSection";
 import ListItem from "../components/RegisterAsACleaner/ListItem";
 import SecondBanner from "../components/RegisterAsACleaner/SecondBanner";
 import image from "../public/assets/RegisterAsACleaner_Banner3.png";
-import MobileTopBar from "../components/Home/MobileTopBar";
+import MobileTopBar from "../components/MobileTopBar";
 import logo2 from "../public/assets/Maidzly-logo.png";
 import Header from "../components/Header";
-import TopBar from "../components/Home/TopBar";
+import TopBar from "../components/TopBar";
 import Footer from "../components/Footer";
 function RegisterAsACleaner() {
   return (

@@ -11,8 +11,8 @@ import Subscription from "../components/Home/Subscription";
 import SecondBanner from "../components/Home/SecondBanner";
 import ServiceSection from "../components/Home/ServiceSection";
 import Footer from "../components/Footer";
-import MobileTopBar from "../components/Home/MobileTopBar";
-import TopBar from "../components/Home/TopBar";
+import MobileTopBar from "../components/MobileTopBar";
+import TopBar from "../components/TopBar";
 import logo2 from "../public/assets/Maidzly-logo.png";
 const HomePage = () => {
   return (

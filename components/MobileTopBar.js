@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { AiTwotoneStar } from "react-icons/ai";
-import logo from "../../public/assets/logo.png";
-function TopBar() {
+function MobileTopBar() {
   return (
     <div className="w-[100%] h-[90px] flex sm:hidden">
       <div className="w-[80%] flex">
@@ -29,4 +28,4 @@ function TopBar() {
   );
 }
 
-export default TopBar;
+export default MobileTopBar;

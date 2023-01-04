@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logo from "../../public/assets/logo.png";
-import PlayStoreIcon from "../../public/assets/Google_Play_Icon.png";
-import AppStoreIcon from "../../public/assets/Appstore_Icon.png";
+import logo from "../public/assets/logo.png";
+import PlayStoreIcon from "../public/assets/Google_Play_Icon.png";
+import AppStoreIcon from "../public/assets/Appstore_Icon.png";
 function TopBar() {
   return (
     <div className="hidden sm:flex">

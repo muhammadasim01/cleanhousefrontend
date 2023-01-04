@@ -11,8 +11,8 @@ import Image from "next/image";
 import likedImage from "../public/assets/Liked-Icon.png";
 import { BsCheck2 } from "react-icons/bs";
 import image from "../public/assets/AboutBanner-2.png";
-import MobileTopBar from "../components/Home/MobileTopBar";
-import TopBar from "../components/Home/TopBar";
+import MobileTopBar from "../components/MobileTopBar";
+import TopBar from "../components/TopBar";
 import logo2 from "../public/assets/Maidzly-logo.png";
 import Footer from "../components/Footer";
 function About() {

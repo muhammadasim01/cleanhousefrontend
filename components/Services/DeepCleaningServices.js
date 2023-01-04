@@ -1,51 +1,63 @@
 import Header from "../Header";
+import MobileTopBar from "../MobileTopBar";
 import Banner from "./Banner";
-import ServiceImage from "./ServiceImage";
-import ServicesChecks from "./ServicesChecks";
+import logo2 from "../../public/assets/Maidzly-logo.png";
 import ServicesHeading from "./ServicesHeading";
-import ServicesSecondryButton from "./ServicesSecondryButton";
 import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
-import logo2 from "../../public/assets/Maidzly-logo.png";
-import MobileTopBar from "../MobileTopBar";
+import ServicesSecondryButton from "./ServicesSecondryButton";
+import ServicesChecks from "./ServicesChecks";
+import ServiceImage from "./ServiceImage";
 import MobileContainer from "./MobileContainer";
-function MaidzlyServices() {
-  const bg_url = "assets/Maidzly_Services_Banner.png";
+import Footer from "../Footer";
+
+function DeepCleaningServices() {
+  const bg_url = "assets/Deep_Cleaning_Service_Banner.png";
   return (
     <>
       <MobileTopBar />
       <Header position={"relative"} logo={logo2} />
       <Banner
-        buttonText="Book A Regular Cleaning"
+        buttonText="Book A Deep Cleaning"
         bgURL={bg_url}
-        P1="Regular Cleaning Services with confidence by booking a Maidzly's
-          Cleaner today!"
+        P1="Deep Cleaning Services with confidence by booking a Maidzly‘s Cleaner today!"
         P2="Book A Cleaner In Your Neighbourhood!"
       />
       <div className="border-4 border-primaryColor mx-4">
-        <ServicesHeading headingText="Regular Cleaning Services" />
+        <ServicesHeading headingText="Deep Cleaning Services" />
         <div className="border-2 border-secondaryColor flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Get that sparkle back into your home with Maidzly's professional
-            touch!
+            Need a deep clean? Make sure it's Maidzly clean with our affordable,
+            hassle-free cleaning services!
           </h3>
         </div>
         <div>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
-            Say goodbye to messes and dirt - let Maidzly's regular cleaning
-            services handle it!
+            Maidzly's deep cleaning service is your go-to choice if you want to
+            give yourself a break from the tedious and time-consuming task of
+            deep cleaning your living space. With our database of local
+            cleaners, you can rest assured that we will make sure your home is
+            cleaned thoroughly and safely. Not only that, all of our cleaners
+            are experienced delivering top-tier cleaning results.
+          </p>
+          <p className="font-subHeading text-[22px] font-bold leading-6 text-darkColor text-center ">
+            Rejuvenate your living space and make it look brand new with
+            Maidzly’s deep cleaning service!
           </p>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4 mx-2">
-            Our regular cleaning services are designed to keep your home looking
-            fresh and inviting. From vacuuming, dusting and mopping floors to
-            scrubbing kitchen and bathroom surfaces, our independent cleaners
-            can handle all of your regular cleaning needs whether it's a one
-            time clean or on a regular schedule. All of our local cleaners are
-            police-checked and vetted for your peace of mind.
+            What's more, Maidzly provides the peace of mind that comes with
+            knowing your home is being attended to by trustworthy individuals
+            who have been police-checked and individually vetted before they
+            become part of our team. We ensure that all of our cleaners are
+            reliable and trustworthy, so you can trust your cleaner to get the
+            job done right.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your Regular Cleaning needs." />
-        <ServicesSubHeading headingText="Check out what we clean for a Regular Cleaning" />
+        <SubText
+          text="We match you with awesome independent cleaners in your local area 
+        to help you with your deep cleaning needs."
+        />
+        <ServicesSubHeading headingText="Check out what we clean for a Deep Cleaning Service" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
@@ -53,7 +65,6 @@ function MaidzlyServices() {
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
-          <ServicesChecks CheckText="Rated 5 star cleaners" />
           <ServicesChecks CheckText="Professional, experienced, and vetted cleaners" />
           <ServicesChecks CheckText="GPS location of your cleaner from your app" />
           <ServicesChecks CheckText="Customize your clean online" />
@@ -64,7 +75,6 @@ function MaidzlyServices() {
           <ServicesChecks CheckText="7 days a week support" />
           <ServicesChecks CheckText="2 million dollar liability insurance" />
         </div>
-        <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
         <div>
@@ -78,6 +88,7 @@ function MaidzlyServices() {
           <ServicesChecks CheckText="Ironing Services" />
           <ServicesChecks CheckText="Residential House Cleaning Services" />
           <ServicesChecks CheckText="Condo & Apartment Cleaning Services" />
+          <ServicesChecks CheckText="Short Term Rental & Airbnb Cleaning Services" />
           <ServicesChecks CheckText="Office & Commercial Cleaning Services" />
         </div>
         <ServicesSubHeading headingText="How Frequent Maidzly Can Clean" />
@@ -89,7 +100,9 @@ function MaidzlyServices() {
           <ServicesChecks CheckText="Occasional Cleaning Services" />
           <ServicesChecks CheckText="One Time Cleaning Services" />
         </div>
-        <ServicesSubHeading headingText="Find A Maidzly Cleaner In Your Area" />
+        <div className="my-5">
+          <ServicesSubHeading headingText="Find A Maidzly Cleaner In Your Area" />
+        </div>
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Find A Cleaner" />
         </div>
@@ -97,8 +110,9 @@ function MaidzlyServices() {
         <MobileContainer />
         <SubText text="Cities where you can book a Maidzly Cleaner" />
       </div>
+      <Footer />
     </>
   );
 }
 
-export default MaidzlyServices;
+export default DeepCleaningServices;

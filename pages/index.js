@@ -24,6 +24,7 @@ import BookingDetails from "../components/MobileHeader/BookingDetails";
 import RegisterAsACleaner from "../screens/RegisterAsACleaner";
 import Banner from "../components/Services/Banner";
 import MaidzlyServices from "../components/Services/MaidzlyServices";
+import DeepCleaningServices from "../components/Services/DeepCleaningServices";
 
 export default function Home() {
   return (
@@ -50,7 +51,8 @@ export default function Home() {
         {/* <BookingDetails /> */}
         {/* <RegisterAsACleaner /> */}
         {/* <Banner /> */}
-        <MaidzlyServices />
+        {/* <MaidzlyServices /> */}
+        <DeepCleaningServices />
         {/*Other All Screens */}
         {/* <HomePage /> */}
         {/* <Blogs /> */}
