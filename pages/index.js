@@ -35,6 +35,7 @@ import ResidentialHouseCleaningServices from "../components/Services/Residential
 import ApartmentCleaningServices from "../components/Services/ApartmentCleaningServices";
 import AirbnbCleaningServices from "../components/Services/AirbnbCleaningServices";
 import CommercialCleaningServices from "../components/Services/CommercialCleaningServices";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -72,6 +73,7 @@ export default function Home() {
         {/* <ApartmentCleaningServices /> */}
         {/* <AirbnbCleaningServices /> */}
         {/* <CommercialCleaningServices /> */}
+        {/* <Footer /> */}
         {/*Other All Screens */}
         <HomePage />
         {/* <Blogs /> */}

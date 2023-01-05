@@ -12,7 +12,7 @@ import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 import Footer from "../Footer";
 function AirbnbCleaningServices() {
-  const bg_url = "assets/AirbnbCleaningServices_Banner.png";
+  const bg_url = "/assets/AirbnbCleaningServices_Banner.png";
   return (
     <>
       <MobileTopBar />

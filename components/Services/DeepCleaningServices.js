@@ -13,7 +13,7 @@ import Footer from "../Footer";
 import CitiesList from "./CitiesList";
 
 function DeepCleaningServices() {
-  const bg_url = "assets/Deep_Cleaning_Service_Banner.png";
+  const bg_url = "/assets/Deep_Cleaning_Service_Banner.png";
   return (
     <>
       <MobileTopBar />

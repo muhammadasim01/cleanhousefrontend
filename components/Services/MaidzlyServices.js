@@ -10,8 +10,9 @@ import logo2 from "../../public/assets/Maidzly-logo.png";
 import MobileTopBar from "../MobileTopBar";
 import MobileContainer from "./MobileContainer";
 import CitiesList from "./CitiesList";
+import Footer from "../Footer";
 function MaidzlyServices() {
-  const bg_url = "assets/Maidzly_Services_Banner.png";
+  const bg_url = "/assets/Maidzly_Services_Banner.png";
   return (
     <>
       <MobileTopBar />
@@ -153,6 +154,7 @@ function MaidzlyServices() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

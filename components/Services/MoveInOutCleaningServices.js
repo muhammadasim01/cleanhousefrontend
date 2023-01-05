@@ -12,7 +12,7 @@ import ServicesSecondryButton from "./ServicesSecondryButton";
 import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 function MoveInOutCleaningServices() {
-  const bg_url = "assets/MoveInOutCleaning_Banner.png";
+  const bg_url = "/assets/MoveInOutCleaning_Banner.png";
   return (
     <>
       <MobileTopBar />
