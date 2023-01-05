@@ -1,52 +1,62 @@
+import logo2 from "../../public/assets/Maidzly-logo.png";
+import Footer from "../Footer";
 import Header from "../Header";
+import MobileTopBar from "../MobileTopBar";
 import Banner from "./Banner";
+import CitiesList from "./CitiesList";
+import MobileContainer from "./MobileContainer";
 import ServiceImage from "./ServiceImage";
 import ServicesChecks from "./ServicesChecks";
 import ServicesHeading from "./ServicesHeading";
 import ServicesSecondryButton from "./ServicesSecondryButton";
 import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
-import logo2 from "../../public/assets/Maidzly-logo.png";
-import MobileTopBar from "../MobileTopBar";
-import MobileContainer from "./MobileContainer";
-import CitiesList from "./CitiesList";
-function MaidzlyServices() {
-  const bg_url = "assets/Maidzly_Services_Banner.png";
+function MoveInOutCleaningServices() {
+  const bg_url = "assets/MoveInOutCleaning_Banner.png";
   return (
     <>
       <MobileTopBar />
       <Header position={"relative"} logo={logo2} />
       <Banner
-        buttonText="Book A Regular Cleaning"
+        buttonText="Book A Move In/Out Cleaning"
         bgURL={bg_url}
-        P1="Regular Cleaning Services with confidence by booking a Maidzly's
-          Cleaner today!"
+        custom="w-[250px]"
+        customHeight="370px"
+        P1="Move-In/Move-Out Cleaning Services with confidence by booking a Maidzly‘s Cleaner today!"
         P2="Book A Cleaner In Your Neighbourhood!"
       />
       <div className="mx-4">
-        <ServicesHeading headingText="Regular Cleaning Services" />
+        <ServicesHeading headingText="Move-In /Move-Out Cleaning Services" />
         <div className="flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Get that sparkle back into your home with Maidzly's professional
-            touch!
+            Don't just move in-out, make sure it's a Maidzly clean with our
+            professional, reliable, and hassle-free cleaning services!
+          </h3>
+        </div>
+        <div className="flex items-center justify-center my-5">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+            Move In or Move Out with confidence. Leave the hard cleaning work
+            for us!
           </h3>
         </div>
         <div>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
-            Say goodbye to messes and dirt - let Maidzly's regular cleaning
-            services handle it!
+            Moving can be an exhausting and time-consuming process, not to
+            mention stressful. That's why you should leave the dirty work to us!
+            Maidzly Cleaning Services specializes in move-in/move-out cleaning
+            services too. We have all the necessary solutions to make sure your
+            new home is sparkling clean. All of our cleaners are vetted,
+            police-checked, for your peace of mind.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4 mx-2">
-            Our regular cleaning services are designed to keep your home looking
-            fresh and inviting. From vacuuming, dusting and mopping floors to
-            scrubbing kitchen and bathroom surfaces, our independent cleaners
-            can handle all of your regular cleaning needs whether it's a one
-            time clean or on a regular schedule. All of our local cleaners are
-            police-checked and vetted for your peace of mind.
-          </p>
+          <div className="flex items-center justify-center my-5">
+            <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+              Maidzly Cleaners will leave your home pristine so you can spend
+              more of your valuable time on the things that matter
+            </h3>
+          </div>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your Regular Cleaning needs." />
-        <ServicesSubHeading headingText="Check out what we clean for a Regular Cleaning" />
+        <SubText text="We match you with awesome independent cleaners in your local area to help you with your Move-In/Move-Out cleaning needs." />
+        <ServicesSubHeading headingText="Check out what we clean for a Move-In Move-Out Cleaning Service" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
@@ -54,7 +64,6 @@ function MaidzlyServices() {
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
-          <ServicesChecks CheckText="Rated 5 star cleaners" />
           <ServicesChecks CheckText="Professional, experienced, and vetted cleaners" />
           <ServicesChecks CheckText="GPS location of your cleaner from your app" />
           <ServicesChecks CheckText="Customize your clean online" />
@@ -65,7 +74,6 @@ function MaidzlyServices() {
           <ServicesChecks CheckText="7 days a week support" />
           <ServicesChecks CheckText="2 million dollar liability insurance" />
         </div>
-        <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
         <div>
@@ -79,6 +87,7 @@ function MaidzlyServices() {
           <ServicesChecks CheckText="Ironing Services" />
           <ServicesChecks CheckText="Residential House Cleaning Services" />
           <ServicesChecks CheckText="Condo & Apartment Cleaning Services" />
+          <ServicesChecks CheckText="Short Term Rental & Airbnb Cleaning Services" />
           <ServicesChecks CheckText="Office & Commercial Cleaning Services" />
         </div>
         <ServicesSubHeading headingText="How Frequent Maidzly Can Clean" />
@@ -90,29 +99,32 @@ function MaidzlyServices() {
           <ServicesChecks CheckText="Occasional Cleaning Services" />
           <ServicesChecks CheckText="One Time Cleaning Services" />
         </div>
-        <ServicesSubHeading headingText="Find A Maidzly Cleaner In Your Area" />
+        <div className="my-5">
+          <ServicesSubHeading headingText="Find A Maidzly Cleaner In Your Area" />
+        </div>
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Find A Cleaner" />
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
         <SubText text="Cities where you can book a Maidzly Cleaner" />
-        <div>
-          <CitiesList
-            headingText="GTA"
-            col1="Toronto, Etobicoke, Mississauga, Scarborough, Markham, Richmond Hill,
+      </div>
+      <div>
+        <CitiesList
+          headingText="GTA"
+          col1="Toronto, Etobicoke, Mississauga, Scarborough, Markham, Richmond Hill,
            Brampton, Vaughan, Aurora, Newmarket, King, Whitchurch-Stouffville, East Gwillimbury"
-            col2="Georgina, Caledon, Oakville, Burlington, Milton, Georgetown, Halton Hills, 
+          col2="Georgina, Caledon, Oakville, Burlington, Milton, Georgetown, Halton Hills, 
           Pickering, Uxbridge, Brock, Scugog, Ajax, Whitby, Oshawa, Clarington"
-          />
-          <CitiesList
-            headingText="Rest of Ontario"
-            col1="Kingston, Ottawa, Guelph, Brantford, London, Niagara, Hamilton, Brant, Sudbury, Kitchener, Windsor, Brockville, Thunder Bay, St. Catherines, Cambridge, Elliott Lake, Cornwall, Timmins, North Bay, Peterborough, Belleville, Pembroke, Stratford, Sault Ste.Marie"
-            col2=" Woodstock, Kenora, St. Thomas, Waterloo, Brant, Sarnia, Temiskaming Shores, Orillia, Owen Sound, Dryden, Clarence-Rockland, Quinte West, Port Colborne, Kawartha Lakes, Welland, Thorold, Hawkesbury, Chatham-Kent, Greater Sudbury, Norfolk County, Willowdale"
-          />
-          <CitiesList
-            headingText="Neighbourhoods in Toronto"
-            col1="Alexandra Park, Baldwin Village, CityPlace, Church and Wellesley, Corktown, 
+        />
+        <CitiesList
+          headingText="Rest of Ontario"
+          col1="Kingston, Ottawa, Guelph, Brantford, London, Niagara, Hamilton, Brant, Sudbury, Kitchener, Windsor, Brockville, Thunder Bay, St. Catherines, Cambridge, Elliott Lake, Cornwall, Timmins, North Bay, Peterborough, Belleville, Pembroke, Stratford, Sault Ste.Marie"
+          col2=" Woodstock, Kenora, St. Thomas, Waterloo, Brant, Sarnia, Temiskaming Shores, Orillia, Owen Sound, Dryden, Clarence-Rockland, Quinte West, Port Colborne, Kawartha Lakes, Welland, Thorold, Hawkesbury, Chatham-Kent, Greater Sudbury, Norfolk County, Willowdale"
+        />
+        <CitiesList
+          headingText="Neighbourhoods in Toronto"
+          col1="Alexandra Park, Baldwin Village, CityPlace, Church and Wellesley, Corktown, 
           Discovery District, Entertainment District, East Bayfront, Fashion Disctrict, Garden District, 
           Grange Park, Harbord Village, South Core, St. James Town, Harbourfront, Moss Park, Old Town, Quayside, 
           Regent Park, St. Lawrence, Toronto Islands, Trefann Court, High Park, The Junction, Kensington Market,
@@ -122,7 +134,7 @@ function MaidzlyServices() {
           The Beaches, Upper Beaches, East Chinatown, East Danforth, Gerrard Street East, Greektown, Leslieville, 
           Main Square, Playter Estates, Port Lands, Villers Island, Bedford Park, Canada Loma, Chaplin Estates, 
           Davisville village, Deer Park, Lawrence Park, Lytton Park, Midtown, Moore Park, North Toronto, Rosedale, South Hill, Summerhill, Uptown, Wychwood Park, Beaconsfield Village, Bloorcourt Village, "
-            col2="Bracondale Hill, Brockton Village, Carleton Village, Corso Italia, Davenport, Dovercourt Park,
+          col2="Bracondale Hill, Brockton Village, Carleton Village, Corso Italia, Davenport, Dovercourt Park,
            Dufferine Grove, Earlscourt, Fort York, Junction Triangle, Koreatown, Little Portugal, Little Tibet, 
            Mirvish Village, Niagara, Regal Heights, Runneymede, Seaton Village, Swansea, Trinity-Bellwoods, Wallace
            Emerson, East York, Broadview North, Crescent Town, East Danforth, Pape Village, Woodbine Heights, 
@@ -133,28 +145,28 @@ function MaidzlyServices() {
            Maple Leaf, Newtonbrook, North York City Centre, Parkway Forest, Parkwoods, Pelmo Park-Humberlea, 
            Pleasant View, Uptown Toronto, Victoria Village, Westminster–Branson, Willowdale, York Mills, 
            York University Heights"
-          />
+        />
+      </div>
+      <div className="p-5">
+        <div>
+          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+            Other provinces coming soon!
+          </p>
         </div>
-        <div className="p-5">
-          <div>
-            <p className="font-text text-[22px] text-darkColor font-normal leading-7">
-              Other provinces coming soon!
-            </p>
-          </div>
-          <div>
-            <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
-              USA
-            </h2>
-          </div>
-          <div>
-            <p className="font-text text-[22px] text-darkColor font-normal leading-7">
-              Coming soon!
-            </p>
-          </div>
+        <div>
+          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+            USA
+          </h2>
+        </div>
+        <div>
+          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+            Coming soon!
+          </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
 
-export default MaidzlyServices;
+export default MoveInOutCleaningServices;

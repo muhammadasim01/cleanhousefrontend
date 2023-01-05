@@ -25,6 +25,16 @@ import RegisterAsACleaner from "../screens/RegisterAsACleaner";
 import Banner from "../components/Services/Banner";
 import MaidzlyServices from "../components/Services/MaidzlyServices";
 import DeepCleaningServices from "../components/Services/DeepCleaningServices";
+import CitiesList from "../components/Services/CitiesList";
+import MoveInOutCleaningServices from "../components/Services/MoveInOutCleaningServices";
+import PostConstructionRenovationService from "../components/Services/PostConstructionRenovationService";
+import OrganizingDeclutteringServices from "../components/Services/OrganizingDeclutteringServices";
+import ApplianceCleaningServices from "../components/Services/ApplianceCleaningServices";
+import IroningServices from "../components/Services/IroningServices";
+import ResidentialHouseCleaningServices from "../components/Services/ResidentialHouseCleaningServices";
+import ApartmentCleaningServices from "../components/Services/ApartmentCleaningServices";
+import AirbnbCleaningServices from "../components/Services/AirbnbCleaningServices";
+import CommercialCleaningServices from "../components/Services/CommercialCleaningServices";
 
 export default function Home() {
   return (
@@ -52,9 +62,18 @@ export default function Home() {
         {/* <RegisterAsACleaner /> */}
         {/* <Banner /> */}
         {/* <MaidzlyServices /> */}
-        <DeepCleaningServices />
+        {/* <DeepCleaningServices /> */}
+        {/* <MoveInOutCleaningServices /> */}
+        {/* <PostConstructionRenovationService /> */}
+        {/* <OrganizingDeclutteringServices /> */}
+        {/* <ApplianceCleaningServices /> */}
+        {/* <IroningServices /> */}
+        {/* <ResidentialHouseCleaningServices /> */}
+        {/* <ApartmentCleaningServices /> */}
+        {/* <AirbnbCleaningServices /> */}
+        {/* <CommercialCleaningServices /> */}
         {/*Other All Screens */}
-        {/* <HomePage /> */}
+        <HomePage />
         {/* <Blogs /> */}
         {/* <FaQ /> */}
         {/* <About /> */}

@@ -13,7 +13,7 @@ const Footer = () => {
       <footer className="relative bottom-0 left-0 right-0 w-[100%] flex flex-col items-start bg-primaryColor py-5 px-3">
         <div className="flex items-start flex-col sm:flex-row sm:items-center lg:w-full">
           <div className=" flex flex-col w-full  text-lightColor items-start sm:self-start lg:pr-10">
-            <Image src="/assets/logo-2.png" width={100} height={100} alt="" />
+            <img src="/assets/logo-3.png" alt="" />
             <p className="text-lightColor font-text text-[22px] font-normal leading-6 w-full text-sm 2xl:w-[18rem] mt-3">
               Rated 5 star cleaners. Pay and book online. GPS tracking when your
               cleaner is on route.
