@@ -29,7 +29,7 @@ function MobileMenu({ logo }) {
             className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3"
             onClick={() => setDropDownOpen(!dropDownOpen)}
           >
-            <Link href="/">Our Services</Link>
+            <Link>Our Services</Link>
           </li>
           {/* {dropDownOpen && ( */}
           <div
