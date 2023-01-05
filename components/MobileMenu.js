@@ -40,41 +40,56 @@ function MobileMenu({ logo }) {
             }}
           >
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deepcleaning">Deep Cleaning</Link>
+              <Link href="/services/maidzlyservices">Maidzly Services</Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/moveinoutcleaning">
+              <Link href="/services/deepcleaningservices">Deep Cleaning</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/moveinoutcleaningservices">
                 Move-in/Move-Out Cleaning
               </Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">
+              <Link href="/services/postconstructionrenovationservices">
                 Post Construction & Home Renovation Cleaning
               </Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">Organizing & Decluttering</Link>
+              <Link href="/services/organizingdeclutteringservices">
+                Organizing & Decluttering
+              </Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">Appliance Cleaning</Link>
+              <Link href="/services/appliancecleaningservices">
+                Appliance Cleaning
+              </Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">Laundry</Link>
+              <Link href="/services/laundrycleaning">Laundry</Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">Ironing</Link>
+              <Link href="/services/ironingservices">Ironing</Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">Residential House Cleaning</Link>
+              <Link href="/services/residentialhousecleaningservices">
+                Residential House Cleaning
+              </Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">Condo & Apartment Cleaning</Link>
+              <Link href="/services/apartmentcleaningservices">
+                Condo & Apartment Cleaning
+              </Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">Short Term Rental & Airbnb</Link>
+              <Link href="/services/airbnbcleaningservices">
+                Short Term Rental & Airbnb
+              </Link>
             </li>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/services/deep">Office & Commercial Cleaning</Link>
+              <Link href="/services/commercialcleaningservices">
+                Office & Commercial Cleaning
+              </Link>
             </li>
           </div>
           {/* )} */}

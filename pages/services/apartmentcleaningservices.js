@@ -1,7 +1,7 @@
-import ApplianceCleaningServices from "../../components/Services/ApplianceCleaningServices";
+import ApartmentCleaningServices from "../../components/Services/ApartmentCleaningServices";
 
 function apartmentcleaningservices() {
-  return <ApplianceCleaningServices />;
+  return <ApartmentCleaningServices />;
 }
 
 export default apartmentcleaningservices;

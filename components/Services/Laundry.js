@@ -12,54 +12,56 @@ import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 function ApplianceCleaningServices() {
-  const bg_url = "/assets/Appliance.png";
+  const bg_url = "/assets/LaundryServices_Banner.png";
   return (
     <>
       <MobileTopBar />
       <Header position={"relative"} logo={logo2} />
       <Banner
-        buttonText="Book An Appliance Cleaning"
+        buttonText="Book A Laundry Service"
         bgURL={bg_url}
         // customHeight="440px"
         // custom="text-[20px] w-[220px]"
-        P1="Appliance Cleaning Services with confidence by booking a Maidzly‘s Cleaner today!"
+        P1="Laundry Services with confidence by booking a Maidzly‘s Cleaner today!"
         P2="Book A Cleaner In Your Neighbourhood!"
       />
       <div className="mx-4">
-        <ServicesHeading headingText="Appliance Cleaning Services" />
+        <ServicesHeading headingText="Laundry Services" />
         <div className="flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            A Sparkling Clean Kitchen Awaits With Maidzly's Appliance Cleaning
-            Service
+            Turning Your Washing Time into Relaxing Time with Maidzly's Laundry
+            Services!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Let us take care of the hard work for you and make your life easier
-            with our top-notch appliance cleaning service.
+            Invest in Cleanliness - Enjoy Convenient and Professional Laundry
+            Services from Maidzly!
           </h3>
         </div>
         <div>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
-            At Maidzly, we are committed to providing you with a comprehensive
-            cleaning experience. We offer more than just general housecleaning
-            services - our team of experienced cleaners can make sure that all
-            of your kitchen appliances receive the deep clean they deserve. Our
-            cleaners will thoroughly inspect and clean every nook and cranny of
-            your fridge, oven, and more.
+            Maidzly Cleaning Services have been providing professional and
+            reliable cleaning services to thousands of customers. With the
+            introduction of our laundry services, we are taking it one step
+            further by turning mundane chore of washing clothes into an
+            enjoyable experience!
           </p>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
-            We understand the importance of trust when it comes to hiring
-            someone to clean your home, which is why all of our cleaners are
-            police-checked and vetted prior to being hired. This means that you
-            can rest assured that your appliances will be cleaned by
-            professionals who have been thoroughly screened. We try our best to
-            guarantee that each cleaner is reliable, and trustworthy, and will
-            provide an excellent service.
+            Maidzly Cleaning Services offer an all-inclusive laundry service
+            which includes washing your laundry and folding. This means that our
+            services not only save you valuable time but also guarantee
+            satisfaction with quality assurance.
+          </p>
+          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+            In addition to having experienced and professional cleaners, Maidzly
+            Cleaning Services also ensure the safety of their customers with the
+            policed-checked and vetted cleaners who are used in all cleaning
+            services.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your appliance cleaning needs." />
-        <ServicesSubHeading headingText="Check out what we clean for an Appliance Cleaning Services" />
+        <SubText text="We match you with awesome independent cleaners in your local area to help you with your organization & decluttering cleaning needs." />
+        <ServicesSubHeading headingText="Check out what we clean for a Laundry Services" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
