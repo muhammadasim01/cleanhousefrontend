@@ -6,6 +6,7 @@ import { BiSearch } from "react-icons/bi";
 import Link from "next/link";
 
 function MobileMenu({ logo }) {
+  const [dropDownOpen, setDropDownOpen] = useState(false);
   return (
     <div className="text-center flex flex-col sm:hidden bg-darkColor bg-opacity-80 absolute w-[100%] z-40">
       <form className="flex items-center justify-center w-full pl-7 mt-3 sm:w-[600px]">
@@ -24,9 +25,59 @@ function MobileMenu({ logo }) {
             <Link href="/">Search Cleaners</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
-          <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+          <li
+            className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3"
+            onClick={() => setDropDownOpen(!dropDownOpen)}
+          >
             <Link href="/">Our Services</Link>
           </li>
+          {/* {dropDownOpen && ( */}
+          <div
+            className="text-lightColor flex flex-col  w-[93%] ml-auto"
+            style={{
+              display: dropDownOpen ? "block" : "none",
+              transition: "all 1s linear 1s",
+            }}
+          >
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deepcleaning">Deep Cleaning</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/moveinoutcleaning">
+                Move-in/Move-Out Cleaning
+              </Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">
+                Post Construction & Home Renovation Cleaning
+              </Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">Organizing & Decluttering</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">Appliance Cleaning</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">Laundry</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">Ironing</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">Residential House Cleaning</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">Condo & Apartment Cleaning</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">Short Term Rental & Airbnb</Link>
+            </li>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/services/deep">Office & Commercial Cleaning</Link>
+            </li>
+          </div>
+          {/* )} */}
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
             <Link href="/">Register As A Cleaner</Link>
