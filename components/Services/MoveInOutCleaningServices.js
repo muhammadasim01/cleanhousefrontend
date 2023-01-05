@@ -29,8 +29,8 @@ function MoveInOutCleaningServices() {
         <ServicesHeading headingText="Move-In /Move-Out Cleaning Services" />
         <div className="flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Don't just move in-out, make sure it's a Maidzly clean with our
-            professional, reliable, and hassle-free cleaning services!
+            Don&apos;t just move in-out, make sure it&apos;s a Maidzly clean
+            with our professional, reliable, and hassle-free cleaning services!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
@@ -42,11 +42,11 @@ function MoveInOutCleaningServices() {
         <div>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
             Moving can be an exhausting and time-consuming process, not to
-            mention stressful. That's why you should leave the dirty work to us!
-            Maidzly Cleaning Services specializes in move-in/move-out cleaning
-            services too. We have all the necessary solutions to make sure your
-            new home is sparkling clean. All of our cleaners are vetted,
-            police-checked, for your peace of mind.
+            mention stressful. That&apos;s why you should leave the dirty work
+            to us! Maidzly Cleaning Services specializes in move-in/move-out
+            cleaning services too. We have all the necessary solutions to make
+            sure your new home is sparkling clean. All of our cleaners are
+            vetted, police-checked, for your peace of mind.
           </p>
           <div className="flex items-center justify-center my-5">
             <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">

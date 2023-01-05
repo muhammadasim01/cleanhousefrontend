@@ -29,8 +29,8 @@ function ApplianceCleaningServices() {
         <ServicesHeading headingText="Laundry Services" />
         <div className="flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Turning Your Washing Time into Relaxing Time with Maidzly's Laundry
-            Services!
+            Turning Your Washing Time into Relaxing Time with Maidzly&apos;s
+            Laundry Services!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">

@@ -28,15 +28,15 @@ function DeepCleaningServices() {
         <ServicesHeading headingText="Deep Cleaning Services" />
         <div className="flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Need a deep clean? Make sure it's Maidzly clean with our affordable,
-            hassle-free cleaning services!
+            Need a deep clean? Make sure it&apos;s Maidzly clean with our
+            affordable, hassle-free cleaning services!
           </h3>
         </div>
         <div>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
-            Maidzly's deep cleaning service is your go-to choice if you want to
-            give yourself a break from the tedious and time-consuming task of
-            deep cleaning your living space. With our database of local
+            Maidzly&apos;s deep cleaning service is your go-to choice if you
+            want to give yourself a break from the tedious and time-consuming
+            task of deep cleaning your living space. With our database of local
             cleaners, you can rest assured that we will make sure your home is
             cleaned thoroughly and safely. Not only that, all of our cleaners
             are experienced delivering top-tier cleaning results.
@@ -46,7 +46,7 @@ function DeepCleaningServices() {
             Maidzly’s deep cleaning service!
           </p>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4 mx-2">
-            What's more, Maidzly provides the peace of mind that comes with
+            What&apos;s more, Maidzly provides the peace of mind that comes with
             knowing your home is being attended to by trustworthy individuals
             who have been police-checked and individually vetted before they
             become part of our team. We ensure that all of our cleaners are

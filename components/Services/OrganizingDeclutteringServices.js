@@ -30,8 +30,8 @@ function OrganizingDeclutteringServices() {
         <ServicesHeading headingText="Organizing & Decluttering Services" />
         <div className="flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Create More Space and Time with Maidzly's Professional Organizing &
-            Decluttering Services
+            Create More Space and Time with Maidzly&apos;s Professional
+            Organizing & Decluttering Services
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">

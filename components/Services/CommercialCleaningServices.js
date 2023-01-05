@@ -55,8 +55,8 @@ function CommercialCleaningServices() {
           </p>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
             We understand that security is a major concern for any business.
-            That's why all our cleaners have been police-checked and thoroughly
-            vetted by us to ensure they are reliable, trustworthy and
+            That&apos;s why all our cleaners have been police-checked and
+            thoroughly vetted by us to ensure they are reliable, trustworthy and
             professional.
           </p>
         </div>

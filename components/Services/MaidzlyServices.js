@@ -28,22 +28,22 @@ function MaidzlyServices() {
         <ServicesHeading headingText="Regular Cleaning Services" />
         <div className="flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Get that sparkle back into your home with Maidzly's professional
-            touch!
+            Get that sparkle back into your home with Maidzly&apos;s
+            professional touch!
           </h3>
         </div>
         <div>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
-            Say goodbye to messes and dirt - let Maidzly's regular cleaning
+            Say goodbye to messes and dirt - let Maidzly&apos;s regular cleaning
             services handle it!
           </p>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4 mx-2">
             Our regular cleaning services are designed to keep your home looking
             fresh and inviting. From vacuuming, dusting and mopping floors to
             scrubbing kitchen and bathroom surfaces, our independent cleaners
-            can handle all of your regular cleaning needs whether it's a one
-            time clean or on a regular schedule. All of our local cleaners are
-            police-checked and vetted for your peace of mind.
+            can handle all of your regular cleaning needs whether it&apos;s a
+            one time clean or on a regular schedule. All of our local cleaners
+            are police-checked and vetted for your peace of mind.
           </p>
         </div>
         <SubText text="We match you with awesome independent cleaners in your local area to help you with your Regular Cleaning needs." />

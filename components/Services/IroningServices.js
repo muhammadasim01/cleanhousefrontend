@@ -29,7 +29,8 @@ function IroningServices() {
         <ServicesHeading headingText="Ironing Services" />
         <div className="flex items-center justify-center">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Put An End To Wrinkles and Hassles With Maidzly's Ironing Services!
+            Put An End To Wrinkles and Hassles With Maidzly&apos;s Ironing
+            Services!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
@@ -40,7 +41,7 @@ function IroningServices() {
         </div>
         <div>
           <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
-            Are you tired of spending your weekend's ironing, only to have
+            Are you tired of spending your weekend&apos;s ironing, only to have
             wrinkled clothes that don’t look their best? Maidzly Cleaning
             Services can help! Our team of experienced cleaners provides
             reliable and high-quality ironing services at an affordable price.

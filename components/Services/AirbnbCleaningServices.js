@@ -35,8 +35,8 @@ function AirbnbCleaningServices() {
         </div>
         <div className="flex items-center justify-center my-5">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Don't Waste Time Cleaning - Use Maidzly Short-Term Rental & Airbnb
-            Cleaning Services!
+            Don&apos;t Waste Time Cleaning - Use Maidzly Short-Term Rental &
+            Airbnb Cleaning Services!
           </h3>
         </div>
         <div>

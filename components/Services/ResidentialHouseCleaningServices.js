@@ -35,7 +35,7 @@ function ResidentialHouseCleaningServices() {
         </div>
         <div className="flex items-center justify-center my-5">
           <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
-            Don't Put it Off Any Longer - Get Residential House Cleaning
+            Don&apos;t Put it Off Any Longer - Get Residential House Cleaning
             Services from Maidzly!
           </h3>
         </div>
