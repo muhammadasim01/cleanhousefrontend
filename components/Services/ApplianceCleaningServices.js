@@ -12,7 +12,7 @@ import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 function ApplianceCleaningServices() {
-  const bg_url = "assets/LaundryServices_Banner.png";
+  const bg_url = "/assets/LaundryServices_Banner.png";
   return (
     <>
       <MobileTopBar />

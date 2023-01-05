@@ -1,11 +1,3 @@
-import Image from "next/image";
-import logo from "../public/assets/logo-2.png";
-import twitter from "../public/assets/twitter.png";
-import linkedin from "../public/assets/linkedin.png";
-import instagram from "../public/assets/instagram.png";
-import mastercard from "../public/assets/mastercard.png";
-import visacard from "../public/assets/visacard.png";
-import americancard from "../public/assets/americancard.png";
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -155,13 +147,13 @@ const Footer = () => {
                 </p>
                 <div className="pt-2 flex justify-between sm:pt-1">
                   <Link href="/">
-                    <img src="assets/linkedin.png" alt="" />
+                    <img src="/assets/linkedin.png" alt="" />
                   </Link>
                   <Link href="/">
-                    <img src="assets/instagram.png" alt="" />
+                    <img src="/assets/instagram.png" alt="" />
                   </Link>
                   <Link href="/">
-                    <img src="assets/twitter.png" alt="" />
+                    <img src="/assets/twitter.png" alt="" />
                   </Link>
                 </div>
               </div>

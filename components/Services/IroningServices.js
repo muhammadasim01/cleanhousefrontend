@@ -12,7 +12,7 @@ import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 function IroningServices() {
-  const bg_url = "assets/IroningServices_Banner.png";
+  const bg_url = "/assets/IroningServices_Banner.png";
   return (
     <>
       <MobileTopBar />

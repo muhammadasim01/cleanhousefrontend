@@ -13,7 +13,7 @@ import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 
 function OrganizingDeclutteringServices() {
-  const bg_url = "assets/OrganizingDeclutteringServices_Banner.png";
+  const bg_url = "/assets/OrganizingDeclutteringServices_Banner.png";
   return (
     <>
       <MobileTopBar />

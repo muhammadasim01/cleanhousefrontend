@@ -12,7 +12,7 @@ import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 import Footer from "../Footer";
 function CommercialCleaningServices() {
-  const bg_url = "assets/CommercialCleaningServices_Banner.png";
+  const bg_url = "/assets/CommercialCleaningServices_Banner.png";
   return (
     <>
       <MobileTopBar />

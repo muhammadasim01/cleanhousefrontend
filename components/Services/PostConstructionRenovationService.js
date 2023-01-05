@@ -13,7 +13,7 @@ import CitiesList from "./CitiesList";
 import Footer from "../Footer";
 
 function PostConstructionRenovationService() {
-  const bg_url = "assets/PostConstructionRenovation_Banner.png";
+  const bg_url = "/assets/PostConstructionRenovation_Banner.png";
   return (
     <>
       <MobileTopBar />
