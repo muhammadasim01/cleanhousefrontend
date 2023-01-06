@@ -25,13 +25,16 @@ function MobileMenu({ logo }) {
             <Link href="/">Search Cleaners</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
+          <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <Link href="/">Register As A Cleaner</Link>
+          </li>
+          <p className="border-b-2 border-lightColor mx-5"></p>
           <li
             className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3"
             onClick={() => setDropDownOpen(!dropDownOpen)}
           >
             <p>Our Services</p>
           </li>
-          {/* {dropDownOpen && ( */}
           <div
             className="text-lightColor flex flex-col  w-[93%] ml-auto"
             style={{
@@ -42,72 +45,80 @@ function MobileMenu({ logo }) {
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/maidzlyservices">Maidzly Services</Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
+
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/deepcleaningservices">Deep Cleaning</Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/moveinoutcleaningservices">
                 Move-in/Move-Out Cleaning
               </Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/postconstructionrenovationservices">
                 Post Construction & Home Renovation Cleaning
               </Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/organizingdeclutteringservices">
                 Organizing & Decluttering
               </Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/appliancecleaningservices">
                 Appliance Cleaning
               </Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/laundrycleaning">Laundry</Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/ironingservices">Ironing</Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/residentialhousecleaningservices">
                 Residential House Cleaning
               </Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/apartmentcleaningservices">
                 Condo & Apartment Cleaning
               </Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/airbnbcleaningservices">
                 Short Term Rental & Airbnb
               </Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
               <Link href="/services/commercialcleaningservices">
                 Office & Commercial Cleaning
               </Link>
             </li>
           </div>
-          {/* )} */}
+
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            <Link href="/">Register As A Cleaner</Link>
+            <Link href="/auth">Sign Up</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            <Link href="/">Sign Up</Link>
+            <Link href="/auth">Sign In</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            <Link href="/">Sign In</Link>
-          </li>
-          <p className="border-b-2 border-lightColor mx-5"></p>
-          <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-            <Link href="/">Book A Cleaning</Link>
+            <Link href="/bookacleaner">Book A Cleaning</Link>
           </li>
           <p className="border-b-2 border-lightColor mx-5"></p>
           <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
