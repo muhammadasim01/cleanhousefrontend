@@ -18,6 +18,7 @@ function ServiceSection() {
         <ServiceCard
           Count="1"
           Title="Find a Cleaner"
+          background="bg-[url('../public/assets/Card_bg_1.png')]"
           Description="Just enter your postcode/zip code on our website or click on the Find A Cleaner below. 
           The system will automatically pair you with the best local cleaner based on your location and needs. 
           You can also check out reviews and ratings to find the perfect match. "
@@ -25,6 +26,7 @@ function ServiceSection() {
         <ServiceCard
           Count="2"
           Title="You're in control"
+          background="bg-[url('../public/assets/Card_bg_2.png')]"
           Description="Want to customize your cleaning or schedule it for a specific day and time? No problem! 
           You're in full control of when and how often you want your home cleaned.
            Simply log into your account to make any changes."
@@ -32,6 +34,7 @@ function ServiceSection() {
         <ServiceCard
           Count="3"
           Title="Get a secure transaction"
+          background="bg-[url('../public/assets/Card_bg_3.png')]"
           Description="We know that security is important to our customers. 
           That's why we offer secure online payments and the option to manage your booking via desktop or mobile app. 
           We will automatically bill your card when the cleaning is complete.
@@ -41,6 +44,7 @@ function ServiceSection() {
         <ServiceCard
           Count="4"
           Title="Relax and enjoy your clean home"
+          background="bg-[url('../public/assets/Card_bg_4.png')]"
           Description="After a long day, it's so nice to come
            home to a clean house! And with our hassle-free service, you
             can relax and enjoy your clean home worry-free. We're always striving for excellence,
