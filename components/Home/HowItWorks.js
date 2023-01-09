@@ -1,9 +1,6 @@
 import ServiceCard from "./ServiceCard";
 import { FaExclamation } from "react-icons/fa";
 import { BsQuestionLg } from "react-icons/bs";
-import logo from "../../public/assets/L1.png";
-
-import Image from "next/image";
 function ServiceSection() {
   return (
     <div className="bg-lightShade  text-left px-5 py-10 sm:flex sm:items-center sm:justify-center sm:flex-col relative">
@@ -21,23 +18,25 @@ function ServiceSection() {
         <ServiceCard
           Count="1"
           Title="Find a Cleaner"
-          Description="Just enter your postcode/zip code on our website or click on the Find A Cleaner below.
-          The system will automatically pair you with the best local cleaner based on your location and needs.
+          background="bg-[url('../public/assets/Card_bg_1.png')]"
+          Description="Just enter your postcode/zip code on our website or click on the Find A Cleaner below. 
+          The system will automatically pair you with the best local cleaner based on your location and needs. 
           You can also check out reviews and ratings to find the perfect match. "
-          background="bg-[url('../public/assets/subtract-1.png')]"
         />
         <ServiceCard
           Count="2"
           Title="You're in control"
-          Description="Want to customize your cleaning or schedule it for a specific day and time? No problem!
+          background="bg-[url('../public/assets/Card_bg_2.png')]"
+          Description="Want to customize your cleaning or schedule it for a specific day and time? No problem! 
           You're in full control of when and how often you want your home cleaned.
            Simply log into your account to make any changes."
         />
         <ServiceCard
           Count="3"
           Title="Get a secure transaction"
-          Description="We know that security is important to our customers.
-          That's why we offer secure online payments and the option to manage your booking via desktop or mobile app.
+          background="bg-[url('../public/assets/Card_bg_3.png')]"
+          Description="We know that security is important to our customers. 
+          That's why we offer secure online payments and the option to manage your booking via desktop or mobile app. 
           We will automatically bill your card when the cleaning is complete.
           You can also track to see when your cleaner is on route via the mobile app!
           If you enjoyed the work of your cleaner, you have the option to rebook the same cleaner for your next clean depending on availability. "
@@ -45,6 +44,7 @@ function ServiceSection() {
         <ServiceCard
           Count="4"
           Title="Relax and enjoy your clean home"
+          background="bg-[url('../public/assets/Card_bg_4.png')]"
           Description="After a long day, it's so nice to come
            home to a clean house! And with our hassle-free service, you
             can relax and enjoy your clean home worry-free. We're always striving for excellence,
