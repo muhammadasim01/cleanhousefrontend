@@ -6,7 +6,7 @@ import logo2 from "../public/assets/logo-2.png";
 import mobileLogo from "../public/assets/logo-mobile.png";
 import Button from "./Home/Button";
 import { useState } from "react";
-import { HiMenu } from "react-icons/hi";
+import { VscMenu } from "react-icons/vsc";
 import { MdClose } from "react-icons/md";
 import { AiOutlineClose } from "react-icons/ai";
 import MobileMenu from "./MobileMenu";
@@ -26,7 +26,7 @@ const Header = ({ bgColor, position, logo }) => {
           {navbarOpen ? (
             <MdClose className="h-7 w-10 sm:hidden z-50 text-primaryColor " />
           ) : (
-            <HiMenu className="h-7 w-10 sm:hidden text-primaryColor " />
+            <VscMenu className="h-7 w-10 sm:hidden text-primaryColor " />
           )}
         </button>
         <div className="hidden sm:block px-5 h-auto w-[100%] lg:w-[85%] sm:w-[60rem] lg-[70%] sm:text-xs text-lightColor sm:py-2">

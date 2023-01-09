@@ -24,8 +24,8 @@ const Banner = () => {
               <AiTwotoneStar className="text-[#FFCE31] h-5 w-5" />
               <AiTwotoneStar className="text-[#FFCE31] h-5 w-5" />
             </span>
-            <h1 className="font-heading text-lightColor text-3xl font-bold px-7">
-              Book a local cleaner in your area
+            <h1 className="font-heading text-lightColor text-4xl font-bold px-7">
+              Book a local cleaner in your area <span />
               <span className="font-subHeading text-lg font-light">
                 Canada & USA
               </span>
@@ -45,21 +45,21 @@ const Banner = () => {
                 cleaner is on route.
               </span>
             </p>
-            <form className="flex items-center justify-center w-full pl-7 sm:w-[600px]">
+            <form className="flex relative items-center justify-center w-full pl-7 sm:w-[600px]">
               <input
                 type="number"
-                placeholder="Enter your post / zip-code"
-                className="h-10 w-full my-4 rounded-md"
+                placeholder="Enter your postcode/zip code"
+                className="h-14 w-full my-4 rounded-md"
                 value={inputVal}
                 onChange={(e) => setInputVal(e.target.value)}
               />
               <button
                 onClick={submitHandler}
-                className="p-1 sm:w-40 bg-primaryColor right-10 relative 
-              sm:right-32 flex sm:bg-secondaryColor text-lightColor 
-              rounded-md"
+                className="p-1 w-12 h-11 bg-primaryColor  
+              flex  text-lightColor relative right-12
+              rounded-md justify-center items-center sm:w-[13rem] sm:right-[10rem]"
               >
-                <BiSearch className="h-6 w-6 text-lightColor " />
+                <BiSearch className="h-6 w-6 text-lightColor font-bold" />
                 <span className="hidden sm:flex">Search Now</span>
               </button>
             </form>
