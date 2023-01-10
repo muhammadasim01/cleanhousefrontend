@@ -2,7 +2,7 @@ import Image from "next/image";
 import Banner from "../../public/assets/Banner-2.png";
 function SecondBanner() {
   return (
-    <div className="py-10">
+    <div className="py-10 ">
       <div className="text-center p-5">
         <h2 className="text-black text-4xl font-bold">
           House Cleaning Services that Save You Time and Money!

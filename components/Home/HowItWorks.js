@@ -8,16 +8,16 @@ function ServiceSection() {
         <FaExclamation className="text-lightColor text-7xl sm:text-9xl" />
         <BsQuestionLg className="text-lightColor text-7xl sm:text-9xl" />
       </div>
-      <h2 className="font-heading text-[44px] font-bold text-darkColor leading-10 lg:text-3xl xl:text-4xl">
-        How it works
+      <h2 className="font-heading text-[38px] font-bold text-darkColor leading-10 lg:text-3xl xl:text-4xl">
+        Here is how the cleaning works
       </h2>
-      <p className="py-2 px-1 text-md font-text font-semibold">
-        Here is how the cleaning process work:
+      <p className="py-2 px-1 text-md font-text ">
+        Here is how the cleaning process works:
       </p>
       <div className="md:flex md:flex-row md:justify-center md:w-full md:flex-wrap">
         <ServiceCard
           Count="1"
-          Title="Find a Cleaner"
+          Title="Find a cleaner"
           background="bg-[url('../public/assets/Card_bg_1.png')]"
           Description="Just enter your postcode/zip code on our website or click on the Find A Cleaner below. 
           The system will automatically pair you with the best local cleaner based on your location and needs. 
