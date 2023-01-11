@@ -8,7 +8,7 @@ function SecondBanner() {
           House Cleaning Services That Save You Time And Money!
         </h2>
         <p className="font-text text-center text-xl font-normal leading-6 mt-5 lg:px-20">
-          At Maidzly, we understand that your time is valuable.That's why we
+          At Maidzly, we understand that your time is valuable.That&#39;s why we
           offer house cleaning services that is convenient and affordable. We
           specialize in providing independent local house cleaners to busy
           families and individuals who don&#39;t have the time or energy to
