@@ -1,8 +1,8 @@
-import RectCardImage1 from "../../public/assets/rectangleCard-1.png";
-import RectCardImage2 from "../../public/assets/rectangleCard-2.png";
-import RectCardImage3 from "../../public/assets/rectangleCard-3.png";
-import RectCardImage4 from "../../public/assets/rectangleCard-4.png";
-import RectCardImage5 from "../../public/assets/rectangleCard-5.png";
+import RectCardImage1 from "../../public/assets/Trusted_Cleaners_1.png";
+import RectCardImage2 from "../../public/assets/Trusted_Cleaners_2.png";
+import RectCardImage3 from "../../public/assets/Trusted_Cleaners_3.png";
+import RectCardImage4 from "../../public/assets/Trusted_Cleaners_4.png";
+import RectCardImage5 from "../../public/assets/Trusted_Cleaners_5.png";
 import RectangularCard from "./RectangularCard";
 function ServiceSection() {
   return (
@@ -10,7 +10,7 @@ function ServiceSection() {
       <h2 className="font-suBheading text-4xl font-bold">
         Experienced & Trusted Cleaners
       </h2>
-      <p className="font-text py-2 px-1 text-md font-semibold">
+      <p className="font-text py-2 px-1 text-[22px] text-md font-normal">
         Our cleaners are experienced and trusted by clients
       </p>
       <div className="flex justify-center flex-wrap">
@@ -36,7 +36,7 @@ function ServiceSection() {
           Description="We strive to provide the best possible service and quality. 
           This is why we regularly collect reviews and feedback from our customers.
           All of our house cleaners are rated so you can choose which cleaner you want to book 
-          based on reviews and location and a detailed description of the cleaner. 
+          based on reviews, location and a detailed description of the cleaner. 
           "
           imageSrc={RectCardImage3}
         />
@@ -47,13 +47,6 @@ function ServiceSection() {
            lot of time travelling to get to your location.  
           "
           imageSrc={RectCardImage4}
-        />
-        <RectangularCard
-          Title="Backed by our company insurance"
-          Description="You can feel assured when you book  through us, 
-          your cleaning is covered by our 2 million dollar liability insurance.  
-          "
-          imageSrc={RectCardImage5}
         />
       </div>
     </div>

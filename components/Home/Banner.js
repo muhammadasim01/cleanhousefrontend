@@ -14,7 +14,7 @@ const Banner = () => {
   };
   return (
     <>
-      <div className="bg-[url('../public/assets/Mobile-Banner.png')] bg-top sm:bg-center bg-no-repeat h-[616px] w-[100%] bg-cover  sm:h-[780px]  md:h-[700px] md:bg-center lg:bg-cover xl:bg:contain 2xl:bg:contain xl-h-[500px] 2xl:h-[800px]">
+      <div className="bg-[url('../public/assets/Mobile-Banner.png')] bg-top sm:bg-center bg-no-repeat h-[700px] w-[100%] bg-cover  sm:h-[780px]  md:h-[700px] md:bg-center lg:bg-cover xl:bg:contain 2xl:bg:contain xl-h-[500px] 2xl:h-[800px]">
         <div className="flex flex-row items-center justify-center pt-[9rem] md:pt-[15rem] lg:pt-[10rem] xl:pt-[7rem]">
           <div className="flex flex-col">
             <span className="flex self-start px-7 pb-5">
@@ -48,7 +48,7 @@ const Banner = () => {
             <form className="flex items-center justify-center w-full pl-7 sm:w-[600px]">
               <input
                 type="number"
-                placeholder="Enter your post / zip-code"
+                placeholder="Enter your post code/zip code"
                 className="h-10 w-full my-4 rounded-md"
                 value={inputVal}
                 onChange={(e) => setInputVal(e.target.value)}

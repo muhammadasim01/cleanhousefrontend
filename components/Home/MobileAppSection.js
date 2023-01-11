@@ -22,9 +22,9 @@ function MobileAppSection() {
           <button className="text-center mt-2 font-text text-sm font-bold text-secondaryColor bg-lightColor py-1 px-4 rounded-md border-2 border-secondaryColor">
             Download App
           </button>
-          <div className="mt-5 flex justify-between w-44">
-            <img src="assets/playStore-icon.png" alt="" />
-            <img src="assets/appStore-icon.png" alt="" />
+          <div className="mt-5 w-[320px] flex justify-between">
+            <img src="assets/appStore-icon.png" alt="" width={150} />
+            <img src="assets/playStore-icon.png" alt="" width={150} />
           </div>
         </div>
       </div>

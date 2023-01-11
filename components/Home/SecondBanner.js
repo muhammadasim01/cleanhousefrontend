@@ -5,13 +5,13 @@ function SecondBanner() {
     <div className="py-10">
       <div className="text-center p-5">
         <h2 className="text-black text-4xl font-bold">
-          House Cleaning Services that Save You Time and Money!
+          House Cleaning Services That Save You Time And Money!
         </h2>
         <p className="font-text text-center text-xl font-normal leading-6 mt-5 lg:px-20">
-          At Maidzly, we understand that your time is valuable. That&#39;s why
-          we offer a house cleaning service that is convenient, reliable, and
-          affordable. We specialize in providing top-quality house cleaners to
-          busy families and individuals who don&#39;t have the time or energy to
+          At Maidzly, we understand that your time is valuable.That's why we
+          offer house cleaning services that is convenient and affordable. We
+          specialize in providing independent local house cleaners to busy
+          families and individuals who don&#39;t have the time or energy to
           clean their homes themselves.
         </p>
       </div>
