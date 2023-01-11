@@ -19,6 +19,7 @@ function ServiceSection() {
           Count="1"
           Title="Find a cleaner"
           background="bg-[url('../public/assets/Card_bg_1.png')]"
+          buttonText="Find Your Cleaner"
           Description="Just enter your postcode/zip code on our website or click on the Find A Cleaner below. 
           The system will automatically pair you with the best local cleaner based on your location and needs. 
           You can also check out reviews and ratings to find the perfect match. "
