@@ -19,9 +19,9 @@ function CustomerSupport() {
           </button>
         </div>
         <p className="pt-4 md:pt-2 font-text text-lg font-normal  text-center leading-6  text-darkColor sm:text-center sm:leading-4 md:px-10 lg:text-base">
-          In order to further facilitate communication, the company has made it
-          possible to contact your cleaner directly through your online account.
-          You can contact your cleaner via text, our phone portal or video.
+          In order to further facilitate communication, you can contact your
+          cleaner directly through your online account. You can contact your
+          cleaner via text, our phone portal or video.
         </p>
         <div className="text-center p-5">
           <button className="text-center mt-2 font-text text-sm font-bold text-secondaryColor bg-lightColor py-1 px-4 rounded-md border-2 border-secondaryColor">
