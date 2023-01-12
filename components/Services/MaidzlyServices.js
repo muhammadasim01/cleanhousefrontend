@@ -11,6 +11,8 @@ import MobileTopBar from "../MobileTopBar";
 import MobileContainer from "./MobileContainer";
 import CitiesList from "./CitiesList";
 import Footer from "../Footer";
+import DeepCleaningServices from "./DeepCleaningServices";
+
 function MaidzlyServices() {
   const bg_url = "/assets/Maidzly_Services_Banner.png";
   return (
@@ -153,6 +155,89 @@ function MaidzlyServices() {
             </p>
           </div>
         </div>
+      </div>
+      <Banner
+        buttonText="Book A Deep Cleaning"
+        bgURL={bg_url}
+        P1="Deep Cleaning Services with confidence by booking a Maidzly‘s Cleaner today!"
+        P2="Book A Cleaner In Your Neighbourhood!"
+      />
+      <div className="mx-4">
+        <ServicesHeading headingText="Deep Cleaning Services" />
+        <div className="flex items-center justify-center">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+            Need a deep clean? Make sure it&apos;s Maidzly clean with our
+            affordable, hassle-free cleaning services!
+          </h3>
+        </div>
+        <div>
+          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+            Maidzly&apos;s deep cleaning service is your go-to choice if you
+            want to give yourself a break from the tedious and time-consuming
+            task of deep cleaning your living space. With our database of local
+            cleaners, you can rest assured that we will make sure your home is
+            cleaned thoroughly and safely. Not only that, all of our cleaners
+            are experienced delivering top-tier cleaning results.
+          </p>
+          <p className="font-subHeading text-[22px] font-bold leading-6 text-darkColor text-center ">
+            Rejuvenate your living space and make it look brand new with
+            Maidzly’s deep cleaning service!
+          </p>
+          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4 mx-2">
+            What&apos;s more, Maidzly provides the peace of mind that comes with
+            knowing your home is being attended to by trustworthy individuals
+            who have been police-checked and individually vetted before they
+            become part of our team. We ensure that all of our cleaners are
+            reliable and trustworthy, so you can trust your cleaner to get the
+            job done right.
+          </p>
+        </div>
+        <SubText
+          text="We match you with awesome independent cleaners in your local area 
+        to help you with your deep cleaning needs."
+        />
+        <ServicesSubHeading headingText="Check out what we clean for a Deep Cleaning Service" />
+      </div>
+      <Banner
+        buttonText="Book A Move In/Out Cleaning"
+        bgURL={bg_url}
+        custom="w-[250px]"
+        customHeight="370px"
+        P1="Move-In/Move-Out Cleaning Services with confidence by booking a Maidzly‘s Cleaner today!"
+        P2="Book A Cleaner In Your Neighbourhood!"
+      />
+      <div className="mx-4">
+        <ServicesHeading headingText="Move-In /Move-Out Cleaning Services" />
+        <div className="flex items-center justify-center">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+            Don&apos;t just move in-out, make sure it&apos;s a Maidzly clean
+            with our professional, reliable, and hassle-free cleaning services!
+          </h3>
+        </div>
+        <div className="flex items-center justify-center my-5">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+            Move In or Move Out with confidence. Leave the hard cleaning work
+            for us!
+          </h3>
+        </div>
+        <div>
+          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+            Moving can be an exhausting and time-consuming process, not to
+            mention stressful. That&apos;s why you should leave the dirty work
+            to us! Maidzly Cleaning Services specializes in move-in/move-out
+            cleaning services too. We have all the necessary solutions to make
+            sure your new home is sparkling clean. All of our cleaners are
+            vetted, police-checked, for your peace of mind.
+          </p>
+          <div className="flex items-center justify-center my-5">
+            <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+              Maidzly Cleaners will leave your home pristine so you can spend
+              more of your valuable time on the things that matter
+            </h3>
+          </div>
+        </div>
+        <SubText text="We match you with awesome independent cleaners in your local area to help you with your Move-In/Move-Out cleaning needs." />
+        <ServicesSubHeading headingText="Check out what we clean for a Move-In Move-Out Cleaning Service" />
       </div>
       <Footer />
     </>
