@@ -43,8 +43,7 @@ function ServiceSection() {
         <RectangularCard
           Title="Matching technology cleaning services"
           Description="This era is all about technology. Therefore, we use the latest matching technology to connect
-           you with the best local cleaner. This way, you get a great clean, and the cleaner doesn't have to spend a 
-           lot of time travelling to get to your location.  
+           you with the best local cleaner. This way the cleaner doesn't have to spend a lot of time travelling to arrive at your location.  
           "
           imageSrc={RectCardImage4}
         />

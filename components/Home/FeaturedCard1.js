@@ -17,7 +17,7 @@ function FeaturedCard1() {
         <CheckList CheckText="No contracts" />
         <CheckList CheckText="Can choose the same cleaner depending on availability" />
         <CheckList CheckText="Quality, consistent, and reliable service" />
-        <CheckList CheckText="7 days a Week support" />
+        <CheckList CheckText="7 days a week support" />
       </div>
     </div>
   );

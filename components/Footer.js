@@ -97,6 +97,9 @@ const Footer = () => {
                 col2="Bracondale Hill, Brockton Village, Carleton Village, Corso Italia, Davenport, Dovercourt Park, Dufferine Grove, Earlscourt, Fort York, Junction Triangle, Koreatown, Little Portugal, Little Tibet, Mirvish Village, Niagara, Regal Heights, Runneymede, Seaton Village, Swansea, Trinity-Bellwoods, Wallace Emerson, East York, Broadview North, Crescent Town, East Danforth, Pape Village, Woodbine Heights, Bermondsey, Governor's Bridge, Leaside, O' Connor-Parkview, Thorncliffe Park, Amesbury, Armour Heights, Bathurst Manor, Bayview Village, Bayview Woods-Steeles, Black Creek, The Bridle Path, Clanton Park, Don Mills, Don Valley Village, Downsview, Flemington Park, Glen Park, Hillcrest Village, Hoggs Hollow, Humber Summit, Humbermede, Jane and Finch, Lansing, Lawrence Heights, Lawrence Manor, Ledbury Park, Maple Leaf, Newtonbrook, North York City Centre, Parkway Forest, Parkwoods, Pelmo Park-Humberlea, Pleasant View, Uptown Toronto, Victoria Village, Westminster–Branson, Willowdale, York Mills, York University Heights."
               />
             </div>
+            <p className="font-text text-[22px] font-normal">
+              Other provinces coming soon!
+            </p>
             <div className="flex flex-col">
               <h2 className="font-subHeading text-[26px] font-bold">USA</h2>
               <p className="font-text text-[22px] font-normal">Coming soon!</p>
@@ -181,7 +184,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex items-center justify-center font-text font-light sm:w-[50%] sm:text-right text-sm mt-3 text-lightColor">
-            copyright © 2023 Maidzly All rights Reserved.
+            Copyright © 2023 Maidzly All Rights Reserved.
           </div>
         </div>
       </footer>
