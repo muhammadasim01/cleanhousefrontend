@@ -20,18 +20,13 @@ const Header = ({ bgColor, position }) => {
       >
         <Link href="/">
           <>
-            <img
-              src="/assets/maidzly-logo.png"
+            <img src="assets/maidzly-logo.png" height={35} width={168} alt="" />
+            {/* <Image
+              src="assets/maidzly-logo.png"
               height={35}
               width={168}
               alt=""
-            />
-            <Image
-              src="/assets/maidzly-logo.png"
-              height={35}
-              width={168}
-              alt=""
-            />
+            /> */}
           </>
         </Link>
         <button
