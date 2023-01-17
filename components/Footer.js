@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex items-start flex-col sm:flex-row sm:items-center lg:w-full">
           <div className=" flex flex-col w-full  text-lightColor items-start sm:self-start lg:pr-10">
             <img src="/assets/logo-3.png" alt="" width={195} />
-            <p className="text-lightColor font-text text-[22px] font-normal leading-6 w-full text-sm 2xl:w-[18rem] mt-3">
+            <p className="text-lightColor font-text text-[22px] font-normal leading-[26px] w-full  2xl:w-[18rem] mt-3">
               Rated 5 star cleaners. Pay and book online. GPS tracking when your
               cleaner is on route.
             </p>
@@ -97,7 +97,7 @@ const Footer = () => {
                 col2="Bracondale Hill, Brockton Village, Carleton Village, Corso Italia, Davenport, Dovercourt Park, Dufferine Grove, Earlscourt, Fort York, Junction Triangle, Koreatown, Little Portugal, Little Tibet, Mirvish Village, Niagara, Regal Heights, Runneymede, Seaton Village, Swansea, Trinity-Bellwoods, Wallace Emerson, East York, Broadview North, Crescent Town, East Danforth, Pape Village, Woodbine Heights, Bermondsey, Governor's Bridge, Leaside, O' Connor-Parkview, Thorncliffe Park, Amesbury, Armour Heights, Bathurst Manor, Bayview Village, Bayview Woods-Steeles, Black Creek, The Bridle Path, Clanton Park, Don Mills, Don Valley Village, Downsview, Flemington Park, Glen Park, Hillcrest Village, Hoggs Hollow, Humber Summit, Humbermede, Jane and Finch, Lansing, Lawrence Heights, Lawrence Manor, Ledbury Park, Maple Leaf, Newtonbrook, North York City Centre, Parkway Forest, Parkwoods, Pelmo Park-Humberlea, Pleasant View, Uptown Toronto, Victoria Village, Westminster–Branson, Willowdale, York Mills, York University Heights."
               />
             </div>
-            <p className="font-text text-[22px] font-normal">
+            <p className="font-text text-[22px] font-normal mt-[-1rem] mb-3">
               Other provinces coming soon!
             </p>
             <div className="flex flex-col">

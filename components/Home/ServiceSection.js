@@ -7,7 +7,7 @@ import RectangularCard from "./RectangularCard";
 function ServiceSection() {
   return (
     <div className="bg-lightShade text-center py-10 sm:w-[full]">
-      <h2 className="font-suBheading text-4xl font-bold">
+      <h2 className="font-suBheading text-[44px] font-bold">
         Experienced & Trusted Cleaners
       </h2>
       <p className="font-text py-2 px-1 text-[22px] text-md font-normal">

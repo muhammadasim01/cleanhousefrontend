@@ -1,10 +1,10 @@
 import CheckList from "./CheckList";
 function FeaturedCard1() {
   return (
-    <div className="px-5 bg-lightColor mt-10 rounded-md shadow-[-10px_1px_20px_15px_rgba(0,0,0,0.1)]">
-      <h3 className="font-subHeading text-3xl font-bold py-5">Benefits</h3>
+    <div className="px-5 bg-lightColor mt-10 rounded-md shadow-[2px_6px_20px_-6px_rgba(0,0,0,0.5)]">
+      <h3 className="font-subHeading text-[40px] font-bold py-5">Benefits</h3>
       <div>
-        <img src="assets/Features-Card-Image1.png" alt="" />
+        <img src="assets/Features-Card-Image1.png" alt="" width={330} />
       </div>
       <div className="py-5">
         <CheckList CheckText="Online easy booking" />

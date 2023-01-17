@@ -10,11 +10,11 @@ function Subscription() {
   };
   return (
     <div className="flex flex-col items-center justify-center bg-darkColor p-5 py-10 relative">
-      <MdOutlineAlternateEmail className="text-accentColor opacity-40 text-8xl absolute top-0 right-0 md:right-10 xl:right-20" />
-      <h2 className="text-center text-lightColor text-3xl font-subHeading font-medium leading-10">
-        Subscribe to our newsletter{" "}
+      <MdOutlineAlternateEmail className="text-accentColor opacity-40 text-8xl absolute top-[-10px] right-[0px] md:right-10 xl:right-20" />
+      <h2 className="text-center text-lightColor text-[44px] font-subHeading font-medium leading-[120%]">
+        Subscribe to our newsletter
       </h2>
-      <p className="text-center font-text text-lg font-normal leading-7 py-3 px-3 md:w-[781px] text-lightColor">
+      <p className="text-center font-text text-[22px] font-normal leading-[140%] py-3 px-3 md:w-[781px] text-lightColor">
         Want to stay updated on Maidzly latest news, offers, and promotions?
         Subscribe to our newsletter! You can opt out of receiving future
         communications from us at any time by unsubscribing from promotional
@@ -29,10 +29,10 @@ function Subscription() {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="Enter Your email"
-          className="h-10 p-5 w-full my-4 rounded-md md:py-5 md:ml-20"
+          className="h-[35px] p-5 w-full my-4 rounded-md md:py-5 md:ml-20"
         />
         <PrimaryButton
-          customCode={"md:relative md:right-24 md:h-[34px] lg:right-28"}
+          customCode={"md:relative md:right-24 md:h-[34px] lg:right-28 "}
           action={subscriptionHandler}
           text="Subscribe"
           bgColor={"bg-secondaryColor"}

@@ -3,6 +3,7 @@ import Image from "next/image";
 import PrimaryButton from "./Home/PrimaryButton";
 import logo from "../public/assets/logo.png";
 import logo2 from "../public/assets/logo-2.png";
+import menu from "../public/assets/menu.png";
 import mobileLogo from "../public/assets/logo-mobile.png";
 import Button from "./Home/Button";
 import { useState } from "react";
@@ -15,10 +16,16 @@ const Header = ({ bgColor, position, logo }) => {
   return (
     <>
       <div
-        className={`${position} h-auto sm:w-full flex justify-between px-2 py-3 w-[100%] ${bgColor}`}
+        className={`${position} h-auto sm:w-full flex justify-between px-5 py-4 items-center w-[100%] ${bgColor} `}
       >
         <Link href="/">
-          <Image src={logo} height={40} width={150} alt="" />
+          <img
+            src="./assets/maidzly-logo.png"
+            height={0}
+            width={190}
+            alt=""
+            className=""
+          />
         </Link>
         <button
           className="z-50  text-lightColor "
@@ -28,7 +35,10 @@ const Header = ({ bgColor, position, logo }) => {
           {navbarOpen ? (
             <MdClose className="h-7 w-10 sm:hidden z-50 text-primaryColor " />
           ) : (
-            <VscMenu className="h-7 w-10 sm:hidden text-primaryColor " />
+            <>
+              <Image width={29} height={23} src={menu} />
+              {/* <VscMenu className="h-7 w-10 sm:hidden text-primaryColor " /> */}
+            </>
           )}
         </button>
         <div className="hidden sm:block px-5 h-auto w-[100%] lg:w-[85%] sm:w-[60rem] lg-[70%] sm:text-xs text-lightColor sm:py-2">

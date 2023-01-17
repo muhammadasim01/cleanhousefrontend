@@ -5,16 +5,16 @@ import FeaturedCard2 from "./FeaturedCard2";
 function FeaturesSection() {
   return (
     <div className="flex flex-col justify-center items-center px-4">
-      <h2 className="font-subHeading text-4xl font-bold text-center leading-10">
+      <h2 className="font-subHeading text-[44px] font-bold text-center leading-[120%]">
         Maidzly Cleaning Services Is The Best!
       </h2>
-      <p className="font-text text-xl font-medium text-center leading-7 mt-8">
+      <p className="font-text text-[22px] font-medium text-center leading-[140%] mt-8">
         What sets us apart from other cleaning services is we offer a database
         of 5 star experienced local cleaners. We go out of our way to make the
         whole process as seamless as possible, from booking to payment to
         clean-up.
       </p>
-      <p className="font-text text-xl font-extrabold text-center leading-7 mt-8">
+      <p className="font-text text-[22px] font-extrabold text-center leading-[140%] mt-8">
         Here are some of the benefits of choosing Maidzly for your home cleaning
         needs:
       </p>
@@ -22,13 +22,13 @@ function FeaturesSection() {
         <FeaturedCard1 />
         <FeaturedCard2 />
       </div>
-      <p className="font-subHeading text-darkColor text-center text-base font-extrabold py-5 leading-7">
+      <p className="font-subHeading text-darkColor text-center text-[22px] font-extrabold py-5 leading-[140%]">
         At Maidzly, we aim to make your life easier by taking on those extra,
         time-consuming tasks that you just dont have the time for. Whether its
         mopping your floors, doing the laundry or ironing your clothes,
         we&apos;ll take care of it so you dont have to.
       </p>
-      <p className="font-text text-darkColor text-center text-xl font-medium leading-6 mb-5">
+      <p className="font-text text-darkColor text-center text-[22px] font-medium mb-5 leading-[140%]">
         You can add extra tasks to your cleaning schedule in seconds through
         your online account. Just log in and add the changes needed.
       </p>

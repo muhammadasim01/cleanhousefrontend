@@ -4,8 +4,8 @@ import photo from "../../public/assets/Features-Card-Image2.png";
 import CheckList from "./CheckList";
 function FeaturedCard2({ Title, src }) {
   return (
-    <div className="px-5 bg-lightColor mt-10 rounded-md shadow-[-10px_1px_20px_15px_rgba(0,0,0,0.1)]">
-      <h3 className="font-subHeading text-3xl font-bold py-5">Services</h3>
+    <div className="px-5 bg-lightColor mt-10 rounded-md shadow-[2px_6px_20px_-6px_rgba(0,0,0,0.5)]">
+      <h3 className="font-subHeading text-[40px] font-bold py-5">Services</h3>
       <div>
         <img src="assets/Features-Card-Image2.png" alt="" />
       </div>
