@@ -21,10 +21,9 @@ const Header = ({ bgColor, position }) => {
         <Link href="/">
           <img
             src="./assets/maidzly-logo.png"
-            height={90}
+            // height={0}
             width={190}
             alt=""
-            className=""
           />
         </Link>
         <button
