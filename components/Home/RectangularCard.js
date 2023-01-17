@@ -1,7 +1,7 @@
 import Image from "next/image";
 function RectangularCard({ imageSrc, Title, Description }) {
   return (
-    <div className="flex w-[600px] bg-lightColor rounded-lg mx-4 my-10 shadow-[-10px_1px_20px_15px_rgba(0,0,0,0.1)]">
+    <div className="flex w-[600px] bg-lightColor rounded-lg mx-4 my-10 shadow-[2px_2px_20px_-6px_rgba(0,0,0,0.5)]">
       <div className="w-[25%] pt-10 pl-2">
         <Image src={imageSrc} height={75} width={75} alt="" />
       </div>
