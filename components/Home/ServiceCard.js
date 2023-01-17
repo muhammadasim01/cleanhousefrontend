@@ -14,6 +14,7 @@ function ServiceCard({
         backgroundPositionY: "-0.9rem",
         backgroundPositionX: "-2rempx",
         backgroundSize: "106% 107%",
+        git,
       }}
     >
       <div className=" h-[40px] w-[40px] bg-secondaryColor p-2   rounded-full flex items-center justify-center text-2xl text-lightShade font-semibold">
