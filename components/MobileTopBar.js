@@ -21,8 +21,8 @@ function MobileTopBar() {
           </p>
         </div>
       </div>
-      <div className="w-[20%] self-center  flex items-center justify-center">
-        <button className="flex items-center justify-center font-text font-normal text-lightColor bg-primaryColor px-4 py-0 rounded-full">
+      <div className="w-[20%] self-center  flex items-center justify-end  mr-4">
+        <button className="flex items-center justify-center font-text font-normal text-lightColor bg-primaryColor px-4 py-0 rounded-full ">
           open
         </button>
       </div>
