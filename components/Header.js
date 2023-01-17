@@ -19,12 +19,20 @@ const Header = ({ bgColor, position }) => {
         className={`${position} h-auto sm:w-full flex justify-between px-5 py-4 items-center w-[100%] ${bgColor} `}
       >
         <Link href="/">
-          <img
-            src="./assets/maidzly-logo.png"
-            // height={0}
-            width={190}
-            alt=""
-          />
+          <>
+            <img
+              src="/assets/maidzly-logo.png"
+              height={35}
+              width={168}
+              alt=""
+            />
+            <Image
+              src="/assets/maidzly-logo.png"
+              height={35}
+              width={168}
+              alt=""
+            />
+          </>
         </Link>
         <button
           className="z-50  text-lightColor "
