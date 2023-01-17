@@ -16,11 +16,13 @@ const Header = ({ bgColor, position }) => {
   return (
     <>
       <div
-        className={`${position} h-auto sm:w-full flex justify-between px-5 py-4 items-center w-[100%] ${bgColor} `}
+        className={`${position} h-auto sm:w-full flex justify-between px-5 py-4 items-center w-[100%] ${bgColor} bg-primaryColor`}
       >
         <Link href="/">
           <>
-            <img src="assets/maidzly-logo.png" height={35} width={168} alt="" />
+            <img src="/assets/logo-3.png" alt="" width={195} />
+
+            {/* <img src="assets/maidzly-logo.png" height={35} width={168} alt="" /> */}
             {/* <Image
               src="assets/maidzly-logo.png"
               height={35}
