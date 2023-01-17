@@ -5,7 +5,7 @@ import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
 import Link from "next/link";
 
-function MobileMenu({ logo }) {
+function MobileMenu() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
   return (
     <div className="text-center flex flex-col sm:hidden bg-darkColor bg-opacity-80 absolute w-[100%] z-40">

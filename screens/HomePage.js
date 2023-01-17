@@ -19,7 +19,7 @@ const HomePage = () => {
     <div>
       <MobileTopBar />
       <TopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header position={"relative"} />
       <Banner />
       <BoxCards />
       <HowItWorks />

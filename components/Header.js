@@ -11,7 +11,7 @@ import { VscMenu } from "react-icons/vsc";
 import { MdClose } from "react-icons/md";
 import { AiOutlineClose } from "react-icons/ai";
 import MobileMenu from "./MobileMenu";
-const Header = ({ bgColor, position, logo }) => {
+const Header = ({ bgColor, position }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
@@ -21,7 +21,7 @@ const Header = ({ bgColor, position, logo }) => {
         <Link href="/">
           <img
             src="./assets/maidzly-logo.png"
-            height={0}
+            height={90}
             width={190}
             alt=""
             className=""
@@ -74,7 +74,7 @@ const Header = ({ bgColor, position, logo }) => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MobileMenu logo={logo} /> : <div className="hidden"></div>}
+      {navbarOpen ? <MobileMenu /> : <div className="hidden"></div>}
     </>
   );
 };
