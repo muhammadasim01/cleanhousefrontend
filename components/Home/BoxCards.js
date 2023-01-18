@@ -5,7 +5,7 @@ import Box2 from "../../public/assets/Box2.png";
 import Box3 from "../../public/assets/Box3.png";
 function BoxCards() {
   return (
-    <div className="flex md:flex-row w-full flex-col items-center pt-10 sm:justify-center relative  bottom-[6rem]  sm:bottom-[8rem] mb-[-3rem] ">
+    <div className="flex md:flex-row w-full flex-col items-center pt-10 sm:justify-center relative  bottom-[6.8rem]  sm:bottom-[8rem] mb-[-3rem] ">
       <BoxCard
         imageSrc="./assets/Box1.png"
         Title="Become a Cleaner"
