@@ -8,13 +8,13 @@ function ServiceCard({
 }) {
   return (
     <div
-      className={`${background} bg-right-top bg-cover  bg-no-repeat bg-opacity-20 px-7  py-7 rounded-md my-6 flex flex-col items-center 
-              justify-center md:w-[350px] mx-2 lg:w-[480px] lg:h-[340px] xl:w-[600px] `}
+      className={`${background} bg-right-top bg-cover  bg-no-repeat bg-opacity-20 px-7  py-7 rounded-md  flex flex-col items-center 
+            justify-center md:w-[350px] ml-[1.8vw] mr-[3vw] lg:w-[480px] lg:h-[340px] xl:w-[600px] `}
     >
       <div className=" h-[40px] w-[40px] bg-secondaryColor p-2   rounded-full flex items-center justify-center text-2xl text-lightShade font-semibold">
         {Count}
       </div>
-      <h3 className="text-[34px] font-bold text-center pt-3 font-heading leading-[44px]">
+      <h3 className="text-[33px] font-bold text-center pt-3 font-heading leading-[44px]">
         {Title}
       </h3>
       <p className="md:h-[350px] text-center font-text pt-5 text-[18px] font-normal">
