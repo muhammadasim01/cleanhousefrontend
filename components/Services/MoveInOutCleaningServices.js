@@ -16,7 +16,7 @@ function MoveInOutCleaningServices() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book A Move In/Out Cleaning"
         bgURL={bg_url}

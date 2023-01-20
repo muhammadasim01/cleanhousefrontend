@@ -19,7 +19,7 @@ const HomePage = () => {
     <div>
       <MobileTopBar />
       <TopBar />
-      <Header position={"relative"} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner />
       <BoxCards />
       <HowItWorks />

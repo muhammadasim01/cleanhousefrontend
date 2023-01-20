@@ -10,11 +10,11 @@ function MobileTopBar() {
         <div className="flex flex-col items-start px-2 mt-5  justify-between h-[53.94px]">
           <h2 className="font-subHeading text-sm">Maidzly</h2>
           <span className="flex text-primaryColor">
-            <img src="./assets/star.png" width={17} height={0} />
-            <img src="./assets/star.png" width={17} height={0} />
-            <img src="./assets/star.png" width={17} height={0} />
-            <img src="./assets/star.png" width={17} height={0} />
-            <img src="./assets/star.png" width={17} height={0} />
+            <img src="/assets/star.png" width={17} height={0} />
+            <img src="/assets/star.png" width={17} height={0} />
+            <img src="/assets/star.png" width={17} height={0} />
+            <img src="/assets/star.png" width={17} height={0} />
+            <img src="/assets/star.png" width={17} height={0} />
           </span>
           <p className="font-text text-xs text-darkColor opacity-70">
             3,900+ Reviews

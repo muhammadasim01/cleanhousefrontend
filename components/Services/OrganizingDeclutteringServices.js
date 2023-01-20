@@ -17,7 +17,7 @@ function OrganizingDeclutteringServices() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book An Organizing & Decluttering Service"
         bgURL={bg_url}

@@ -29,7 +29,7 @@ function MaidzlyServices() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book A Regular Cleaning"
         bgURL={bg_url_1}

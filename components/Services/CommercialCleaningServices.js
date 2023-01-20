@@ -16,7 +16,7 @@ function CommercialCleaningServices() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book An Office & Commercial Cleaning Service"
         bgURL={bg_url}

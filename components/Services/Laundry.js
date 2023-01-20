@@ -16,7 +16,7 @@ function ApplianceCleaningServices() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book A Laundry Service"
         bgURL={bg_url}

@@ -16,7 +16,7 @@ function ApartmentCleaningServices() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book A Condo & Apartment Cleaning Services"
         bgURL={bg_url}

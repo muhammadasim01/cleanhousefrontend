@@ -8,7 +8,7 @@ import Link from "next/link";
 function MobileMenu() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
   return (
-    <div className="text-center flex flex-col sm:hidden bg-darkColor bg-opacity-80 absolute w-[100%] z-40">
+    <div className="text-center  flex flex-col sm:hidden bg-darkColor bg-opacity-8 relative w-[100%] z-50">
       <form className="flex items-center justify-center w-full pl-7 mt-3 sm:w-[600px]">
         <input
           type="text"

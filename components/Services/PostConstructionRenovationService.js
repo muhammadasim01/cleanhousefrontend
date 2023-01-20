@@ -17,7 +17,7 @@ function PostConstructionRenovationService() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book A Post Construction/Renovation Cleaning"
         bgURL={bg_url}

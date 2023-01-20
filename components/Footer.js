@@ -173,13 +173,13 @@ const Footer = () => {
           <div className="bottom text-lightColor flex items-center justify-center sm:w-[50%] sm:text-sm mt-5">
             <div className="cards flex items-center justify-between sm:justify-start h-8 w-[50%]">
               <span className="mx-2">
-                <img src="assets/mastercard.png" alt="" />
+                <img src="/assets/mastercard.png" alt="" />
               </span>
               <span className="mx-2">
-                <img src="assets/visacard.png" alt="" />
+                <img src="/assets/visacard.png" alt="" />
               </span>
               <span className="mx-2">
-                <img src="assets/americancard.png" alt="" />
+                <img src="/assets/americancard.png" alt="" />
               </span>
             </div>
           </div>
