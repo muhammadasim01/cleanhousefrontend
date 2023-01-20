@@ -11,6 +11,7 @@ import ServicesHeading from "./ServicesHeading";
 import ServicesSecondryButton from "./ServicesSecondryButton";
 import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
+import SubTextLarge from "./subTextLarge";
 function MoveInOutCleaningServices() {
   const bg_url = "/assets/MoveInOutCleaning_Banner.png";
   return (
@@ -20,7 +21,6 @@ function MoveInOutCleaningServices() {
       <Banner
         buttonText="Book A Move In/Out Cleaning"
         bgURL={bg_url}
-        custom="w-[250px]"
         customHeight="370px"
         P1="Move-In/Move-Out Cleaning Services with confidence by booking a Maidzly‘s Cleaner today!"
         P2="Book A Cleaner In Your Neighbourhood!"
@@ -28,19 +28,19 @@ function MoveInOutCleaningServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Move-In /Move-Out Cleaning Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Don&apos;t just move in-out, make sure it&apos;s a Maidzly clean
             with our professional, reliable, and hassle-free cleaning services!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Move In or Move Out with confidence. Leave the hard cleaning work
             for us!
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Moving can be an exhausting and time-consuming process, not to
             mention stressful. That&apos;s why you should leave the dirty work
             to us! Maidzly Cleaning Services specializes in move-in/move-out
@@ -49,7 +49,7 @@ function MoveInOutCleaningServices() {
             vetted, police-checked, for your peace of mind.
           </p>
           <div className="flex items-center justify-center my-5">
-            <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+            <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
               Maidzly Cleaners will leave your home pristine so you can spend
               more of your valuable time on the things that matter
             </h3>
@@ -71,8 +71,7 @@ function MoveInOutCleaningServices() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
@@ -107,7 +106,12 @@ function MoveInOutCleaningServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -149,17 +153,17 @@ function MoveInOutCleaningServices() {
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

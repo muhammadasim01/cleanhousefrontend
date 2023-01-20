@@ -11,6 +11,8 @@ import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 import Footer from "../Footer";
+import SubTextMedium from "./subTextMedium";
+import SubTextLarge from "./subTextLarge";
 function CommercialCleaningServices() {
   const bg_url = "/assets/CommercialCleaningServices_Banner.png";
   return (
@@ -28,19 +30,19 @@ function CommercialCleaningServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Office & Commercial Cleaning Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Make Sure Your Staff & Customers Feel Welcome with Professional
             Office & Commercial Cleaning from Maidzly.
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Get Ready for the Workday with Professional Office & Commercial
             Cleaning Services from Maidzly!
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Maidzly provides professional, reliable and affordable office &
             commercial cleaning services that make sure your business is always
             looking its best. We offer a range of services for offices and other
@@ -49,23 +51,23 @@ function CommercialCleaningServices() {
             experienced cleaners is dedicated to providing you with the highest
             level of service possible.
           </p>
-          <p className="font-subHeading text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-subHeading text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Maidzly cleaners will work with the utmost care and attention to
             detail.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             We understand that security is a major concern for any business.
             That&apos;s why all our cleaners have been police-checked and
             thoroughly vetted by us to ensure they are reliable, trustworthy and
             professional.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your office & commercial cleaning needs." />
+        <SubTextMedium text="We match you with awesome independent cleaners in your local area to help you with your office & commercial cleaning needs." />
         <ServicesSubHeading headingText="Check out what we clean for a Office & Commercial Cleaning Service" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
-        <SubText text="So sit back and relax – let Maidzly take care of the mess!" />
+        <SubTextLarge text="So sit back and relax – let Maidzly take care of the mess!" />
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
@@ -76,8 +78,7 @@ function CommercialCleaningServices() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
@@ -112,7 +113,12 @@ function CommercialCleaningServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -154,17 +160,17 @@ York University Heights"
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

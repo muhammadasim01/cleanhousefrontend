@@ -11,6 +11,7 @@ import ServiceImage from "./ServiceImage";
 import MobileContainer from "./MobileContainer";
 import Footer from "../Footer";
 import CitiesList from "./CitiesList";
+import SubTextLarge from "./subTextLarge";
 
 function DeepCleaningServices() {
   const bg_url = "/assets/Deep_Cleaning_Service_Banner.png";
@@ -33,7 +34,7 @@ function DeepCleaningServices() {
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Maidzly&apos;s deep cleaning service is your go-to choice if you
             want to give yourself a break from the tedious and time-consuming
             task of deep cleaning your living space. With our database of local
@@ -41,11 +42,11 @@ function DeepCleaningServices() {
             cleaned thoroughly and safely. Not only that, all of our cleaners
             are experienced delivering top-tier cleaning results.
           </p>
-          <p className="font-subHeading text-[22px] font-bold leading-6 text-darkColor text-center ">
+          <p className="font-subHeading text-[22px] font-bold leading-[26px] text-darkColor text-center my-5">
             Rejuvenate your living space and make it look brand new with
             Maidzly’s deep cleaning service!
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4 mx-2">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4 mx-2">
             What&apos;s more, Maidzly provides the peace of mind that comes with
             knowing your home is being attended to by trustworthy individuals
             who have been police-checked and individually vetted before they
@@ -73,12 +74,11 @@ function DeepCleaningServices() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
-        <div>
+        <div className="my-4">
           <ServicesChecks CheckText="Regular Cleaning Services" />
           <ServicesChecks CheckText="Deep Cleaning Services" />
           <ServicesChecks CheckText="Move In/Out Cleaning Services" />
@@ -93,7 +93,7 @@ function DeepCleaningServices() {
           <ServicesChecks CheckText="Office & Commercial Cleaning Services" />
         </div>
         <ServicesSubHeading headingText="How Frequent Maidzly Can Clean" />
-        <div>
+        <div className="my-4">
           <ServicesChecks CheckText="Weekly Cleaning Services" />
           <ServicesChecks CheckText="Bi-weekly Cleaning Services" />
           <ServicesChecks CheckText="Daily Cleaning Services" />
@@ -109,7 +109,12 @@ function DeepCleaningServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -151,17 +156,17 @@ function DeepCleaningServices() {
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

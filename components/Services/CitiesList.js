@@ -1,6 +1,6 @@
 function CitiesList({ headingText, col1, col2 }) {
   return (
-    <div className="py-5">
+    <div className="py-2">
       <div className="pl-5">
         <h2 className="font-subHeading text-[26px] font-bold">{headingText}</h2>
       </div>

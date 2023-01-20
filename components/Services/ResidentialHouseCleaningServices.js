@@ -11,6 +11,8 @@ import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 import Footer from "../Footer";
+import SubTextMedium from "./subTextMedium";
+import SubTextLarge from "./subTextLarge";
 function ResidentialHouseCleaningServices() {
   const bg_url = "/assets/ResidentialHouseCleaningServices_Banner.png";
   return (
@@ -28,26 +30,26 @@ function ResidentialHouseCleaningServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Residential House Cleaning Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Turning Your Home into a Palace with Residential House Cleaning
             Services from Maidzly!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Don&apos;t Put it Off Any Longer - Get Residential House Cleaning
             Services from Maidzly!
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             You’ve been meaning to do it for weeks, months even. You walk into
             your living room and sigh - it looks like a tornado went through it.
             You have a few hours free time, but no energy to start cleaning up
             the mess. Don’t keep putting off those tough cleaning chores -
             enlist the help of Maidzly Cleaning Services!
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Maidzly provides residential house cleaning services that make your
             home shine. Our professional staff will come to your home and do a
             thorough cleaning, ensuring that each room is sparkling clean. Our
@@ -56,18 +58,18 @@ function ResidentialHouseCleaningServices() {
             our cleaners are trustworthy, ensuring that you can trust Maidzly to
             provide the best services.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Maidzly is committed to providing the best services for our
             customers, and part of that commitment is making sure that
             everything goes smoothly.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your Residential House Cleaning needs." />
+        <SubTextMedium text="We match you with awesome independent cleaners in your local area to help you with your Residential House Cleaning needs." />
         <ServicesSubHeading headingText="Check out what we clean for a Residential House Cleaning Services" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
-        <SubText text="So sit back and relax – let Maidzly take care of the mess!" />
+        <SubTextLarge text="So sit back and relax – let Maidzly take care of the mess!" />
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
@@ -78,8 +80,7 @@ function ResidentialHouseCleaningServices() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
@@ -114,7 +115,12 @@ function ResidentialHouseCleaningServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -156,17 +162,17 @@ York University Heights"
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

@@ -11,6 +11,8 @@ import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 import Footer from "../Footer";
+import SubTextMedium from "./subTextMedium";
+import SubTextLarge from "./subTextLarge";
 function AirbnbCleaningServices() {
   const bg_url = "/assets/AirbnbCleaningServices_Banner.png";
   return (
@@ -28,19 +30,19 @@ function AirbnbCleaningServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Short Term Rental & Airbnb Cleaning Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Receive Timely and Efficient Short-Term Rental & Airbnb Cleanings
             from Maidzly Services!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Don&apos;t Waste Time Cleaning - Use Maidzly Short-Term Rental &
             Airbnb Cleaning Services!
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Are you looking for a reliable and experienced cleaning service to
             take care of your Airbnb or short-term rental needs? Look no further
             than Maidzly Cleaning Services! Our cleaners are carefully selected
@@ -48,24 +50,24 @@ function AirbnbCleaningServices() {
             satisfaction. From regular cleans to deep cleans, we have the
             solution for all your Airbnb/short-term rental cleaning needs.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             We understand how busy life can be and the importance of timely and
             efficient cleaning when it comes to your rental property. Maidzly
             Cleaning Services is committed to providing you with cleaning
             services that are completed at the highest industry standards.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Our cleaners go through extensive background checks as part of our
             stringent selection process. We guarantee police-checked and vetted
             cleaners to deliver an outstanding service.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your short term rental & Airbnb cleaning needs." />
+        <SubTextMedium text="We match you with awesome independent cleaners in your local area to help you with your short term rental & Airbnb cleaning needs." />
         <ServicesSubHeading headingText="Check out what we clean for a Short Term Rental Cleaning Service" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
-        <SubText text="So sit back and relax – let Maidzly take care of the mess!" />
+        <SubTextLarge text="So sit back and relax – let Maidzly take care of the mess!" />
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
@@ -76,8 +78,7 @@ function AirbnbCleaningServices() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
@@ -112,7 +113,12 @@ function AirbnbCleaningServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -154,17 +160,17 @@ York University Heights"
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

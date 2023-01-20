@@ -11,6 +11,8 @@ import ServicesSecondryButton from "./ServicesSecondryButton";
 import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
+import SubTextMedium from "./subTextMedium";
+import SubTextLarge from "./subTextLarge";
 
 function OrganizingDeclutteringServices() {
   const bg_url = "/assets/OrganizingDeclutteringServices_Banner.png";
@@ -29,19 +31,19 @@ function OrganizingDeclutteringServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Organizing & Decluttering Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Create More Space and Time with Maidzly&apos;s Professional
             Organizing & Decluttering Services
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Live better and easier with Maidzly’s top-notch organization and
             decluttering services.
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             At Maidzly, our goal is to help you maximize your time and space by
             providing the best home organizing and decluttering services
             available. We know that life can get busy, and it can be difficult
@@ -49,14 +51,14 @@ function OrganizingDeclutteringServices() {
             professional organizing and decluttering services — to make sure
             your home stays tidy and your life is more efficient.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Our experienced organizing experts can help you streamline the
             organization of any room in your home, from closets to bedrooms to
             kitchens. We also offer services for decluttering and purging, so
             that you can gain better control over all the messes that pile up on
             a daily basis.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             What sets us apart from other cleaning services is our commitment to
             providing an exceptional service experience. All of our cleaners are
             police-checked and thoroughly vetted, so you can be confident that
@@ -65,12 +67,12 @@ function OrganizingDeclutteringServices() {
             respect.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your organization & decluttering cleaning needs." />
+        <SubTextMedium text="We match you with awesome independent cleaners in your local area to help you with your organization & decluttering cleaning needs." />
         <ServicesSubHeading headingText="Check out what we clean for an Organizing & Decluttering Services" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
-        <SubText text="So sit back and relax – let Maidzly take care of the mess!" />
+        <SubTextMedium text="So sit back and relax – let Maidzly take care of the mess!" />
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
@@ -117,7 +119,12 @@ function OrganizingDeclutteringServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -159,17 +166,17 @@ function OrganizingDeclutteringServices() {
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

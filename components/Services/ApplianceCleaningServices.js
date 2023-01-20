@@ -11,6 +11,8 @@ import ServicesSecondryButton from "./ServicesSecondryButton";
 import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
+import SubTextMedium from "./subTextMedium";
+import SubTextLarge from "./subTextLarge";
 function ApplianceCleaningServices() {
   const bg_url = "/assets/Appliance.png";
   return (
@@ -28,19 +30,19 @@ function ApplianceCleaningServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Appliance Cleaning Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             A Sparkling Clean Kitchen Awaits With Maidzly&apos;s Appliance
             Cleaning Service
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Let us take care of the hard work for you and make your life easier
             with our top-notch appliance cleaning service.
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             At Maidzly, we are committed to providing you with a comprehensive
             cleaning experience. We offer more than just general housecleaning
             services - our team of experienced cleaners can make sure that all
@@ -48,7 +50,7 @@ function ApplianceCleaningServices() {
             cleaners will thoroughly inspect and clean every nook and cranny of
             your fridge, oven, and more.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             We understand the importance of trust when it comes to hiring
             someone to clean your home, which is why all of our cleaners are
             police-checked and vetted prior to being hired. This means that you
@@ -58,12 +60,12 @@ function ApplianceCleaningServices() {
             provide an excellent service.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your appliance cleaning needs." />
+        <SubTextMedium text="We match you with awesome independent cleaners in your local area to help you with your appliance cleaning needs." />
         <ServicesSubHeading headingText="Check out what we clean for an Appliance Cleaning Services" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
-        <SubText text="So sit back and relax – let Maidzly take care of the mess!" />
+        <SubTextLarge text="So sit back and relax – let Maidzly take care of the mess!" />
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
@@ -74,8 +76,7 @@ function ApplianceCleaningServices() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
@@ -110,7 +111,12 @@ function ApplianceCleaningServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -128,41 +134,41 @@ function ApplianceCleaningServices() {
         <CitiesList
           headingText="Neighbourhoods in Toronto"
           col1="Alexandra Park, Baldwin Village, CityPlace, Church and Wellesley, Corktown, 
-  Discovery District, Entertainment District, East Bayfront, Fashion Disctrict, Garden District, 
-  Grange Park, Harbord Village, South Core, St. James Town, Harbourfront, Moss Park, Old Town, Quayside, 
-  Regent Park, St. Lawrence, Toronto Islands, Trefann Court, High Park, The Junction, Kensington Market,
-  The Annex, Yorkville, The Beaches, Leslieville, Little Italy, Cabbagetown, Chinatown, Queen Street West,
-  Parkdale, Distillery District, Downtown Toronto, Riverdale, Liberty Village, Yonge–Eglinton, Roncesvalles,
-  Queen Street West, Bloor West Village, Financial District, North York, Forest Hill, University,
-  The Beaches, Upper Beaches, East Chinatown, East Danforth, Gerrard Street East, Greektown, Leslieville, 
-  Main Square, Playter Estates, Port Lands, Villers Island, Bedford Park, Canada Loma, Chaplin Estates, 
-  Davisville village, Deer Park, Lawrence Park, Lytton Park, Midtown, Moore Park, North Toronto, Rosedale, South Hill, Summerhill, Uptown, Wychwood Park, Beaconsfield Village, Bloorcourt Village, "
+                Discovery District, Entertainment District, East Bayfront, Fashion Disctrict, Garden District, 
+                Grange Park, Harbord Village, South Core, St. James Town, Harbourfront, Moss Park, Old Town, Quayside, 
+                Regent Park, St. Lawrence, Toronto Islands, Trefann Court, High Park, The Junction, Kensington Market,
+                The Annex, Yorkville, The Beaches, Leslieville, Little Italy, Cabbagetown, Chinatown, Queen Street West,
+                Parkdale, Distillery District, Downtown Toronto, Riverdale, Liberty Village, Yonge–Eglinton, Roncesvalles,
+                Queen Street West, Bloor West Village, Financial District, North York, Forest Hill, University,
+                The Beaches, Upper Beaches, East Chinatown, East Danforth, Gerrard Street East, Greektown, Leslieville, 
+                Main Square, Playter Estates, Port Lands, Villers Island, Bedford Park, Canada Loma, Chaplin Estates, 
+                Davisville village, Deer Park, Lawrence Park, Lytton Park, Midtown, Moore Park, North Toronto, Rosedale, South Hill, Summerhill, Uptown, Wychwood Park, Beaconsfield Village, Bloorcourt Village, "
           col2="Bracondale Hill, Brockton Village, Carleton Village, Corso Italia, Davenport, Dovercourt Park,
-   Dufferine Grove, Earlscourt, Fort York, Junction Triangle, Koreatown, Little Portugal, Little Tibet, 
-   Mirvish Village, Niagara, Regal Heights, Runneymede, Seaton Village, Swansea, Trinity-Bellwoods, Wallace
-   Emerson, East York, Broadview North, Crescent Town, East Danforth, Pape Village, Woodbine Heights, 
-   Bermondsey, Governor's Bridge, Leaside, O' Connor-Parkview, Thorncliffe Park, Amesbury, Armour Heights, 
-   Bathurst Manor, Bayview Village, Bayview Woods-Steeles, Black Creek, The Bridle Path, Clanton Park, 
-   Don Mills, Don Valley Village, Downsview, Flemington Park, Glen Park, Hillcrest Village, Hoggs Hollow, 
-   Humber Summit, Humbermede, Jane and Finch, Lansing, Lawrence Heights, Lawrence Manor, Ledbury Park, 
-   Maple Leaf, Newtonbrook, North York City Centre, Parkway Forest, Parkwoods, Pelmo Park-Humberlea, 
-   Pleasant View, Uptown Toronto, Victoria Village, Westminster–Branson, Willowdale, York Mills, 
-   York University Heights"
+                Dufferine Grove, Earlscourt, Fort York, Junction Triangle, Koreatown, Little Portugal, Little Tibet, 
+                Mirvish Village, Niagara, Regal Heights, Runneymede, Seaton Village, Swansea, Trinity-Bellwoods, Wallace
+                Emerson, East York, Broadview North, Crescent Town, East Danforth, Pape Village, Woodbine Heights, 
+                Bermondsey, Governor's Bridge, Leaside, O' Connor-Parkview, Thorncliffe Park, Amesbury, Armour Heights, 
+                Bathurst Manor, Bayview Village, Bayview Woods-Steeles, Black Creek, The Bridle Path, Clanton Park, 
+                Don Mills, Don Valley Village, Downsview, Flemington Park, Glen Park, Hillcrest Village, Hoggs Hollow, 
+                Humber Summit, Humbermede, Jane and Finch, Lansing, Lawrence Heights, Lawrence Manor, Ledbury Park, 
+                Maple Leaf, Newtonbrook, North York City Centre, Parkway Forest, Parkwoods, Pelmo Park-Humberlea, 
+                Pleasant View, Uptown Toronto, Victoria Village, Westminster–Branson, Willowdale, York Mills, 
+                York University Heights"
         />
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

@@ -11,6 +11,8 @@ import ServicesHeading from "./ServicesHeading";
 import ServiceImage from "./ServiceImage";
 import CitiesList from "./CitiesList";
 import Footer from "../Footer";
+import SubTextMedium from "./subTextMedium";
+import SubTextLarge from "./subTextLarge";
 
 function PostConstructionRenovationService() {
   const bg_url = "/assets/PostConstructionRenovation_Banner.png";
@@ -29,19 +31,19 @@ function PostConstructionRenovationService() {
       <div className="mx-4">
         <ServicesHeading headingText="Post Construction & Home Renovation Cleaning Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Wave Goodbye to Post Construction & Home Renovation Cleaning Chaos
             with Maidzly Services!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Make Post Construction & Home Renovation Clean Up a Breeze with
             Professional Help from Maidzly Services!
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             If you’re in the process of completing a construction or renovation
             project, then you know how hard it can be to get the place spotless
             and ready for use. Cleaning up after an extensive construction job &
@@ -52,7 +54,7 @@ function PostConstructionRenovationService() {
             dirt, and other messes that may be leftover after your project is
             complete.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             At Maidzly, we pride ourselves on providing affordable services and
             delivering high-quality results. All of our cleaners are carefully
             police-checked, professionally vetted, and must be experienced in
@@ -60,7 +62,7 @@ function PostConstructionRenovationService() {
             that you receive only the finest service.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your post construction and home renovation cleaning needs." />
+        <SubTextMedium text="We match you with awesome independent cleaners in your local area to help you with your post construction and home renovation cleaning needs." />
         <ServicesSubHeading headingText="Check out what we clean for a Post Construction and Home Renovation Cleaning Service" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
@@ -76,8 +78,7 @@ function PostConstructionRenovationService() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
@@ -112,7 +113,12 @@ function PostConstructionRenovationService() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -154,17 +160,17 @@ function PostConstructionRenovationService() {
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

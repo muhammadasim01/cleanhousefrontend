@@ -7,7 +7,7 @@ function ServicesChecks({ CheckText }) {
         {" "}
         <BsCheckLg className="mr-2 mt-2 text-xl text-secondaryColor" />
       </p>
-      <p className="font-subHeading text-[22px] font-bold text-darkColor">
+      <p className="font-subHeading text-[22px] leading-[30px] font-bold text-darkColor">
         {CheckText}
       </p>
     </div>

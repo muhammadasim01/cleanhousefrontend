@@ -11,6 +11,8 @@ import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
 import Footer from "../Footer";
+import SubTextMedium from "./subTextMedium";
+import SubTextLarge from "./subTextLarge";
 function ApartmentCleaningServices() {
   const bg_url = "/assets/ApartmentCleaningServices.png";
   return (
@@ -28,26 +30,26 @@ function ApartmentCleaningServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Condo & Apartment Cleaning Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Expert Condo & Apartment Cleaning Services at Maidzly – Giving Your
             Home a Professional Touch!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Enhancing the Beauty of Your Home with Our Quality Condo & Apartment
             cleaning Services!
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Are you looking for a reliable and professional cleaning service to
             help keep your apartment or condo sparkling clean? Maidzly provides
             quality cleaning services for apartments and condos that will exceed
             your expectations. Our affordable cleaners are experienced to make
             sure that your home is in top condition.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             At Maidzly, we understand that your home is a place of refuge and
             solace, which is why we strive to provide professional and reliable
             cleaning services. All of our cleaners are police-checked and vetted
@@ -55,12 +57,12 @@ function ApartmentCleaningServices() {
             provide outstanding cleaning services.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your apartment & condo cleaning needs." />
+        <SubTextMedium text="We match you with awesome independent cleaners in your local area to help you with your apartment & condo cleaning needs." />
         <ServicesSubHeading headingText="Check out what we clean for a Condo & Apartment Cleaning Service" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
-        <SubText text="So sit back and relax – let Maidzly take care of the mess!" />
+        <SubTextLarge text="So sit back and relax – let Maidzly take care of the mess!" />
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
@@ -71,8 +73,7 @@ function ApartmentCleaningServices() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
@@ -107,7 +108,12 @@ function ApartmentCleaningServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -149,17 +155,17 @@ York University Heights"
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>

@@ -11,6 +11,8 @@ import ServicesSecondryButton from "./ServicesSecondryButton";
 import ServicesSubHeading from "./ServicesSubHeading";
 import SubText from "./SubText";
 import ServiceImage from "./ServiceImage";
+import SubTextMedium from "./subTextMedium";
+import SubTextLarge from "./subTextLarge";
 function IroningServices() {
   const bg_url = "/assets/IroningServices_Banner.png";
   return (
@@ -28,43 +30,43 @@ function IroningServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Ironing Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Put An End To Wrinkles and Hassles With Maidzly&apos;s Ironing
             Services!
           </h3>
         </div>
         <div className="flex items-center justify-center my-5">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[22px] font-bold text-center leading-[26px]">
             Keep your wardrobe looking sharp - Get professional ironing services
             from Maidzly!
           </h3>
         </div>
         <div>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Are you tired of spending your weekend&apos;s ironing, only to have
             wrinkled clothes that don’t look their best? Maidzly Cleaning
             Services can help! Our team of experienced cleaners provides
             reliable and high-quality ironing services at an affordable price.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             At Maidzly, we understand that busy schedules can make it difficult
             to keep up with mundane tasks like ironing. That’s why we’re here to
             take that responsibility off your hands! Our expert cleaners will
             make sure your clothes look perfect, every time – without any
             wrinkles or hassles.
           </p>
-          <p className="font-text text-[22px] font-normal leading-6 text-darkColor text-center my-4">
+          <p className="font-text text-[22px] font-normal leading-[26px] text-darkColor text-center my-4">
             Not only are we committed to providing quality services, but also
             safety. All of our cleaners have been police-checked and fully
             vetted for your peace of mind.
           </p>
         </div>
-        <SubText text="We match you with awesome independent cleaners in your local area to help you with your organization & decluttering cleaning needs." />
+        <SubTextMedium text="We match you with awesome independent cleaners in your local area to help you with your organization & decluttering cleaning needs." />
         <ServicesSubHeading headingText="Check out what we clean for a Ironing Services" />
         <div className="flex items-center justify-center my-5">
           <ServicesSecondryButton buttonText="Cleaning Checklist" />
         </div>
-        <SubText text="So sit back and relax – let Maidzly take care of the mess!" />
+        <SubTextLarge text="So sit back and relax – let Maidzly take care of the mess!" />
         <div>
           <ServicesChecks CheckText="Online easy booking" />
           <ServicesChecks CheckText="Always free to use our platform" />
@@ -75,8 +77,7 @@ function IroningServices() {
           <ServicesChecks CheckText="No contracts" />
           <ServicesChecks CheckText="Can choose the same cleaner depending on availability" />
           <ServicesChecks CheckText="Quality, consistent, and reliable service" />
-          <ServicesChecks CheckText="7 days a week support" />
-          <ServicesChecks CheckText="2 million dollar liability insurance" />
+          <ServicesChecks CheckText="7 days a Week support" />
         </div>
         <ServiceImage />
         <ServicesSubHeading headingText="Other Cleaning Services We Offer" />
@@ -111,7 +112,12 @@ function IroningServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+      </div>
+      <div>
+        <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+          CANADA
+        </h2>
       </div>
       <div>
         <CitiesList
@@ -153,17 +159,17 @@ Davisville village, Deer Park, Lawrence Park, Lytton Park, Midtown, Moore Park, 
       </div>
       <div className="p-5">
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Other provinces coming soon!
           </p>
         </div>
-        <div>
-          <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+        <div className="my-3">
+          <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
             USA
           </h2>
         </div>
         <div>
-          <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+          <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
             Coming soon!
           </p>
         </div>
