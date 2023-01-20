@@ -29,7 +29,7 @@ function About() {
     </div> */}
       <MobileTopBar />
       <TopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner />
       <div className="mx-4 my-5">
         <h1 className="font-heading text-4xl text-center font-bold leading-9">

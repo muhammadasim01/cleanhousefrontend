@@ -14,7 +14,7 @@ function SignInSignUp() {
   };
   return (
     <>
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <div className="flex flex-col w-auto h-auto justify-between items-center">
         <h2 className="font-heading text-3xl font-bold py-8 px-5">
           Sign In or Sign Up

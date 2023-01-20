@@ -17,7 +17,7 @@ function DeepCleaningServices() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book A Deep Cleaning"
         bgURL={bg_url}

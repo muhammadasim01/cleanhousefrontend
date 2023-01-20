@@ -16,7 +16,7 @@ function AirbnbCleaningServices() {
   return (
     <>
       <MobileTopBar />
-      <Header position={"relative"} logo={logo2} />
+      <Header bgColor={"bg-lightColor"} />
       <Banner
         buttonText="Book A Short Term & Airbnb Cleaning Service"
         bgURL={bg_url}
