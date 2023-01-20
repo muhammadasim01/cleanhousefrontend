@@ -9,10 +9,10 @@ function Banner({ buttonText, bgURL, P1, P2, custom, customHeight }) {
       }}
     >
       <div className="flex flex-col items-center justify-center mx-1">
-        <p className="font-text text-2xl font-bold text-center leading-[33px] text-lightColor mx-1 my-3">
+        <p className="font-subHeading text-[24px] font-bold text-center leading-[33px] text-lightColor mx-1 my-3">
           {P1}
         </p>
-        <p className="font-text text-[22px] font-bold text-center leading-[33px] text-lightColor my-3">
+        <p className="font-subHeading text-[22px] font-bold text-center leading-[33px] text-lightColor my-3">
           {P2}
         </p>
       </div>

@@ -27,7 +27,7 @@ function DeepCleaningServices() {
       <div className="mx-4">
         <ServicesHeading headingText="Deep Cleaning Services" />
         <div className="flex items-center justify-center">
-          <h3 className="font-subHeading text-[22px] font-bold text-center leading-6">
+          <h3 className="font-subHeading text-[26px] font-bold text-center leading-[36px]">
             Need a deep clean? Make sure it&apos;s Maidzly clean with our
             affordable, hassle-free cleaning services!
           </h3>

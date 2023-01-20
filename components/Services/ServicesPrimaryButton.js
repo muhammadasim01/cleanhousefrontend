@@ -1,10 +1,10 @@
 function ServicesButton({ buttonText, custom, customWidth }) {
   return (
     <button
-      className={`bg-primaryColor flex items-center justify-center py-2 px-4 ${customWidth} rounded-lg`}
+      className={`bg-primaryColor flex items-center w-[290px] justify-center py-[10px] px-4 ${customWidth} rounded-lg`}
     >
       <p
-        className={`font-text text-[22px] ${custom} leading-7 font-bold text-lightColor`}
+        className={`font-subHeading text-[22px] ${custom} leading-[30px] font-bold text-lightColor`}
       >
         {buttonText}
       </p>
