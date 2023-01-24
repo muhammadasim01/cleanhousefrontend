@@ -6,7 +6,7 @@ function CheckList({ CheckText }) {
       <p>
         <BsCheckLg className="mr-2 mt-2 text-xl font-extralight text-secondaryColor" />
       </p>
-      <p className="font-text text-[21px] font-normal text-darkColor">
+      <p className="font-text text-[21px] font-normal leading-[30px] text-darkColor">
         {CheckText}
       </p>
     </div>

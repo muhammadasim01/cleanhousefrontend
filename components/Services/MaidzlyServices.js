@@ -12,6 +12,7 @@ import MobileContainer from "./MobileContainer";
 import CitiesList from "./CitiesList";
 import Footer from "../Footer";
 import DeepCleaningServices from "./DeepCleaningServices";
+import SubTextLarge from "./subTextLarge";
 
 function MaidzlyServices() {
   const bg_url_1 = "/assets/Maidzly_Services_Banner.png";
@@ -108,7 +109,12 @@ function MaidzlyServices() {
         </div>
         <SubText text="Connect anywhere with the Maidzly app" />
         <MobileContainer />
-        <SubText text="Cities where you can book a Maidzly Cleaner" />
+        <SubTextLarge text="Cities where you can book a Maidzly Cleaner" />
+        <div>
+          <h2 className="font-subHeading text-[32px] leading-[44px] text-darkColor font-bold pl-5">
+            CANADA
+          </h2>
+        </div>
         <div>
           <CitiesList
             headingText="GTA"
@@ -147,19 +153,19 @@ function MaidzlyServices() {
            York University Heights"
           />
         </div>
-        <div className="p-5">
+        <div className="py-5 px-3">
           <div>
-            <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+            <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
               Other provinces coming soon!
             </p>
           </div>
-          <div>
-            <h2 className="font-subHeading text-[26px] text-darkColor font-bold">
+          <div className="my-3">
+            <h2 className="font-subHeading text-[26px] text-darkColor font- leaing-[36px]">
               USA
             </h2>
           </div>
           <div>
-            <p className="font-text text-[22px] text-darkColor font-normal leading-7">
+            <p className="font-text text-[22px] text-darkColor font-normal leading-[30px]">
               Coming soon!
             </p>
           </div>
