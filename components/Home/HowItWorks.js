@@ -45,7 +45,7 @@ function ServiceSection() {
         />
         <ServiceCard
           Count="4"
-          Title="Relax And Enjoy Your clean Home"
+          Title="Relax And Enjoy Your Clean Home"
           background="bg-[url('../public/assets/Card_bg_4.png')]"
           Description="After a long day, it's so nice to come
            home to a clean house! And with our hassle-free service, you
