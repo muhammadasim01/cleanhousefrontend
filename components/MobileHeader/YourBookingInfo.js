@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import LargeButton from "./LargeButton";
 import { GoPrimitiveDot } from "react-icons/go";
+import { HiPlus } from "react-icons/hi";
+import { HiMinus } from "react-icons/hi";
 import Link from "next/link";
 import MobileMenu from "../MobileMenu";
 import Header from "../Header";
@@ -23,6 +25,7 @@ function YourBookingInfo() {
   const [bedroomcount, setBedroomCount] = useState(1);
   const [extrabedroomcount, setExtrabedRoomCount] = useState(1);
   const [bathroomscount, setBathroomscount] = useState(1);
+  const [extrabathroomcount, setExtrabathroomCount] = useState(1);
   const [livingroomcount, setLivingRoomCount] = useState(1);
   const [extralivingroomcount, setExtralivingRoomCount] = useState(1);
   const [extraRoom, setExtraRoom] = useState(1);
@@ -40,50 +43,67 @@ function YourBookingInfo() {
   const [isvisitorParking, setIsVisitorParking] = useState(true);
   const [isPetInHouse, setIsPetInHouse] = useState(true);
   return (
-    <div>
-      <h2 className="font-subHeading text-2xl font-bold text-darkColor my-7">
+    <div className="">
+      <h2 className="font-subHeading text-[26px] font-bold text-darkColor mb-5 mt-[6px]">
         Get your quote
       </h2>
-      <p className="font-text text-base font-medium text-darkColor">
-        What Type of <span className="font-bold">cleaning/services </span> do
-        you need?
-        <br /> Click the <span className="font-bold">Box</span> that applies.
+      <p className="font-text text-[16px] leading-[140%] font-medium text-darkColor">
+        What Type of <span className="font-heading">cleaning/services </span>
+        do you need?
+        <br /> Click the <span className="font-heading">Box</span> that applies.
       </p>
-      <div className="flex flex-wrap justify-between my-5">
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="px-2 text-center">Regular Cleaning</p>
+      <div className="flex flex-wrap justify-between my-2">
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="px-2 text-center py-[4px]">
+            Regular <br /> Cleaning
+          </p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="px-2 text-center">Deep Cleaning</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="px-2 text-center py-[4px]">
+            Deep
+            <br /> Cleaning
+          </p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="px-2 text-center">Move In/Out Cleaning</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="px-2 text-center py-[4px]">
+            Move In/Out
+            <br /> Cleaning
+          </p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="px-2 text-center">Post Renovation Cleaning</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="px-2 text-center py-[4px]">
+            Post Renovation <br />
+            Cleaning
+          </p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="px-2 text-center">Organizing Only </p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="px-2 text-center py-[4px]">
+            Organizing <br />
+            Only
+          </p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="px-2 text-center">Appliance Cleaning Only</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="px-[5px] text-center py-[4px]">
+            Appliance Cleaning
+            <br /> Only
+          </p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="px-2 text-center">
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="px-2 text-center py-[4px]">
             Laundry <br /> Only
           </p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="px-2 text-center">
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="px-2 text-center py-[4px]">
             Ironing <br /> Only
           </p>
         </div>
       </div>
       <p className="font-text text-base font-medium text-darkColor">
-        Not sure which <span className="font-bold">cleaning </span> service you
-        need? Here in the table is our
-        <span className="font-bold">cleaning checklists </span> for each of the
-        services provided.
+        Not sure which <span className="font-heading">cleaning service</span>{" "}
+        you need? Here in the table is our <span></span>
+        <span className="font-heading">cleaning checklists </span> for each of
+        the services provided.
       </p>
       <LargeButton
         Text="Cleaning Checklist"
@@ -91,10 +111,11 @@ function YourBookingInfo() {
         customCode="justify-center bg-secondaryColor"
         font="font-bold"
       />
-      <p className="font-text text-base leading-6">
+      <p className="font-text text-base leading-6 ">
         Let us know below if there is anything from the cleaning checklist from
         the service you requested that you
-        <span className="font-bold">DO NOT NEED TO BE CLEANED</span> below.
+        <span> </span>
+        <span className="font-heading">DO NOT NEED TO BE CLEANED</span> below.
       </p>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal">
@@ -102,72 +123,97 @@ function YourBookingInfo() {
         </p>
         <input
           type="text"
-          className="w-full h-24 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-24 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p className="font-text text-base font-normal">
-        What type of <span className="font-bold">property</span> needs cleaning?
+        What type of <span className="font-heading">property</span> needs
+        cleaning?
       </p>
       <div className="flex flex-wrap justify-between">
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
           <p className="font-text text-center text-md font-medium">House</p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="font-text text-center text-md font-medium">House</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="font-text text-center text-md font-medium">Apartment</p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="font-text text-center text-md font-medium">House</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="font-text text-center text-md font-medium">Bungalow</p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="font-text text-center text-md font-medium">House</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="font-text text-center text-md font-medium">Condo</p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="font-text text-center text-md font-medium">House</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="font-text text-center text-md font-medium">Townhouse</p>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
-          <p className="font-text text-center text-md font-medium">House</p>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="font-text text-center text-md font-medium">Duplex</p>
+        </div>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="font-text text-center text-md font-medium">
+            Holiday Rentel
+          </p>
+        </div>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="font-text text-center text-md font-medium">Office</p>
+        </div>
+        <div className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-4 px-2 w-[45%] rounded-md bg-secondaryColor bg-opacity-10 my-2">
+          <p className="font-text text-center text-md font-medium">
+            Commercial
+          </p>
         </div>
       </div>
       <div className="my-4">
-        <p>Others:</p>
+        <p>Other:</p>
         <input
           type="text"
-          className="border-2 border-secondaryColor border-opacity-70 w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md"
         />
       </div>
       <div className="my-4">
-        <p>How often do you need cleaning?</p>
-        <select className="border-2 border-secondaryColor w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md">
-          <option value="once a week">Once a Week</option>
-          <option value="2x a week">2x a Week</option>
-          <option value="3x a week">3x a Week</option>
-          <option value="4x a week">4x a Week</option>
-          <option value="5x a week">5x a Week</option>
-          <option value="6x a week">6x a Week</option>
-          <option value="7x a week">7x a Week</option>
-          <option value="bi-weekly">Bi-Weekly</option>
+        <p>
+          How <span className="font-heading">often</span> do you need cleaning?
+        </p>
+        <select className="border-[1px] border-[rgba(103,98,240,0.5)] w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md">
+          <option value="once a week">Once a week</option>
+          <option value="2x a week">2x a week</option>
+          <option value="3x a week">3x a week</option>
+          <option value="4x a week">4x a week</option>
+          <option value="5x a week">5x a week</option>
+          <option value="6x a week">6x a week</option>
+          <option value="7x a week">7x a week</option>
+          <option value="bi-weekly">Bi-weekly</option>
           <option value="1x a month">1x a month</option>
           <option value="one time only">One Time Only</option>
         </select>
       </div>
       <div className="my-4">
-        <p>When was your property cleaned last?</p>
-        <select className="border-2 border-secondaryColor w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md">
-          <option value="1 Week ago">1 Week ago</option>
-          <option value="2 Weeks ago">2 Weeks ago</option>
-          <option value="3 Weeks ago">3 Weeks ago</option>
-          <option value="4 Weeks ago">4 Weeks ago</option>
+        <p>
+          When was your property
+          <span className="font-heading">cleaned last?</span>
+        </p>
+        <select className="border-[1px] border-[rgba(103,98,240,0.5)] w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md">
+          <option value="1 week ago">1 week ago</option>
+          <option value="2 weeks ago">2 weeks ago</option>
+          <option value="3 weeks ago">3 weeks ago</option>
+          <option value="4 weeks ago">4 weeks ago</option>
           <option value="more than a month">More than a Month</option>
         </select>
       </div>
       <div className="my-4">
-        <p>Size of property (sq ft)</p>
-        <select className="border-2 border-secondaryColor w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md">
+        <p>
+          Size of <span className="font-heading">property</span> property (sq
+          ft)
+        </p>
+        <select className="border-[1px] border-[rgba(103,98,240,0.5)] w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md">
           <option value="1 Week ago">101 - 500</option>
         </select>
       </div>
       <div className="my-4">
-        <p>Do you want the WHOLE property to be cleaned?</p>
+        <p>
+          Do you want the <span className="font-heading">WHOLE</span> property
+          to be cleaned?
+        </p>
         <div className="w-28 flex justify-between  mb-5 bg-secondaryColor bg-opacity-10 rounded-full">
           <button
             className={`font-text  text-base font-semibold w-[50%] py-1 rounded-full ${
@@ -191,64 +237,71 @@ function YourBookingInfo() {
         <p className="font-text text-base font-normal">
           If no, explain the areas not to clean:
         </p>
-        <input
+        <textarea
           type="text"
-          className="w-full h-24 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          placeholder="e.g. 'do not clean the basement area'"
+          className="w-full h-24 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p>
-        How many levels of the property do you want cleaned? (Including if there
-        is a basement level)
+        How many <span className="font-heading">levels of the property</span> do
+        you want cleaned? (Including if there is a basement level)
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() => levelcount !== 1 && setlevelCout(levelcount - 1)}
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
-        <p className="self-center">Level-{levelcount}</p>
+        <p className="self-center ">Level-{levelcount}</p>
         <button
           onClick={() => setlevelCout(levelcount + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
-      <p>How many bedrooms need cleaning?</p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <h3 className="font-subHeading text-2xl font-bold py-3">Bedrooms</h3>
+      <p>
+        How many <span className="font-heading">bedrooms</span> need cleaning?
+      </p>
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() =>
             bedroomcount !== 0 && setBedroomCount(bedroomcount - 1)
           }
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{bedroomcount}-Bedroom</p>
         <button
           onClick={() => setBedroomCount(bedroomcount + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal">
-          Priority to clean in the bedrooms areas:
+          Priority to clean in the{" "}
+          <span className="font-heading">bedrooms</span> areas:
         </p>
-        <input
+        <textarea
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          placeholder="e.g. ‘vacuum floors, mop and sweep under bed’"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal">
           Do NOT CLEAN items/areas in the bedroom:
         </p>
-        <input
+        <textarea
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          placeholder="e.g. ‘do not clean the antique chair in the master bedroom’"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <h3 className="font-subHeading text-2xl font-bold py-3">
@@ -256,172 +309,173 @@ function YourBookingInfo() {
       </h3>
       <p className="font-text text-lg font-normal leading-5">
         Extra tasks required to be added to your
-        <span className="font-subHeading font-bold ">REGULAR CLEANING</span>.
-        Click all the boxes that apply and we will estimate how much time extra
-        you may need.
+        <span className="font-subHeading "> REGULAR CLEANING</span>. Click all
+        the boxes that apply and we will estimate how much time extra you may
+        need.
       </p>
-      <p className="font-text text-lg font-normal leading-5 py-3">
-        Click how many <span className="font-bold">bedrooms </span> to request
-        extra tasks.
+      <p className="font-text text-[15px] font-normal leading-5 py-3">
+        Click how many <span className="font-subHeading">bedrooms </span> to
+        request extra tasks.
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-4 rounded-[7px]">
         <button
           onClick={() =>
-            extrabedroomcount !== 0 && setBedroomCount(extrabedroomcount - 1)
+            extrabedroomcount !== 0 &&
+            setExtrabedRoomCount(extrabedroomcount - 1)
           }
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{extrabedroomcount}-Bedroom</p>
         <button
           onClick={() => setExtrabedRoomCount(extrabedroomcount + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <p className="font-text text-base font-normal">Extra Tasks</p>
       <div className="flex flex-wrap justify-between">
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Change Bedsheets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Furniture Polishing
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Move Furniture To Vacuum & Mop
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Vacuum & Mop Under Area Rugs
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
@@ -432,31 +486,33 @@ function YourBookingInfo() {
       <p className="font-text text-lg font-normal leading-5 py-2">
         How many <span className="font-bold">bathrooms</span> need cleaning?
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() =>
             bathroomscount !== 0 && setBathroomscount(bathroomscount - 1)
           }
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{bathroomscount}-bathroom</p>
         <button
           onClick={() => setBathroomscount(bathroomscount + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
+
       <div className="w-full my-5">
         <p className="font-text text-base font-normal">
           Priority to clean in the
-          <span className="font-subHeading font-bold">bathroom </span> areas:
+          <span className="font-subHeading font-bold"> bathroom </span> areas:
         </p>
-        <input
+        <textarea
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          placeholder="e.g. ‘floor, sink, shower & vacuum mat’"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <div className="w-full my-5">
@@ -464,9 +520,10 @@ function YourBookingInfo() {
           Do <span className="font-subHeading font-bold">NOT CLEAN </span>
           items/areas in the bathroom:
         </p>
-        <input
+        <textarea
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          placeholder="e.g. ‘do not clean top shelf in the master bathroom’"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <h3 className="font-subHeading text-2xl font-bold py-3">
@@ -474,148 +531,166 @@ function YourBookingInfo() {
       </h3>
       <p className="font-text text-lg font-normal leading-5">
         Extra tasks required to be added to your
-        <span className="font-subHeading font-bold">REGULAR CLEANING</span>.
+        <span className="font-subHeading font-bold"> REGULAR CLEANING</span>.
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
       </p>
       <p className="font-text text-lg font-normal leading-5 py-3">
         Click how many
-        <span className="font-subHeading font-bold">bathrooms</span> to request
+        <span className="font-subHeading font-bold"> bathrooms</span> to request
         extra tasks.
       </p>
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
+        <button
+          onClick={() =>
+            extrabathroomcount !== 0 &&
+            setExtrabathroomCount(extrabathroomcount - 1)
+          }
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
+        >
+          <HiMinus />
+        </button>
+        <p className="self-center">{extrabathroomcount}-bathroom</p>
+        <button
+          onClick={() => setExtrabathroomCount(extrabathroomcount + 1)}
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
+        >
+          <HiPlus />
+        </button>
+      </div>
       <p className="font-text text-base font-normal">Extra Tasks</p>
       <div className="flex flex-wrap justify-between">
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Bathroom Cabinets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Medicine Cabinet
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
-          <p className="font-text text-center text-base font-normal">
+          <p className="font-text text-center text-[14.5px] font-normal">
             Deep Clean Bathroom Tile Grout
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
@@ -626,40 +701,41 @@ function YourBookingInfo() {
         Living Rooms/Family Rooms
       </h3>
       <p className="font-text text-lg font-normal leading-5 py-2">
-        How many
+        How many{" "}
         <span className="font-subHeading font-bold">
           living rooms/family rooms
-        </span>
+        </span>{" "}
         need cleaning? (including the basement area)
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() =>
             livingroomcount !== 0 && setLivingRoomCount(livingroomcount - 1)
           }
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{livingroomcount}-Living / Family Rooms</p>
         <button
           onClick={() => setLivingRoomCount(livingroomcount + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
-          Priority to clean in the
+          Priority to clean in the{" "}
           <span className="font-subHeading font-bold">
             living room/family room
-          </span>
+          </span>{" "}
           areas:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘dust top of the wall shelf as last cleaner forgot’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <div className="w-full my-5">
@@ -667,180 +743,181 @@ function YourBookingInfo() {
           Do <span className="font-subHeading font-bold">NOT CLEAN </span>
           items/areas in the living room/family room:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘do not touch any screen TV’s or glassware’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <h3 className="font-subHeading text-2xl font-bold py-3">
         Living room/family room extra tasks
       </h3>
       <p className="font-text text-lg font-normal leading-5">
-        Extra tasks required to be added to your
-        <span className="font-subHeading font-bold">REGULAR CLEANING</span>.
+        Extra tasks required to be added to your{" "}
+        <span className="font-subHeading font-bold">REGULAR CLEANING. </span>
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
       </p>
       <p className="font-text text-lg font-normal leading-5 py-3">
-        Click how many
+        Click how many{" "}
         <span className="font-subHeading font-bold">
           Living room/family room extra tasks
-        </span>
+        </span>{" "}
         to request extra tasks.
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() =>
             extralivingroomcount !== 0 &&
             setExtralivingRoomCount(extralivingroomcount - 1)
           }
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">
           {extralivingroomcount}-Living / Family Rooms
         </p>
         <button
           onClick={() => setExtralivingRoomCount(extralivingroomcount + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <p className="font-text text-base font-normal">Extra Tasks</p>
       <div className="flex flex-wrap justify-between">
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Furniture Polishing
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Move Furniture To Vacuum & Mop
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Vacuum & Mop Under Area Rugs
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
@@ -849,37 +926,39 @@ function YourBookingInfo() {
       </div>
       <h3 className="font-subHeading text-2xl font-bold py-3">Extra rooms</h3>
       <p className="font-text text-lg font-normal leading-5">
-        How many
+        How many{" "}
         <span className="font-subHeading font-bold">
           extra rooms including: dining rooms, office rooms, sun rooms, laundry
           rooms, gym rooms and any other rooms
-        </span>
+        </span>{" "}
         need cleaning? (including the basement area)
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() => extraRoom !== 0 && setExtraRoom(extraRoom - 1)}
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{extraRoom}- Extra Room</p>
         <button
           onClick={() => setExtraRoom(extraRoom + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
+
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
-          Please describe what are the
+          Please describe what are the{" "}
           <span className="font-subHeading font-bold">extra rooms </span> you
           want cleaned:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘clean the sunroom and dining room’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <div className="w-full my-5">
@@ -887,9 +966,10 @@ function YourBookingInfo() {
           Do <span className="font-subHeading font-bold">NOT CLEAN </span>
           items/areas in these rooms:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘do not clean the office room and gym room’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <h3 className="font-subHeading text-2xl font-bold py-3">
@@ -897,160 +977,164 @@ function YourBookingInfo() {
       </h3>
       <p className="font-text text-lg font-normal leading-5">
         Extra tasks required to be added to your
-        <span className="font-subHeading font-bold">REGULAR CLEANING</span>.
+        <span className="font-subHeading font-bold"> REGULAR CLEANING </span>.
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <p className="font-text text-base font-normal py-2">
+        How many <span className="font-subHeading font-bold"> rooms </span> need
+        extra tasks?
+      </p>
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() =>
             extraRoomTask !== 0 && setExtraRoomTask(extraRoomTask - 1)
           }
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{extraRoomTask}- Extra Room</p>
         <button
           onClick={() => setExtraRoomTask(extraRoomTask + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <p className="font-text text-base font-normal">Extra Tasks</p>
       <div className="flex flex-wrap justify-between">
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Furniture Polishing
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Move Furniture To Vacuum & Mop
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Vacuum & Mop Under Area Rugs
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
@@ -1062,29 +1146,30 @@ function YourBookingInfo() {
         How many <span className="font-subHeading font-bold"> kitchens </span>
         need cleaning?
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() => kitchen !== 0 && setKitchen(kitchen - 1)}
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{kitchen}-Kitchen</p>
         <button
           onClick={() => setKitchen(kitchen + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
           Priority and notes to clean in the
-          <span className="font-subHeading font-bold">kitchen</span> area:
+          <span className="font-subHeading font-bold"> kitchen </span> area:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘make sure to mop the kitchen floor with lysol only’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <div className="w-full my-5">
@@ -1092,9 +1177,10 @@ function YourBookingInfo() {
           Do <span className="font-subHeading font-bold">NOT CLEAN</span>
           items/areas in the kitchen:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘no need to clean the kitchen window and do not use bleach on kitchen cupboards, only fantastic cleaner’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-32 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <h3 className="font-subHeading text-2xl font-bold py-3">
@@ -1102,237 +1188,237 @@ function YourBookingInfo() {
       </h3>
       <p className="font-text text-lg font-normal leading-5">
         Extra tasks required to be added to your
-        <span className="font-subHeading font-bold">REGULAR CLEANING</span>.
+        <span className="font-subHeading font-bold"> REGULAR CLEANING. </span>
         Click all the boxes that apply and we will estimate how much time extra
         you may need.
       </p>
       <p className="font-text text-lg font-normal leading-5 py-3">
         Click how many
-        <span className="font-subHeading font-bold">kitchens</span> need extra
+        <span className="font-subHeading font-bold"> kitchens </span> need extra
         tasks.
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() =>
             kitchenExtraTask !== 0 && setKitchenExtraTask(kitchenExtraTask - 1)
           }
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{kitchenExtraTask}- Kitchen</p>
         <button
           onClick={() => setKitchenExtraTask(kitchenExtraTask + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <p className="font-text text-base font-normal">Extra Tasks</p>
       <div className="flex flex-wrap justify-between">
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Wash Dishes By Hand
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Empty Dishwasher
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Load Dishwasher
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Range Hood
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
-          <p className="font-text text-center text-base font-normal">
+          <p className="font-text text-center text-[14px] font-normal">
             Stove Cleaning Inside (Self Clean Oven)
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
-          <p className="font-text text-center text-base font-normal">
+          <p className="font-text text-center text-[14px] font-normal">
             Stove Cleaning Inside (Non-Self Clean Oven)
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Quick Clean Inside Fridge
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Inside Fridge
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Fridge & Sides
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
-          <p className="font-text text-center text-base font-normal">
+          <p className="font-text text-center text-[14px] font-normal">
             Deep Clean Kitchen Small Appliances
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Kitchen Cabinets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
-          <p className="font-text text-center text-base font-normal">
+          <p className="font-text text-center text-[14px] font-normal">
             Deep Clean Outside Of Kitchen Cabinets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
@@ -1341,7 +1427,7 @@ function YourBookingInfo() {
       </div>
       <p className="font-text text-lg font-normal leading-6 py-3">
         Do you require any
-        <span className="font-subHeading font-bold">laundry</span> to be done?
+        <span className="font-subHeading font-bold"> laundry </span> to be done?
       </p>
       <p className="font-text text-sm font-normal">
         If you require ironing service only, there is a 2.5 hour minimum
@@ -1369,7 +1455,7 @@ function YourBookingInfo() {
       </div>
       <p className="font-text text-lg font-normal leading-6">
         Do you require this service to be
-        <span className="font-subHeading font-bold">added ontop</span> of your
+        <span className="font-subHeading font-bold"> added ontop </span> of your
         CLEANING SERVICE?
       </p>
       <div className="my-4">
@@ -1394,7 +1480,7 @@ function YourBookingInfo() {
       </div>
       <p className="fon-text text-base font-normal leading-6 text-darkColor">
         How many loads of
-        <span className="font-subHeading font-bold">laundry</span> do you need
+        <span className="font-subHeading font-bold"> laundry </span> do you need
         done?
       </p>
       <p className="font-text text-sm font-normal text-darkColor py-2">
@@ -1403,7 +1489,7 @@ function YourBookingInfo() {
         wash&#39;. Each load on average takes 1 hour to wash and 1 hour to dry.)
       </p>
       <div className="my-4">
-        <select className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
+        <select className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
           <option value="2x a week">1 Load</option>
           <option value="3x a week">2 Load</option>
           <option value="3x a week">3 Load</option>
@@ -1413,14 +1499,15 @@ function YourBookingInfo() {
         <p className="font-text text-base font-normal py-2">
           Please leave detailed laundry instructions in the text box below:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘clean all loads on cold wash only’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p className="fon-text text-base font-normal leading-6 text-darkColor py-2">
         Do you require any
-        <span className="font-subHeading font-bold">ironing </span> to be done?
+        <span className="font-subHeading font-bold"> ironing </span> to be done?
       </p>
       <p className="font-text text-sm font-normal">
         If you require ironing service only, there is a 2.5 hour minimum
@@ -1448,7 +1535,7 @@ function YourBookingInfo() {
       </div>
       <p className="font-text text-lg font-normal leading-6">
         Do you require this service to be
-        <span className="font-subHeading font-bold">added ontop</span> of your
+        <span className="font-subHeading font-bold"> added ontop </span> of your
         CLEANING SERVICE?
       </p>
       <div className="my-4">
@@ -1473,7 +1560,7 @@ function YourBookingInfo() {
       </div>
       <p className="fon-text text-base font-normal leading-6 text-darkColor">
         How pieces do you need
-        <span className="font-subHeading font-bold">ironed</span>?
+        <span className="font-subHeading font-bold"> ironed</span>?
       </p>
       <p className="font-text text-sm font-normal text-darkColor py-2">
         (Make sure to have the ironing placed in a basket next to the ironing
@@ -1481,33 +1568,34 @@ function YourBookingInfo() {
         note on the basket &#39;Please iron&#39;. Each regular piece on average
         takes 5 minutes to iron. Extra time needed for larger pieces)
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() => ironPieces !== 0 && setIronPieces(ironPieces - 1)}
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{ironPieces}- Piece</p>
         <button
           onClick={() => setIronPieces(ironPieces + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal py-2">
           Please leave detailed ironing instructions in the text box below:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘use low heat only on the silk shirts’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p className="font-text text-lg font-normal leading-6">
         Do you require any
-        <span className="font-subHeading font-bold">organizing</span> to be
+        <span className="font-subHeading font-bold"> organizing </span> to be
         done?
       </p>
       <p className="font-text text-sm font-normal leading-5 py-3">
@@ -1540,7 +1628,7 @@ function YourBookingInfo() {
       </div>
       <p className="font-text text-lg font-normal leading-6">
         Do you require this service to be
-        <span className="font-subHeading font-bold">added ontop</span> of your
+        <span className="font-subHeading font-bold"> added ontop </span> of your
         CLEANING SERVICE?
       </p>
       <div className="my-4">
@@ -1566,24 +1654,24 @@ function YourBookingInfo() {
       <p className="font-text text-base font-normal text-darkColor leading-6">
         If so how much extra time do you require?
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() => extraTime !== 0 && setExtraTime(extraTime - 1)}
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{extraTime}- Minutes</p>
         <button
           onClick={() => setExtraTime(extraTime + 1)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <p className="font-text text-lg font-normal leading-6 text-darkColor">
         Do you require
-        <span className="font-subHeading font-bold">appliance cleaning </span>
+        <span className="font-subHeading font-bold"> appliance cleaning </span>
         only?
       </p>
       <p className="font-text text-sm font-normal leading-5 py-3">
@@ -1621,28 +1709,29 @@ function YourBookingInfo() {
         There is a 2.5 hour minimum requirement for appliance cleaning only
         service
       </p>
-      <div className="h-10 border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 flex justify-between px-3 my-5 rounded-md">
+      <div className="h-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 bg-secondaryColor bg-opacity-[0.1] flex justify-between  my-5 rounded-[7px]">
         <button
           onClick={() => extraHours !== 0 && setExtraHours(extraHours - 0.5)}
-          className="border-r-[2px] border-secondaryColor border-opacity-70 rounded-md pr-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          -
+          <HiMinus />
         </button>
         <p className="self-center">{extraHours}- Hours</p>
         <button
           onClick={() => setExtraHours(extraHours + 0.5)}
-          className="border-l-[2px] border-secondaryColor border-opacity-70 rounded-md pl-3 flex justify-between items-center"
+          className=" bg-secondaryColor bg-opacity-[0.1] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md h-[100%] w-[40px]  border-[1px] flex justify-center items-center"
         >
-          +
+          <HiPlus />
         </button>
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal leading-6 py-2">
           Explain what appliances you want cleaned?
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘need fridge and oven cleaned only’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p className="font-text text-base font-normal leading-6 py-2">
@@ -1651,18 +1740,18 @@ function YourBookingInfo() {
       </p>
       <div className="flex flex-wrap justify-between">
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
-          <p className="font-text text-center text-base font-normal">
+          <p className="font-text text-center text-[14px] font-normal">
             Stove Cleaning Inside (Self Clean Oven)
           </p>
         </div>
         <div
-          className="border-2 border-secondaryColor border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+          className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
+        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
-          <p className="font-text text-center text-base font-normal">
+          <p className="font-text text-center text-[14px] font-normal">
             Stove Cleaning Inside (Non-Self Clean Oven)
           </p>
         </div>
@@ -1678,40 +1767,40 @@ function YourBookingInfo() {
         (Our minimum service is 2.5 hours)
       </p>
       <div className="flex justify-between items-center flex-wrap">
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           2.5
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           3.0
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           3.5
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           4.0
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           4.5
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           5.0
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           5.5
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           6.0
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           6.5
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           7.0
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           7.5
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 h-10 w-[85px] rounded-lg flex items-center justify-center my-3">
           8.0
         </div>
       </div>
@@ -1738,16 +1827,16 @@ function YourBookingInfo() {
         How can your cleaner access the property?
       </p>
       <div className="flex justify-between items-center flex-wrap py-5">
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-lg h-14 w-[135px] flex items-center justify-center py-6 px-8 my-2">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-lg h-14 w-[48%] flex items-center justify-center py-6 px-2 my-2">
           Someone At Home
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-lg h-14 w-[135px] flex items-center justify-center py-6 px-8 my-2">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-lg h-14 w-[48%] flex items-center justify-center py-6 px-8 my-2">
           Concierge
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-lg h-14 w-[135px] flex items-center justify-center py-6 px-8 my-2">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-lg h-14 w-[48%] flex items-center justify-center py-6 px-8 my-2">
           Key Safe
         </div>
-        <div className="bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-lg h-14 w-[135px] flex items-center justify-center py-6 px-6 my-2">
+        <div className="bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-lg h-14 w-[48%] flex items-center justify-center py-6 px-6 my-2">
           Key Hidden
         </div>
       </div>
@@ -1755,9 +1844,10 @@ function YourBookingInfo() {
         <p className="font-text text-base font-normal leading-6 py-2">
           Where is the key hidden?
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘under the front mat’"
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <div className="w-full my-5">
@@ -1766,12 +1856,13 @@ function YourBookingInfo() {
         </p>
         <input
           type="number"
-          className="w-full h-10 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-10 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p className="font-text text-lg font-normal leading-6">
         Do you have an
-        <span className="font-subHeading font-bold mr-2">alarm system</span>on?
+        <span className="font-subHeading font-bold mr-2"> alarm system </span>
+        on?
       </p>
       <div className="my-4">
         <div className="w-28 flex justify-between  mb-5 bg-[#6762f01a] rounded-full">
@@ -1805,12 +1896,15 @@ function YourBookingInfo() {
         </p>
         <input
           type="number"
-          className="w-full h-10 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-10 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p className="font-text text-lg font-normal leading-6">
         Is there
-        <span className="font-subHeading font-bold mr-2">visitors parking</span>
+        <span className="font-subHeading font-bold mr-2">
+          {" "}
+          visitors parking{" "}
+        </span>
         available?
       </p>
       <div className="my-4">
@@ -1840,12 +1934,12 @@ function YourBookingInfo() {
       <div className="w-full my-5">
         <input
           type="text"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p className="font-text text-lg font-normal leading-6">
         Do you have any
-        <span className="font-subHeading font-bold mr-2">pets</span> in the
+        <span className="font-subHeading font-bold mr-2"> pets </span> in the
         house when the cleaner will arrive?
       </p>
       <div className="my-4">
@@ -1872,36 +1966,40 @@ function YourBookingInfo() {
         <p className="font-text text-base font-normal leading-6 py-2">
           If so, explain what kind and how many?
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘3 cats and 1 dog’"
           type="number"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal leading-5 py-2">
-          IF you have <span className="font-subHeading font-bold">dogs</span>,
+          If you have <span className="font-subHeading font-bold"> dogs</span>,
           explain the breed and will they be ok with a cleaner in the house?
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘1 friendly hypoallergic poodle’"
           type="number"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <div className="w-full my-5">
         <p className="font-text text-base font-normal leading-6 py-2">
           Please explain where your
-          <span className="font-subHeading font-bold mr-2">products</span>and
-          <span className="font-subHeading font-bold mx-2">supplies</span>be
+          <span className="font-subHeading font-bold mr-2"> products</span>and
+          <span className="font-subHeading font-bold mx-2"> supplies</span>be
           kept:
         </p>
-        <input
+        <textarea
+          placeholder="e.g. ‘supplies will be left in the kitchen on the counter and vacuum, mop, broom left in the kitchen too.’"
           type="number"
-          className="w-full h-20 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-32 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
       </div>
       <p className="font-text text-base font-normal leading-5 py-2">
-        Click on the button for the list of cleaning supplies and equipment we
-        recommend to have ready for your clean.
+        Click on the button for the list of{" "}
+        <span className="font-subHeading"> cleaning supplies </span> and
+        equipment we recommend to have ready for your clean.
       </p>
       <LargeButton
         Text="List of supplies"
@@ -1922,7 +2020,7 @@ function YourBookingInfo() {
       <div className="w-full my-5">
         <input
           type="number"
-          className="w-full h-80 bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-md"
+          className="w-full h-80 bg-secondaryColor bg-opacity-10 border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 rounded-md"
         />
         <p className="font-text text-xs font-normal text-darkColor">
           2000 word limit.

@@ -27,8 +27,13 @@ function MobileMenu() {
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
-              <Link href="/">Register As A Cleaner</Link>
+              <Link href="/registerasacleaner">Register As A Cleaner</Link>
             </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
+            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <Link href="/about">About Us</Link>
+            </li>
+
             <p className="border-b-2 border-lightColor mx-5"></p>
             <li
               className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3"
@@ -36,6 +41,7 @@ function MobileMenu() {
             >
               <p>Our Services</p>
             </li>
+
             <div
               className="text-lightColor flex flex-col  w-[93%] ml-auto"
               style={{

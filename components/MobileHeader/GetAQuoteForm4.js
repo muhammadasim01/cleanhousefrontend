@@ -19,7 +19,7 @@ function GetAQuoteForm4() {
   const router = useRouter();
   const navigation = (e) => {
     e.preventDefault();
-    router.push("/");
+    router.push("/bookingsummary");
   };
   return (
     <>
@@ -159,12 +159,6 @@ function GetAQuoteForm4() {
             font="font-bold"
             toggle={navigation}
           />
-          {/* <button className="next" type="submit" onClick={navigation}>
-            next
-          </button> */}
-          {/* <Link href="/">
-            <a>next</a>
-          </Link> */}
         </form>
       </div>
     </>

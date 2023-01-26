@@ -3,6 +3,8 @@ import { GrFormPreviousLink } from "react-icons/gr";
 import { BsInfoCircle } from "react-icons/bs";
 import LargeButton from "./LargeButton";
 import { ModalPage } from "./Model";
+import Header from "../Header";
+import Footer from "../Footer";
 function BookingDetails() {
   const [isOpen, setIsOpen] = useState(false);
   const [buttonToggle, setButtonToggle] = useState(true);
@@ -18,7 +20,8 @@ function BookingDetails() {
   };
   return (
     <>
-      <div className="border-2 border-secondaryColor p-4">
+      <Header bgColor="bg-lightColor" />
+      <div className=" p-4">
         <GrFormPreviousLink className="text-3xl" />
         <h2 className="font-subHeading  text-2xl font-bold py-2">
           Your Booking Details
@@ -134,7 +137,10 @@ function BookingDetails() {
           font="font-bold"
         />
       </div>
+      <br />
+      <br />
       <ModalPage isOpen={isOpen} toggle={toggle} />
+      <Footer />
     </>
   );
 }

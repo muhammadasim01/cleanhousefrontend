@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 import { BiGift } from "react-icons/bi";
 import { GrFormNext } from "react-icons/gr";
@@ -159,11 +160,13 @@ function BookingSummary() {
         <p className="border-b-2  h-5 w-24 ml-2 border-secondaryColor"></p>
       </div>
       <div className="border-b-2 w-full text-[#A9A9A9]"></div>
-      <div className="flex justify-between items-center py-3">
-        <BiGift />
-        <p>Send as a gift</p>
-        <GrFormNext />
-      </div>
+      <Link href="/sendgift">
+        <div className="flex justify-between items-center py-3">
+          <BiGift />
+          <p>Send as a gift</p>
+          <GrFormNext />
+        </div>
+      </Link>
       <div className="border-b-2 w-full text-[#A9A9A9]"></div>
     </div>
   );

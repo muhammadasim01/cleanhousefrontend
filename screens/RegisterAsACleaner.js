@@ -11,7 +11,9 @@ import logo2 from "../public/assets/Maidzly-logo.png";
 import Header from "../components/Header";
 import TopBar from "../components/TopBar";
 import Footer from "../components/Footer";
+import { useRouter } from "next/router";
 function RegisterAsACleaner() {
+  const router = useRouter();
   return (
     <div className="">
       <MobileTopBar />
@@ -118,7 +120,10 @@ function RegisterAsACleaner() {
       </div>
 
       <div className="mx-4 flex items-center justify-center">
-        <button className="bg-secondaryColor py-2 px-12 rounded-md font-text font-bold text-xl text-lightColor">
+        <button
+          className="bg-secondaryColor py-2 px-12 rounded-md font-text font-bold text-xl text-lightColor"
+          onClick={() => router.push("/cleanerbasicinfo")}
+        >
           Get Started Now
         </button>
       </div>
