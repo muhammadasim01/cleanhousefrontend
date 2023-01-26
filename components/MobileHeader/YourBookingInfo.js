@@ -339,7 +339,7 @@ function YourBookingInfo() {
       <div className="flex flex-wrap justify-between">
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Change Bedsheets
@@ -347,7 +347,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Furniture Polishing
@@ -355,7 +355,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Move Furniture To Vacuum & Mop
@@ -363,7 +363,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Vacuum & Mop Under Area Rugs
@@ -371,7 +371,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
@@ -379,7 +379,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
@@ -387,7 +387,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
@@ -395,7 +395,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
@@ -403,7 +403,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
@@ -411,7 +411,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
@@ -419,7 +419,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
@@ -427,7 +427,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
@@ -435,7 +435,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
@@ -443,7 +443,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
@@ -451,7 +451,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
@@ -459,7 +459,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
@@ -467,7 +467,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
@@ -475,7 +475,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2   
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
@@ -562,7 +562,7 @@ function YourBookingInfo() {
       <div className="flex flex-wrap justify-between">
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Bathroom Cabinets
@@ -570,7 +570,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Medicine Cabinet
@@ -578,7 +578,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-[14.5px] font-normal">
             Deep Clean Bathroom Tile Grout
@@ -586,7 +586,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
@@ -594,7 +594,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
@@ -602,7 +602,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
@@ -610,7 +610,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
@@ -618,7 +618,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
@@ -626,7 +626,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
@@ -634,7 +634,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
@@ -642,7 +642,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
@@ -650,7 +650,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
@@ -658,7 +658,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
@@ -666,7 +666,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
@@ -674,7 +674,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
@@ -682,7 +682,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
@@ -690,7 +690,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
@@ -789,7 +789,7 @@ function YourBookingInfo() {
       <div className="flex flex-wrap justify-between">
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Furniture Polishing
@@ -797,7 +797,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Move Furniture To Vacuum & Mop
@@ -805,7 +805,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Vacuum & Mop Under Area Rugs
@@ -813,7 +813,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
@@ -821,7 +821,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
@@ -829,7 +829,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
@@ -837,7 +837,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
@@ -845,7 +845,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
@@ -853,7 +853,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
@@ -861,7 +861,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
@@ -869,7 +869,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
@@ -877,7 +877,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
@@ -885,7 +885,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
@@ -893,7 +893,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
@@ -901,7 +901,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
@@ -909,7 +909,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
@@ -917,7 +917,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
@@ -1006,7 +1006,7 @@ function YourBookingInfo() {
       <div className="flex flex-wrap justify-between">
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Furniture Polishing
@@ -1014,7 +1014,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Move Furniture To Vacuum & Mop
@@ -1022,7 +1022,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Vacuum & Mop Under Area Rugs
@@ -1030,7 +1030,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
@@ -1038,7 +1038,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
@@ -1046,7 +1046,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
@@ -1054,7 +1054,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
@@ -1062,7 +1062,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
@@ -1070,7 +1070,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
@@ -1078,7 +1078,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
@@ -1086,7 +1086,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
@@ -1094,7 +1094,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
@@ -1102,7 +1102,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
@@ -1110,7 +1110,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
@@ -1118,7 +1118,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
@@ -1126,7 +1126,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
@@ -1134,7 +1134,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%] h-[64px]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
@@ -1218,7 +1218,7 @@ function YourBookingInfo() {
       <div className="flex flex-wrap justify-between">
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Wash Dishes By Hand
@@ -1226,7 +1226,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Empty Dishwasher
@@ -1234,7 +1234,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Load Dishwasher
@@ -1242,7 +1242,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Range Hood
@@ -1250,7 +1250,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-[14px] font-normal">
             Stove Cleaning Inside (Self Clean Oven)
@@ -1258,7 +1258,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-[14px] font-normal">
             Stove Cleaning Inside (Non-Self Clean Oven)
@@ -1266,7 +1266,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Quick Clean Inside Fridge
@@ -1274,7 +1274,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Inside Fridge
@@ -1282,7 +1282,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Fridge & Sides
@@ -1290,7 +1290,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-[14px] font-normal">
             Deep Clean Kitchen Small Appliances
@@ -1298,7 +1298,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Kitchen Cabinets
@@ -1306,7 +1306,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-[14px] font-normal">
             Deep Clean Outside Of Kitchen Cabinets
@@ -1314,7 +1314,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Ceiling Fan
@@ -1322,7 +1322,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Light Fixtures
@@ -1330,7 +1330,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Disinfecting Knobs
@@ -1338,7 +1338,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Top Of Doors
@@ -1346,7 +1346,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Wastebaskets
@@ -1354,7 +1354,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Switches
@@ -1362,7 +1362,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Window Tracks
@@ -1370,7 +1370,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Inside Windows
@@ -1378,7 +1378,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Clean Blinds
@@ -1386,7 +1386,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Window Sills
@@ -1394,7 +1394,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Spot Clean Walls & Doors
@@ -1402,7 +1402,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Walls & Doors
@@ -1410,7 +1410,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Baseboards
@@ -1418,7 +1418,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-base font-normal">
             Deep Clean Floor Washing
@@ -1741,7 +1741,7 @@ function YourBookingInfo() {
       <div className="flex flex-wrap justify-between">
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-[14px] font-normal">
             Stove Cleaning Inside (Self Clean Oven)
@@ -1749,7 +1749,7 @@ function YourBookingInfo() {
         </div>
         <div
           className="border-[1px] border-[rgba(103,98,240,0.5)] border-opacity-70 flex justify-center items-center py-1 px-2 
-        w-[48%] h-[64px] rounded-md bg-secondaryColor bg-opacity-10 my-2"
+        w-[48%]  rounded-md bg-secondaryColor bg-opacity-10 my-2"
         >
           <p className="font-text text-center text-[14px] font-normal">
             Stove Cleaning Inside (Non-Self Clean Oven)
