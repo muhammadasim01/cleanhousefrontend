@@ -17,35 +17,57 @@ function GetAQuoteForm2() {
     <>
       <Header logo={logo2} position={"relative"} bgColor={"bg-lightColor"} />
       <GetAQuoteForm Title="Get Your Quote" />
-      <div className="p-4">
-        <h2 className="font-subHeading  text-[26px] font-bold leading-[33px] text-left mb-3">
+      <div className="px-4">
+        <h2 className="font-subHeading   text-[26px] font-bold leading-[33px] text-left mb-3">
           Book Your Cleaning date
         </h2>
         <div className="flex justify-between items-center my-2">
           <GrFormPrevious className="border-2 border-secondaryColor bg-secondaryColor bg-opacity-10 h-[20px] w-[20px] rounded-full" />
-          <p className="font-heading text-[18px] font-bold leading-[23px]">Octuber</p>
+          <p className="font-heading text-[18px] font-bold leading-[23px]">
+            Octuber
+          </p>
           <MdNavigateNext className="border-2 border-secondaryColor bg-secondaryColor bg-opacity-10 h-[20px] w-[20px] rounded-full" />
         </div>
         <div className="flex px-2 ">
-          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-20">
-            <p className="font-subHeading text-sm font-bold leading-[19px]">Fri</p>
-            <p className="font-subHeading text-sm font-bold leading-[19px]">28</p>
+          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-10">
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              Fri
+            </p>
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              28
+            </p>
           </div>
-          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-20">
-            <p className="font-subHeading text-sm font-bold leading-[19px]">Sat</p>
-            <p className="font-subHeading text-sm font-bold leading-[19px]">29</p>
+          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-10">
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              Sat
+            </p>
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              29
+            </p>
           </div>
-          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-20">
-            <p className="font-subHeading text-sm font-bold leading-[19px]">Sun</p>
-            <p className="font-subHeading text-sm font-bold leading-[19px]">30</p>
+          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-10">
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              Sun
+            </p>
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              30
+            </p>
           </div>
-          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-20">
-            <p className="font-subHeading text-sm font-bold leading-[19px]">Sun</p>
-            <p className="font-subHeading text-sm font-bold leading-[19px]">31</p>
+          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-10">
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              Sun
+            </p>
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              31
+            </p>
           </div>
-          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-20">
-            <p className="font-subHeading text-sm font-bold leading-[19px]">Mon</p>
-            <p className="font-subHeading text-sm font-bold leading-[19px]">01</p>
+          <div className="border-2 border-secondaryColor border-opacity-40 h-[65px] w-[48px] flex flex-col justify-evenly items-center p-1 m-2 rounded-lg bg-secondaryColor bg-opacity-10">
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              Mon
+            </p>
+            <p className="font-subHeading text-sm font-bold leading-[19px]">
+              01
+            </p>
           </div>
         </div>
         <div className="flex flex-col justify-between h-40">
@@ -70,16 +92,24 @@ function GetAQuoteForm2() {
         />
         <div>
           <div className="flex justify-between px-12">
-            <p className="font-text text-[18px] font-normal leading-[25px]">AM</p>
-            <p className="font-text text-[18px] font-normal leading-[25px]">PM</p>
+            <p className="font-text text-[18px] font-normal leading-[25px]">
+              AM
+            </p>
+            <p className="font-text text-[18px] font-normal leading-[25px]">
+              PM
+            </p>
           </div>
           <div className="flex justify-between flex-wrap">
             <button className="border-2 border-secondaryColor border-opacity-50 w-[45%] h-[60px] bg-secondaryColor bg-opacity-10 mx-2 my-2 py-1 rounded-md">
               <div className="flex justify-evenly items-center mx-4">
                 <BsFillEmojiSmileFill className="text-secondaryColor text-2xl border-2 rounded-full" />
-                <p className="font-text text-[14px] font-normal leading-5">Flexible</p>
+                <p className="font-text text-[14px] font-normal leading-5">
+                  Flexible
+                </p>
               </div>
-              <p className="font-text text-[14px] font-normal leading-5">09:00 - 12:00</p>
+              <p className="font-text text-[14px] font-normal leading-5">
+                09:00 - 12:00
+              </p>
             </button>
             <button className="border-2 border-secondaryColor border-opacity-50 w-[45%] bg-secondaryColor bg-opacity-10 mx-2 my-2 py-1 rounded-md">
               <div className="flex justify-between items-center mx-4">
