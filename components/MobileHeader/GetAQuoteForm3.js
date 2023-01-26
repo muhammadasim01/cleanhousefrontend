@@ -13,52 +13,54 @@ function GetAQuoteForm3() {
   };
   return (
     <>
-      <Header logo={logo2} position={"relative"} />
+      <Header logo={logo2} position={"relative"} bgColor={"bg-lightColor"} />
       <GetAQuoteForm Title="Get Your Quote" />
       <div className="p-4">
-        <h2 className="font-subHeading  text-xl font-bold text-left">
+        <h2 className="font-subHeading  text-[26px] font-bold leading-[33px] text-left mt-2 mb-4">
           Contact Information
         </h2>
-        <p>
+        <p className="font-text text-[18px] font-normal leading-[25px]">
           Already have an account?{" "}
           <span className="text-secondaryColor">Log In</span>
         </p>
         <form>
           <div className="my-4">
-            {/* <p>Others:</p> */}
             <input
               type="text"
               placeholder="Enter your email address"
-              className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-2 border-secondaryColor border-opacity-50 w-full py-3 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
             />
           </div>
-          <div className="flex px-2">
-            <div className="w-[15%] bg-lightColor flex justify-center pt-5">
-              <RiCheckboxBlankLine className="h-8 w-8 text-[#E8EDF5] bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-[1.7px] border-secondaryColor border-opacity-50 rounded-md" />
-            </div>
+          <div className="flex items-center justify-center px-2">
+          <div className="w-[15%] bg-lightColor flex justify-center">
+           <input
+           type="checkbox"
+           className="h-[30px] w-[30px] border-2 border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg"
+           />
+          </div>
             <div className="w-[85%]">
-              <p className="font-text text-base font-normal my-4 px-3">
+              <p className="font-text text-base font-normal leading-[22px] my-4 px-3">
                 Email me with news and offers
               </p>
             </div>
           </div>
           <div className="my-4">
-            <p className="font-subHeading text-2xl font-bold mb-4">Address</p>
+            <p className="font-subHeading text-[26px] font-bold leading-[33px] mb-4">Address</p>
             <input
               type="text"
               placeholder="First Name"
-              className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
             />
           </div>
           <div className="my-4">
             <input
               type="text"
               placeholder="Last Name"
-              className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
             />
           </div>
           <div className="my-4">
-            <select className="border-2 border-secondaryColor border-opacity-70 w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md">
+            <select className="border-2 border-secondaryColor border-opacity-50 w-full py-2 bg-secondaryColor bg-opacity-10 rounded-lg">
               <option value="once a week">Country</option>
               <option value="2x a week">USA</option>
               <option value="3x a week">CANADA</option>
@@ -68,18 +70,18 @@ function GetAQuoteForm3() {
             <input
               type="text"
               placeholder="Address"
-              className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
             />
           </div>
           <div className="my-4">
             <input
               type="text"
               placeholder="Apt, suite, floor, etc (optional)"
-              className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
             />
           </div>
           <div className="my-4">
-            <select className="border-2 border-secondaryColor border-opacity-70 w-full py-2 bg-secondaryColor bg-opacity-10 rounded-md">
+            <select className="border-2 border-secondaryColor border-opacity-50 w-full py-2 bg-secondaryColor bg-opacity-10 rounded-lg">
               <option value="once a week">Province</option>
               <option value="2x a week">USA</option>
               <option value="3x a week">CANADA</option>
@@ -89,14 +91,14 @@ function GetAQuoteForm3() {
             <input
               type="number"
               placeholder="Postal Code / Zip Code"
-              className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
             />
           </div>
           <div className="my-4">
             <input
               type="number"
               placeholder="Phone Number"
-              className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
             />
           </div>
           <LargeButton

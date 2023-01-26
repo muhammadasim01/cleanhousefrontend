@@ -4,6 +4,7 @@ import GpayIcon from "../../public/assets/GPay_logo.png";
 import materCard from "../../public/assets/mastercard.png";
 import visaCard from "../../public/assets/visacard.png";
 import americanCard from "../../public/assets/americancard.png";
+import Paypal from "../../public/assets/PayPal.png";
 import { FcGoogle } from "react-icons/fc";
 import { BsFillCreditCardFill } from "react-icons/bs";
 import { BsPaypal } from "react-icons/bs";
@@ -23,47 +24,47 @@ function GetAQuoteForm4() {
   };
   return (
     <>
-      <Header logo={logo2} position={"relative"} />
+      <Header logo={logo2} position={"relative"} bgColor={"bg-lightColor"} />
       <GetAQuoteForm Title="Get Your Quote" />
       <div className="p-4">
-        <h2 className="font-subHeading  text-xl font-bold text-left my-2">
-          payment Information
+        <h2 className="font-subHeading  text-[26px] font-bold leading-[33px] text-left my-2">
+          Payment Information
         </h2>
         <div className="flex py-2">
-          <BsInfoCircle className="text-secondaryColor text-xl w-[15%]" />
-          <p className="w-[85%] font-text text-sm font-normal px-2 leading-5">
+          <BsInfoCircle className="text-secondaryColor text-2xl font-bold w-[10%]" />
+          <p className="w-[90%] font-text text-sm font-normal px-2 leading-5">
             You will only be charged after your clean is completed. You can
             change or cancel this schedule at any time.
           </p>
         </div>
         <form>
           <div className="my-2">
-            <p>Card number</p>
+            <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">Card number</p>
             <input
               type="number"
-              // placeholder="Enter your Card Number"
-              className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              placeholder="1234 1234 1234 1234"
+              className="border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
             />
           </div>
           <div className="flex items-center">
-            <div className="mb-4 w-[45%] mx-2">
-              <p>Expiry date</p>
+            <div className="mb-4 w-[65%] mx-2">
+              <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">Expiry date</p>
               <input
-                type="date"
-                //   placeholder="MM/YY"
-                className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+                type="number"
+                placeholder="MM/YY"
+                className="appearance-none border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
               />
             </div>
-            <div className="mb-4 w-[45%] mx-2">
-              <p>CVC</p>
+            <div className="mb-4 w-[35%] mx-2">
+              <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">CVC</p>
               <input
                 type="number"
                 placeholder="123"
-                className="border-2 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+                className="border-2 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-lg"
               />
             </div>
           </div>
-          <h2 className="font-subHeading  text-xl font-bold text-left">
+          <h2 className="font-subHeading  text-[22px] font-bold leading-[26px] text-left my-3">
             Saved Payment Methods
           </h2>
           <div className="flex items-center py-3">
@@ -71,44 +72,46 @@ function GetAQuoteForm4() {
               <FcGoogle />
               Pay
             </p>
-            <p className="w-[80%] px-2 font-text text-base font-normal">
+            <p className="w-[80%] px-2 font-text text-base font-normal leading-[22px]">
               Google Pay
             </p>
           </div>
           <div className="border-b-2 w-full text-[#A9A9A9]"></div>
+          <h2 className="font-subHeading  text-[22px] font-bold leading-[26px] text-left my-3">
+          Add Payment Methods
+          </h2>
           <div className="flex items-center py-3">
-            <p className="px-2 w-[20%]">
+            <p className="px-2">
               <BsFillCreditCardFill className="text-2xl text-secondaryColor" />
             </p>
-            <p className="w-[80%] px-2 font-text text-base font-normal">
+            <p className="font-text text-base font-normal leading-[22px]">
               Credit/Debit Card
             </p>
           </div>
           <div className="border-b-2 w-full text-[#A9A9A9]"></div>
           <div className="flex items-center py-3">
-            <p className="px-2 w-[20%]">
-              <BsPaypal className="text-2xl text-secondaryColor" />
-            </p>
-            <p className="w-[80%] px-2 font-text text-base font-normal">
-              PayPal
+            <p className="px-2">
+              <img src="/assets/PayPal.png" alt="" className="h-[22px] w-[390px]" />
             </p>
           </div>
           <div className="border-b-2 w-full text-[#A9A9A9]"></div>
           <div className="flex items-center py-3">
-            <p className="w-[18%] border-[2px] border-secondaryColor rounded-md  py-[2px] flex items-center justify-center">
-              {/* <BsPaypal className="text-2xl text-secondaryColor" /> */}
+            <p className="ml-[6px] h-[28px] w-[32px] border-[2px] border-secondaryColor rounded-md  py-[2px] flex items-center justify-center">
               <img src="/assets/mastercard.png" alt="" />
             </p>
-            <p className="w-[82%] px-2 font-text text-base font-normal">
+            <p className="h-[20px] w-[28px] px-2 font-text text-base font-normal leading-[22px]">
               Mastercard
             </p>
           </div>
           <div className="flex px-2">
-            <div className="w-[15%] bg-lightColor flex justify-center pt-5">
-              <RiCheckboxBlankLine className="h-8 w-8 text-[#E8EDF5] bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-[1.7px] border-secondaryColor border-opacity-50 rounded-md" />
+          <div className="bg-lightColor flex justify-center pt-5">
+           <input
+           type="checkbox"
+           className="h-[30px] w-[30px] border-2 border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg"
+           />
             </div>
             <div className="w-[85%]">
-              <p className="font-text text-base font-normal my-4 px-3 leading-5">
+              <p className="font-text text-base font-normal my-4 px-3 leading-[22px]">
                 I accept the{" "}
                 <span className="text-secondaryColor">
                   terms and conditions
@@ -120,35 +123,26 @@ function GetAQuoteForm4() {
               </p>
             </div>
           </div>
-          <div className="h-[230px] border-2 border-secondaryColor bg-secondaryColor bg-opacity-10 rounded-md">
-            <div className="py-2 px-2">
-              <h2 className="font-subHeading text  font-bold">Security</h2>
-            </div>
-            <div>
-              <div className="flex">
-                <BsFillCreditCardFill className="w-[20%] text-2xl text-secondaryColor" />
-                <p className="w-[80%] text-left px-4">
-                  We accept these cards only
-                </p>
-              </div>
-              <div className="flex">
-                <div className="w-[20%]"></div>
-                <p className="w-[80%] text-left flex justify-evenly py-2">
-                  <img src="/assets/mastercard.png" alt="" />
-                  <img src="/assets/visacard.png" alt="" />
-                  <img src="/assets/americancard.png" alt="" />
-                </p>
-              </div>
+          <div className="h-[230px] border-2 border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-md">
+            <div className="py-4 px-2">
+              <h2 className="font-subHeading text-lg  font-bold leading-[23px]">Security</h2>
             </div>
             <div className="flex">
-              <div className="w-[20%] px-4 py-2">
-                <HiOutlineShoppingBag className="text-secondaryColor text-2xl" />
+              <div className="pl-4 w-[20%] flex flex-col justify-between h-[120px]">
+              <BsFillCreditCardFill className="text-2xl text-secondaryColor" />
+              <HiOutlineShoppingBag className="text-secondaryColor text-2xl" />
               </div>
-              <div className="w-[80%] py-2 px-4">
-                <p className="font-text text-sm text-left font-normal leading-5">
-                  Maidzly uses 256-bit SSL encryption and 3D secure
-                  authentication to protect your peronal information.
-                </p>
+              <div className="w-[80%] flex flex-col justify-between h-[160px]">
+              We accept these cards only
+              <p className="text-left flex py-2">
+                  <img src="/assets/mastercard.png" alt="" className="mx-2 h-[17px] w-[26px]" />
+                  <img src="/assets/visacard.png" alt="" className="mx-2 h-[17px] w-[26px]" />
+                  <img src="/assets/americancard.png" alt=""  className="mx-2 h-[17px] w-[26px]" />
+              </p>
+              <p className="font-text text-sm text-left font-normal leading-5">
+                 Maidzly uses 256-bit SSL encryption and 3D secure
+                 authentication to protect your peronal information.
+              </p>
               </div>
             </div>
           </div>
@@ -159,12 +153,6 @@ function GetAQuoteForm4() {
             font="font-bold"
             toggle={navigation}
           />
-          {/* <button className="next" type="submit" onClick={navigation}>
-            next
-          </button> */}
-          {/* <Link href="/">
-            <a>next</a>
-          </Link> */}
         </form>
       </div>
     </>

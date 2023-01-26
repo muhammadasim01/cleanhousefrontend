@@ -60,7 +60,7 @@ export default function Home() {
         {/* <UploadPhotoId /> */}
         {/* <CleanerProfile /> */}
         {/* <BookingDetails /> */}
-        {/* <RegisterAsACleaner /> */}
+        <RegisterAsACleaner />
         {/* <Banner /> */}
         {/* <MaidzlyServices /> */}
         {/* <DeepCleaningServices /> */}
@@ -75,7 +75,7 @@ export default function Home() {
         {/* <CommercialCleaningServices /> */}
         {/* <Footer /> */}
         {/*Other All Screens */}
-        <HomePage />
+        {/* <HomePage /> */}
         {/* <Blogs /> */}
         {/* <FaQ /> */}
         {/* <About /> */}
