@@ -5,7 +5,7 @@ import logo2 from "../../public/assets/Maidzly-logo.png";
 function GetAQuoteForm1() {
   return (
     <>
-      <Header logo={logo2} position={"relative"} />
+      <Header logo={logo2} position={"relative"} bgColor={"bg-lightColor"} />
       <div className="px-4 h-auto">
         <GetAQuoteForm Title="Customise Your Clean" />
         <YourBookingInfo />
