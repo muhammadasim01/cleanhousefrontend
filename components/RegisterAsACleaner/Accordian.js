@@ -7,11 +7,11 @@ function Accordian({heading,text,listItem1,listItem2,listItem3,checklist1,checkl
   return (
     <div
       onClick={() => setExpanded(!expanded)}
-      className="flex flex-col p-3 border-b text-gray-light cursor-pointer"
+      className="flex flex-col p-3 border-b-2 text-[#77777733] cursor-pointer"
     >
       <div className="flex flex-row">
         <p
-          className={`font-subHeading text-[22px] w-[80%]  font-medium mx-2 leading-[26px] ${
+          className={`font-text text-[22px] w-[80%]  font-medium mx-2 leading-[26px] ${
             expanded ? "text-secondaryColor" : "text-darkColor"
           }`}
         >
@@ -46,11 +46,46 @@ function Accordian({heading,text,listItem1,listItem2,listItem3,checklist1,checkl
           </p>
           </div>
           <div>
-          {checklist1 &&  <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+          {checklist1 && 
+          <div>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
            <p className="w-[20%] mt-[2px]"><GiCheckMark /></p>
            <p className="text-left">{checklist1}</p>
-          </p>}
-         
+          </p>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+           <p className="w-[10%] mt-[2px]"><GiCheckMark /></p>
+           <p className="text-left">{checklist2}</p>
+          </p>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+           <p className="w-[30%] mt-[2px]"><GiCheckMark /></p>
+           <p className="text-left">{checklist3}</p>
+          </p>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+           <p className="w-[30%] mt-[2px]"><GiCheckMark /></p>
+           <p className="text-left">{checklist4}</p>
+          </p>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+           <p className="w-[25%] mt-[2px]"><GiCheckMark /></p>
+           <p className="text-left">{checklist5}</p>
+          </p>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+           <p className="w-[20%] mt-[2px]"><GiCheckMark /></p>
+           <p className="text-left">{checklist6}</p>
+          </p>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+           <p className="w-[20%] mt-[2px]"><GiCheckMark /></p>
+           <p className="text-left">{checklist7}</p>
+          </p>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+           <p className="w-[30%] mt-[2px]"><GiCheckMark /></p>
+           <p className="text-left">{checklist8}</p>
+          </p>
+          <p className="font-text text-base flex  text-darkColor font-normal leading-5 mx-2 my-3">
+           <p className="w-[30%] mt-[2px]"><GiCheckMark /></p>
+           <p className="text-left">{checklist9}</p>
+          </p>
+          </div>
+          }
           </div>
         </div>
       </div>

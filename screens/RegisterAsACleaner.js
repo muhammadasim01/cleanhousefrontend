@@ -156,9 +156,9 @@ function RegisterAsACleaner() {
         24/7 support, site maintenance, and product improvements. It is advisable to set a competitive yet fair rate
         in order to attract customers and also get repeat business." />
         <Accordian 
-        heading="What are the perks of working with My Clean House?"
-        text="Here are just a few of the many perks of working with My Clean House:"
-        checklist1="You can register to become a cleaner with My Clean House without having to pay a joining fee."
+        heading="What are the perks of working with Maidzly?"
+        text="Here are just a few of the many perks of working with Maidzly:"
+        checklist1="You can register to become a cleaner with Maidzly without having to pay a joining fee."
         checklist2="Our cleaners can earn upto $1700 per week, plus tips."
         checklist3="We use a secure and simple app to connect cleaners with clients, and payments are made promptly and on-time - straight into your bank account."
         checklist4="Our cleaners enjoy flexible hours and the freedom to choose how many jobs they take on, whether they want to work part-time or full-time."
@@ -170,7 +170,7 @@ function RegisterAsACleaner() {
         />
         <Accordian
         heading="Can I offer other services besides cleaning?"
-        text="Cleaners on My Clean House can also offer more than regular house cleaning services like;
+        text="Cleaners on Maidzly can also offer more than regular house cleaning services like;
          deep cleaning services, renovation cleaning services, post renovation cleaning services, home organizing, 
          laundry service, ironing service  and appliances cleaning. It really depends on you!"
         />
@@ -188,6 +188,77 @@ function RegisterAsACleaner() {
          for any errors or typos.
           "
         />
+        <Accordian
+        heading="How do I download the Maidzly app?"
+        text={["The Maidzly app is available for both iPhone and Android devices.",<br/> ,<br/>,
+         "In addition, it is your professional responsibility to install and maintain the app so that you can be reached for jobs, receive updates and resources, and submit your work.",<br/>,<br/>,
+         "Maidzly app for Android phones" , <p className="text-secondaryColor mt-2">Download on Android</p> ,<br/>, "For Android phones (such as Samsung or Huawei) you need to have Android 6 or above.",<br/>,
+         <p className="mt-2">Maidzly  app for iPhones</p>, <br/>, <p className="text-secondaryColor">Download on iPhone</p>,"For Apple iPhones you need to have iOS 10 or above.",<br/>,
+         <p className="mt-2 mr-2">If you have issues downloading the app, you can check the memory of your device or whether you're trying to download the app on a rooted phone. If neither of those are the issue, please reach out to our support team at support@mycleanhouse.ca for assistance.</p>
+      ]}
+        />
+        <Accordian 
+        heading="Are there fees to join Maidzly?"
+        text="No, there are no fees to join Maidzly. Its completely free!"
+        />
+        <Accordian 
+        heading="Which documents do I need to join Maidzly?"
+        text="In order to join Maidzly, you will need to provide a valid ID It can either be any government ID like a passport, birth certificate or a driver’s license."
+        />
+        <Accordian heading="Can I choose my own schedule?" text="Yes! You can set your own schedule and rates, which means you have complete control over how much you work and how much you earn. Plus, we use a secure payment system so you can be sure you'll get paid promptly and without any fuss - straight to your bank account." />
+        <Accordian heading="How do payments work?" text={[<p>Maidzly pays all of its cleaners promptly and on-time - straight into your bank account after 48 hours of a completed job. You'll never have to worry about chasing up payments or waiting for weeks to get paid again.</p> ,<br/>,
+       <p>Tip payments: You can either receive a cash tip from a client or via the app. If your client leaves you a tip via the app, this will be added to your payment automatically. We do not take off any fees from your tips.</p>
+      ]} />
+        <Accordian heading="What is Maidzly?"
+         text={[<p>Maidzly is a cleaning agency that operates in Canada and the USA. We connect cleaners with clients via our secure app, which makes it easy for you to find work and get paid promptly after each job. Plus, our cleaners enjoy flexible hours and the freedom to choose how many jobs they take on, which means you can work as little or as much as you like.</p>,<br/>,
+            <p>Maidzly is a great way to earn extra income or to start your own cleaning business - without having to pay a joining fee. Plus, our cleaners earn upto $1700 per week, plus tips!</p>,<br/>,
+            <p>If you're interested in joining Maidzly, please <span className="text-secondaryColor">click here</span> to register. We look forward to welcoming you aboard! Apply now!</p>,<br/>,
+            <div className="flex items-center justify-center"><button className="font-subHeading text-secondaryColor text-lg text-center">Apply here now!</button></div>
+        ]} 
+         
+         />
+        <Accordian heading="What is it like to work for Maidzly?" 
+        text={[<p>Maidzly is a great way to earn extra income or to start your own cleaning business - without having to pay a joining fee. Plus, our cleaners earn upto $1700 per week, plus tips!</p>,<br/>,
+        <p>We ensure a 5-star service to our customers and take care of all the marketing, scheduling, and payments for you so you can focus on doing what you do best - cleaning! This is the reason that we have thousands of happy customers and hundreds of 5-star reviews.</p>,<br/>,
+        <p className="mb-3">With Maidzly you are able to:</p>,
+        <p>- Work the hours you want to -  morning, afternoon, evening</p>,
+        <p>- Choose the areas you want to work in - we have cleaning jobs available almost everywhere.</p>,
+        <p>- Get jobs in your local area - with minimum travel time and expenses.</p>,
+        <p>- Work up to any hours you want to  each week - repeat the same clients or work for different ones each day.</p>,
+        <p>- Work when you want for those who want to work part-time or casually.</p>,
+        <p>- Keep your own regular jobs and work with us around them.</p>,
+        <p>- Work as little or as often as you like - it’s up to you!</p>,
+        <p>- Get paid directly into your bank account- we use the latest technology to make sure you get paid promptly and correctly.</p>,
+        <p>- Have support from our friendly team. We’re here to help you grow your business and answer any questions you have as we have over 20 years experience in the cleaning industry!</p>,
+        <p>- Start working with us quickly. Once you’ve been approved, you can start taking on jobs straight away!</p>,
+        ]} />
+        <Accordian heading="What does being self-employed mean?"
+         text={[<p>When you work with Maidzly, you are classed as being self-employed. This means that you are responsible for your own taxes. It also means that you have complete control over how much you work and when you work.</p>,<br/>,
+        <p>If you're self-employed, you will be able to write off expenses like travel, gas, cell phone bills, clothing, internet, and so much more! Talk to your accountant to get more information.</p>
+        ]}
+         
+         />
+        <Accordian heading="Do I need to bring any cleaning products?" 
+        text={[<p>Absolutely not! Your customers supply all the cleaning products and supplies. We do recommend to bring personal items to your jobs to make sure you can get through the day easier.</p>,<br/>,
+        <p>Here is a list of personal items you'll need to bring:</p>,<br/>,
+        <p>Your mobile phone and charger</p>,<br/>,
+        <p>Rubber gloves</p>,<br/>,
+        <p>Water or juice bottle</p>,<br/>,
+        <p>Snacks/lunch if you have 2 jobs in one day</p>,<br/>,
+        <p>Backpack</p>,<br/>,
+        <p>Extra indoor clean runners</p>,<br/>,
+        <p>Extra clean sponges and clean microfiber cloths just in case your customers ran out.</p>,<br/>,
+        <p>We recommend that you avoid using the customers bleach. If you do use a customer's bleach, please make sure you take extra care as this can cause damage to floors and surfaces.</p>
+      ]}
+        />
+        <Accordian heading="Where will I work?"
+         text={[<p>You can work anywhere you wish! When you sign up you can let your customers know how far you want to work from your home location. You can extend the radius where you want to work at any time through our app.</p>,<br />,
+        <p>Here's some more information:</p>,<br/>,
+        <p className="text-secondaryColor">How can I see & change my working areas?</p>,<br/>,
+        <p>Go to more questions for cleaners </p>,<br/>,
+        ]} 
+         
+         />
       </div>
       <Footer />
     </div>
