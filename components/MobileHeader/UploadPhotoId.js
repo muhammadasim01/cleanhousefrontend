@@ -3,10 +3,14 @@ import { FaFileUpload } from "react-icons/fa";
 import Footer from "../Footer";
 import Header from "../Header";
 import LargeButton from "./LargeButton";
+import CleanerStep from "./CleanerStep";
 function UploadPhotoId() {
   return (
     <>
       <Header bgColor={"bg-lightColor"} />
+      <div className="p-4">
+        <CleanerStep first={true} second={true} third={true} />
+      </div>
       <div className=" py-4 px-3 relative">
         <div className="flex items-center justify-between">
           <h2 className="font-subHeading  text-[30px] font-bold text-left">

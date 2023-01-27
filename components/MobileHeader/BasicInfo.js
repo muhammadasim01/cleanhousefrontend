@@ -1,4 +1,4 @@
-import {GrFormNextLink } from "react-icons/gr";
+import { GrFormNextLink } from "react-icons/gr";
 import LargeButton from "./LargeButton";
 import Header from "../Header";
 import Link from "next/link";
@@ -18,15 +18,21 @@ function BasicInfo() {
         <div className="flex items-center justify-center">
           <div className="border-2 border-secondaryColor border-opacity-50 rounded-md bg-secondaryColor bg-opacity-10 p-5 h-[120px] w-[205px]">
             <div className="flex justify-evenly items-center">
-              <p className="font-suHeading text-[30px] font-bold leading-[42px]">1</p>
+              <p className="font-suHeading text-[30px] font-bold leading-[42px]">
+                1
+              </p>
               <p>
                 <GrFormNextLink className="text-darkColor text-[30px] font-extrabold" />
               </p>
-              <p className="font-suHeading text-[30px] font-bold leading-[42px]">2</p>
+              <p className="font-suHeading text-[30px] font-bold leading-[42px]">
+                2
+              </p>
               <p>
                 <GrFormNextLink className="text-darkColor text-[30px] font-extrabold" />
               </p>
-              <p className="font-suHeading text-[30px] font-bold leading-[42px]">3</p>
+              <p className="font-suHeading text-[30px] font-bold leading-[42px]">
+                3
+              </p>
             </div>
             <p className="text-center font-subHeading text-[30px] font-bold py-2 leading-[42px]">
               easy steps!
@@ -45,15 +51,22 @@ function BasicInfo() {
           to become certified! You will then be ready to work!
         </p>
         <div>
-        <CleanerStep />
+          <CleanerStep first={true} />
         </div>
-      <div className=" my-5">
-        <h3 className="font-heading text-[26px] font-bold leading-[33px]">Basic Info</h3>
-        <div className="my-5">
-          <p className="font-text text-[18px] font-normal leading-[23px] mb-3">Add your <span className="font-bold font-subHeading">address</span></p>
-          <p className="font-text text-[14px] font-normal leading-5">Your address is not shared to your clients</p>
+        <div className=" my-5">
+          <h3 className="font-heading text-[26px] font-bold leading-[33px]">
+            Basic Info
+          </h3>
+          <div className="my-5">
+            <p className="font-text text-[18px] font-normal leading-[23px] mb-3">
+              Add your{" "}
+              <span className="font-bold font-subHeading">address</span>
+            </p>
+            <p className="font-text text-[14px] font-normal leading-5">
+              Your address is not shared to your clients
+            </p>
+          </div>
         </div>
-      </div>
         <div className="my-4">
           <p className="font-text text-lg font-normal py-2">Address Line 1</p>
           <input
@@ -130,7 +143,9 @@ function BasicInfo() {
             folder in case you did not receive it.
           </p>
         </div>
-        <h3 className="font-heading text-[26px] font-bold py-2 leading-[33px]">Emergency Contact</h3>
+        <h3 className="font-heading text-[26px] font-bold py-2 leading-[33px]">
+          Emergency Contact
+        </h3>
         <p className="font-text text-[18px] font-normal leading-[23px] py-2">
           Who can we contact, other than you, in case of an{" "}
           <span className="font-subHeading font-bold">emergency</span>?
@@ -163,7 +178,9 @@ function BasicInfo() {
             className=" border-2 focus:ring-0 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
           />
         </div>
-        <h3 className="font-subHeading text-[26px] font-bold leading-[33px] my-5">Age Verification</h3>
+        <h3 className="font-subHeading text-[26px] font-bold leading-[33px] my-5">
+          Age Verification
+        </h3>
         <div className="my-2">
           <p className="font-text text-[18px] font-normal py-2 leading-[23px]">
             We use this to conduct background checks when signing up to be a
@@ -171,7 +188,9 @@ function BasicInfo() {
           </p>
         </div>
         <div className="my-4">
-          <p className="font-text text-lg font-normal py-2 leading-[25px]">Month</p>
+          <p className="font-text text-lg font-normal py-2 leading-[25px]">
+            Month
+          </p>
           <select className=" border-2 focus:ring-0 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
             <option value="2x a week">January</option>
             <option value="3x a week">February</option>
@@ -180,7 +199,9 @@ function BasicInfo() {
           </select>
         </div>
         <div className="my-4">
-          <p className="font-text text-lg font-normal py-2 leading-[25px]">Day</p>
+          <p className="font-text text-lg font-normal py-2 leading-[25px]">
+            Day
+          </p>
           <select className=" border-2 focus:ring-0 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
             <option value="2x a week">01</option>
             <option value="3x a week">02</option>
@@ -190,7 +211,9 @@ function BasicInfo() {
           </select>
         </div>
         <div className="my-4">
-          <p className="font-text text-lg font-normal py-2 leading-[25px]">Year</p>
+          <p className="font-text text-lg font-normal py-2 leading-[25px]">
+            Year
+          </p>
           <select className=" border-2 focus:ring-0 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
             <option value="2x a week">2022</option>
             <option value="3x a week">2021</option>
@@ -203,7 +226,9 @@ function BasicInfo() {
           <span className="font-bold"> Note: </span> You must be 18 years or
           older to sign up.
         </p>
-        <h3 className="font-subHeading text-[26px] font-bold leading-[33px] my-2">Your Experience</h3>
+        <h3 className="font-subHeading text-[26px] font-bold leading-[33px] my-2">
+          Your Experience
+        </h3>
         <div className="my-2">
           <p className="font-text text-[18px] font-normal leading-[23px] py-2">
             How much experience do you have in professional house cleaning?
@@ -224,28 +249,36 @@ function BasicInfo() {
             type="checkbox"
             className="h-7 w-7  border-2  focus:ring-0 border-secondaryColor border-opacity-20 bg-secondaryColor bg-opacity-20 rounded-md"
           />
-          <label className="font-text text-base font-normal px-4 leading-[22px]">House cleaning</label>
+          <label className="font-text text-base font-normal px-4 leading-[22px]">
+            House cleaning
+          </label>
         </div>
         <div className="my-2 flex items-center">
           <input
             type="checkbox"
             className="h-7 w-7  border-2 focus:ring-0 border-secondaryColor border-opacity-20 bg-secondaryColor bg-opacity-20 rounded-md"
           />
-          <label className="font-text text-base font-normal px-4 leading-[22px]">Hotel cleaning</label>
+          <label className="font-text text-base font-normal px-4 leading-[22px]">
+            Hotel cleaning
+          </label>
         </div>
         <div className="my-2 flex items-center">
           <input
             type="checkbox"
             className="h-7 w-7  border-2 focus:ring-0 border-secondaryColor border-opacity-20 bg-secondaryColor bg-opacity-20 rounded-md"
           />
-          <label className="font-text text-base font-normal px-4 leading-[22px]">Office cleaning</label>
+          <label className="font-text text-base font-normal px-4 leading-[22px]">
+            Office cleaning
+          </label>
         </div>
         <div className="my-2 flex items-center">
           <input
             type="checkbox"
             className="h-7 w-7  border-2 focus:ring-0 border-secondaryColor border-opacity-20 bg-secondaryColor bg-opacity-20 rounded-md"
           />
-          <label className="font-text text-base font-normal px-4 leading-[22px]">Hospital cleaning</label>
+          <label className="font-text text-base font-normal px-4 leading-[22px]">
+            Hospital cleaning
+          </label>
         </div>
         <div className="my-2 flex items-center">
           <input
@@ -261,7 +294,9 @@ function BasicInfo() {
             type="checkbox"
             className="h-7 w-7  border-2 focus:ring-0 border-secondaryColor border-opacity-20 bg-secondaryColor bg-opacity-20 rounded-md"
           />
-          <label className="font-text text-base font-normal px-4 leading-[22px]">Other cleaning</label>
+          <label className="font-text text-base font-normal px-4 leading-[22px]">
+            Other cleaning
+          </label>
         </div>
         <div className="my-2">
           <p className="font-text text-[18px] font-normal leading-[23px] py-2">
@@ -276,7 +311,9 @@ function BasicInfo() {
         <p className="font-text text-[8px] font-normal leading-[11px] text-end">
           2000 max characters
         </p>
-        <h3 className="font-subHeading text-[26px] font-bold leading-[33px]">Request Testimonials</h3>
+        <h3 className="font-subHeading text-[26px] font-bold leading-[33px]">
+          Request Testimonials
+        </h3>
         <div className="my-2">
           <p className="font-text text-[18px] font-normal leading-[23px] py-2">
             Ask previous or current clients to give you a review. Your reviews
