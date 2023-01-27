@@ -23,7 +23,7 @@ function BookingDetails() {
       <Header bgColor="bg-lightColor" />
       <div className=" p-4">
         <GrFormPreviousLink className="text-3xl" />
-        <h2 className="font-subHeading  text-2xl font-bold py-2">
+        <h2 className="font-subHeading  text-[31px] font-bold py-2">
           Your Booking Details
         </h2>
         <p className="font-text text-lg font-normal leading-6">

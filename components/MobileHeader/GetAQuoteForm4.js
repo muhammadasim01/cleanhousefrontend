@@ -25,8 +25,16 @@ function GetAQuoteForm4() {
   return (
     <>
       <Header logo={logo2} position={"relative"} bgColor={"bg-lightColor"} />
-      <GetAQuoteForm Title="Get Your Quote" />
-      <div className="p-4">
+      <div className=" px-4">
+        <GetAQuoteForm
+          Title="Get Your Quote"
+          fourth={true}
+          first={true}
+          second={true}
+          third={true}
+        />
+      </div>
+      <div className="px-4 ">
         <h2 className="font-subHeading  text-[26px] font-bold leading-[33px] text-left my-2">
           Payment Information
         </h2>
@@ -39,7 +47,9 @@ function GetAQuoteForm4() {
         </div>
         <form>
           <div className="my-2">
-            <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">Card number</p>
+            <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">
+              Card number
+            </p>
             <input
               type="number"
               placeholder="1234 1234 1234 1234"
@@ -48,7 +58,9 @@ function GetAQuoteForm4() {
           </div>
           <div className="flex items-center">
             <div className="mb-4 w-[65%] mx-2">
-              <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">Expiry date</p>
+              <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">
+                Expiry date
+              </p>
               <input
                 type="number"
                 placeholder="MM/YY"
@@ -56,7 +68,9 @@ function GetAQuoteForm4() {
               />
             </div>
             <div className="mb-4 w-[35%] mx-2">
-              <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">CVC</p>
+              <p className="font-text text-[18px] font-normal leading-[25px] text-darkColor py-2">
+                CVC
+              </p>
               <input
                 type="number"
                 placeholder="123"
@@ -78,7 +92,7 @@ function GetAQuoteForm4() {
           </div>
           <div className="border-b-2 w-full text-[#A9A9A9]"></div>
           <h2 className="font-subHeading  text-[22px] font-bold leading-[26px] text-left my-3">
-          Add Payment Methods
+            Add Payment Methods
           </h2>
           <div className="flex items-center py-3">
             <p className="px-2">
@@ -91,7 +105,11 @@ function GetAQuoteForm4() {
           <div className="border-b-2 w-full text-[#A9A9A9]"></div>
           <div className="flex items-center py-3">
             <p className="px-2">
-              <img src="/assets/PayPal.png" alt="" className="h-[22px] w-[390px]" />
+              <img
+                src="/assets/PayPal.png"
+                alt=""
+                className="h-[22px] w-[390px]"
+              />
             </p>
           </div>
           <div className="border-b-2 w-full text-[#A9A9A9]"></div>
@@ -104,11 +122,11 @@ function GetAQuoteForm4() {
             </p>
           </div>
           <div className="flex px-2">
-          <div className="bg-lightColor flex justify-center pt-5">
-           <input
-           type="checkbox"
-           className="h-[30px] w-[30px] border-2 border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg"
-           />
+            <div className="bg-lightColor flex justify-center pt-5">
+              <input
+                type="checkbox"
+                className="h-[30px] w-[30px] border-2 border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg"
+              />
             </div>
             <div className="w-[85%]">
               <p className="font-text text-base font-normal my-4 px-3 leading-[22px]">
@@ -125,24 +143,38 @@ function GetAQuoteForm4() {
           </div>
           <div className="h-[230px] border-2 border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-md">
             <div className="py-4 px-2">
-              <h2 className="font-subHeading text-lg  font-bold leading-[23px]">Security</h2>
+              <h2 className="font-subHeading text-lg  font-bold leading-[23px]">
+                Security
+              </h2>
             </div>
             <div className="flex">
               <div className="pl-4 w-[20%] flex flex-col justify-between h-[120px]">
-              <BsFillCreditCardFill className="text-2xl text-secondaryColor" />
-              <HiOutlineShoppingBag className="text-secondaryColor text-2xl" />
+                <BsFillCreditCardFill className="text-2xl text-secondaryColor" />
+                <HiOutlineShoppingBag className="text-secondaryColor text-2xl" />
               </div>
               <div className="w-[80%] flex flex-col justify-between h-[160px]">
-              We accept these cards only
-              <p className="text-left flex py-2">
-                  <img src="/assets/mastercard.png" alt="" className="mx-2 h-[17px] w-[26px]" />
-                  <img src="/assets/visacard.png" alt="" className="mx-2 h-[17px] w-[26px]" />
-                  <img src="/assets/americancard.png" alt=""  className="mx-2 h-[17px] w-[26px]" />
-              </p>
-              <p className="font-text text-sm text-left font-normal leading-5">
-                 Maidzly uses 256-bit SSL encryption and 3D secure
-                 authentication to protect your peronal information.
-              </p>
+                We accept these cards only
+                <p className="text-left flex py-2">
+                  <img
+                    src="/assets/mastercard.png"
+                    alt=""
+                    className="mx-2 h-[17px] w-[26px]"
+                  />
+                  <img
+                    src="/assets/visacard.png"
+                    alt=""
+                    className="mx-2 h-[17px] w-[26px]"
+                  />
+                  <img
+                    src="/assets/americancard.png"
+                    alt=""
+                    className="mx-2 h-[17px] w-[26px]"
+                  />
+                </p>
+                <p className="font-text text-sm text-left font-normal leading-5">
+                  Maidzly uses 256-bit SSL encryption and 3D secure
+                  authentication to protect your peronal information.
+                </p>
               </div>
             </div>
           </div>

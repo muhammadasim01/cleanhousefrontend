@@ -17,121 +17,134 @@ function SignUp() {
     router.push("/verifyaccount");
   };
   return (
-    <div className="flex flex-col h-[1300px] w-[320px] items-center justify-between">
-      <form className="w-full">
-        <div className="flex">
-          <div>
-            <p className="text-left font-subHeading text-2xl font-bold my-2 px-2">
+    <div className="flex flex-col h-[1300px] w-full items-center justify-between ">
+      <form className="w-full  ">
+        <div className="flex    justify-between items-center my-2">
+          <div className="flex flex-col justify-between items-start  mx-2 w-[50%]">
+            <p className="text-left font-subHeading text-2xl font-bold my-2 ">
               First Name
             </p>
             <input
               type="text"
               name="firstName"
-              className="w-[140px] bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-[1.7px] border-secondaryColor border-opacity-50  py-2 px-2 rounded-md mx-2"
+              className=" focus:ring-0 bg-[#E8EDF5] w-[100%] border-none decoration-0   py-2  rounded-md "
             />
           </div>
-          <div>
+          <div className="flex flex-col justify-between  items-start mx-2 w-[50%]">
             <p className="text-left font-subHeading text-2xl font-bold my-2">
               Last Name
             </p>
             <input
               type="text"
               name="lastName"
-              className="w-[140px] bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-[1.7px] border-secondaryColor border-opacity-50  py-2 px-4 rounded-md mx-2"
+              className="focus:ring-0 bg-[#E8EDF5] w-[100%] border-none decoration-0 outline-none    py-2  rounded-md"
             />
           </div>
         </div>
-        <p className="text-left font-subHeading text-2xl font-bold my-2 px-2">
-          Email
-        </p>
-        <input
-          type="text"
-          name="lastName"
-          className="w-[300px]  bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-[1.7px] border-secondaryColor border-opacity-50  py-2 px-4 rounded-md mx-2"
-        />
-        <div className="my-4 mx-2">
-          <div className="flex justify-between">
-            <div className="w-[40%]">
-              <p className="text-left font-subHeading text-2xl font-bold my-2 px-2">
-                Country
-              </p>
-              <div className="">
-                <select className="border-2 border-secondaryColor border-opacity-70 py-2 bg-secondaryColor bg-opacity-10 rounded-md">
-                  <option
-                    value="2x a week"
-                    className="font-text text-sm text-left"
-                  >
-                    +1 (CA)
-                  </option>
-                  <option
-                    value="3x a week"
-                    className="font-text text-sm text-left"
-                  >
-                    +2 (CA)
-                  </option>
-                  <option
-                    value="3x a week"
-                    className="font-text text-sm text-left"
-                  >
-                    +3 (CA)
-                  </option>
-                  <option
-                    value="3x a week"
-                    className="font-text text-sm text-left"
-                  >
-                    +4 (CA)
-                  </option>
-                </select>
-              </div>
-            </div>
-            <div className="w-[55%]">
-              <p className="text-left font-subHeading text-2xl font-bold my-2 px-2">
-                Mobile
-              </p>
-              <input
-                type="number"
-                name=""
-                id=""
-                className="w-[160px] bg-secondaryColor bg-opacity-10 rounded-md border-2 border-secondaryColor border-opacity-70"
-              />
+        <div className="flex flex-col items-start  mx-[10px] my-3">
+          <p className="text-left font-subHeading text-2xl font-bold my-2  ">
+            Email
+          </p>
+          <input
+            type="text"
+            name="lastName"
+            className="w-[100%] focus:ring-0 bg-[#E8EDF5] border-none decoration-0 outline-none    py-2  rounded-md "
+          />
+        </div>
+
+        <div className="flex justify-between  mx-[10px] my-3">
+          <div className="w-[35%]  mr-[4px]">
+            <p className="text-left font-subHeading text-2xl font-bold my-2 ">
+              Country
+            </p>
+            <div className="">
+              <select className="focus:ring-0 w-full border-none border-opacity-70 py-2 bg-[#E8EDF5]  rounded-md">
+                <option
+                  value="2x a week"
+                  className="font-text text-sm text-left"
+                >
+                  +1 (CA)
+                </option>
+                <option
+                  value="3x a week"
+                  className="font-text text-sm text-left"
+                >
+                  +2 (CA)
+                </option>
+                <option
+                  value="3x a week"
+                  className="font-text text-sm text-left"
+                >
+                  +3 (CA)
+                </option>
+                <option
+                  value="3x a week"
+                  className="font-text text-sm text-left"
+                >
+                  +4 (CA)
+                </option>
+              </select>
             </div>
           </div>
+          <div className="w-[65%]  ml-[4px]">
+            <p className="text-left font-subHeading text-2xl font-bold my-2 ">
+              Mobile
+            </p>
+            <input
+              type="number"
+              name=""
+              id=""
+              className="w-full bg-[#E8EDF5] border-none rounded-md focus:ring-0  border-opacity-70"
+            />
+          </div>
         </div>
-        <p className="text-left font-subHeading text-2xl font-bold my-2 mx-2">
-          Password
-        </p>
-        <div className="w-[300px] flex bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-2 border-secondaryColor border-opacity-70 rounded-md mx-2">
-          <input
-            type={password ? "text" : "password"}
-            name="lastName"
-            className="w-[300px] decoration-0 outline-none border-none bg-secondaryColor bg-opacity-10"
-          />
-          <button
-            onClick={handlePassword}
-            className="font-subHeading text-lg font-bold mx-2"
-          >
-            Show
-          </button>
+        <div className="flex flex-col items-start  mx-[10px] my-5">
+          <div className="flex justify-between items-center w-full">
+            <p className="text-left font-subHeading text-2xl font-bold my-2 ">
+              Password
+            </p>
+            <p className="text-[16px] font-text">At least 8 characters</p>
+          </div>
+          <div className="w-[100%] flex bg-[#E8EDF5]  decoration-0 outline-none   border-opacity-70 rounded-md ">
+            <input
+              type={password ? "text" : "password"}
+              name="lastName"
+              className="w-[300px] decoration-0 outline-none border-none bg-[#E8EDF5] rounded-l-md focus:ring-0 "
+            />
+            <button
+              onClick={handlePassword}
+              className="font-subHeading text-lg font-bold mx-2"
+            >
+              Show
+            </button>
+          </div>
         </div>
-        <p className="text-left font-subHeading text-2xl font-bold my-2 mx-2">
-          How did you hear about us? (Optional)
-        </p>
-        <input
-          type="text"
-          name="lastName"
-          className="w-[300px] bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-[1.7px] border-secondaryColor border-opacity-50 py-2 px-4 rounded-md mx-2"
-        />
-        <div className="flex px-2">
+        <div className="flex flex-col items-start  mx-[10px]">
+          <p className="text-left font-subHeading text-2xl font-bold my-2 ">
+            How did you hear about us? (Optional)
+          </p>
+
+          <select className="w-[100%] bg-[#E8EDF5] border-none decoration-0 outline-none  focus:ring-0 py-2 rounded-md">
+            <option value="2x a week" className="font-text text-sm text-left">
+              Select an option
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              dummy
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              dummy
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              dummy
+            </option>
+          </select>
+        </div>
+        <div className="flex  mx-[10px]">
           <div className="w-[15%] bg-lightColor flex justify-center pt-5">
-            {/* <input
-              type="checkbox"
-              className="h-7 w-7 mt-5 ml-2 accent-primaryColor"
-            /> */}
             <input
               type="checkbox"
-              className="h-10 w-10 border-2 border-secondaryColor border-opacity-20 bg-secondaryColor bg-opacity-20 rounded-md"
+              className="h-10 w-10  border-none focus:ring-0 bg-[#E8EDF5]  rounded-md"
             />
-            {/* <RiCheckboxBlankLine className="h-10 w-10 text-[#E8EDF5] bg-secondaryColor bg-opacity-10 decoration-0 outline-none border-[1.7px] border-secondaryColor border-opacity-50 rounded-md" /> */}
           </div>
           <div className="w-[85%]">
             <p className="font-text text-base font-normal my-4 px-3">
@@ -150,33 +163,36 @@ function SignUp() {
         <span className="border-b-2 w-32 ml-3 text-[#A9A9A9]"></span>{" "}
       </p>
       <PrimaryButton
+        // action={SignInWithGoogle}
         logo={<FcGoogle />}
         Title="Continue with Google"
-        customCode="bg-[#4285F4]"
+        customCode="bg-[#4285F4] justify-evenly
+        "
         bgColor="bg-lightColor"
       />
       <PrimaryButton
+        // action={SignInWithFacebook}
         logo={<BsFacebook />}
         Title="Continue with Facebook"
-        customCode="bg-[#3B5998]"
+        customCode="bg-[#3B5998] justify-evenly"
       />
       <PrimaryButton
         logo={<BsApple />}
         Title="Continue with Apple"
-        customCode="bg-[#000000]"
+        customCode="bg-[#000000] justify-evenly"
       />
-      <p className="font-text text-base font-normal my-4 px-3">
-        By tapping “Sign Up” or “Continue with Google, Facebook, or Apple” you
+      <p className="font-text text-[20px] leading-[140%] font-normal mt-4 mx-4  px-2">
+        By tapping “Sign Up” or “ Continue with Google, Facebook, or Apple” you
         agree to Maidzly{" "}
         <span className="text-primaryColor">Terms & Services </span> and{" "}
         <span className="text-primaryColor">Privacy Policy</span>.
       </p>
       <div className="border-b-2 w-72 text-[#A9A9A9]"></div>
-      <div className="text-center my-5">
-        <p className="font-text text-base font-semibold mt-4 px-3">
+      <div className="text-center mb-10">
+        <p className="font-text text-base font-semibold  px-3">
           Already have a Maidzly account?
         </p>
-        <button className="p-3 text-primaryColor font-subHeading text-xl font-light underline">
+        <button className="px-3 text-primaryColor font-subHeading text-xl font-light underline">
           Sign In Now
         </button>
       </div>

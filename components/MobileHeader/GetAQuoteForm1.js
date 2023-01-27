@@ -7,7 +7,7 @@ function GetAQuoteForm1() {
     <>
       <Header logo={logo2} position={"relative"} bgColor={"bg-lightColor"} />
       <div className="px-4 h-auto">
-        <GetAQuoteForm Title="Customise Your Clean" />
+        <GetAQuoteForm Title="Customise Your Clean" first={true} />
         <YourBookingInfo />
       </div>
     </>

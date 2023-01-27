@@ -16,7 +16,9 @@ function GetAQuoteForm2() {
   return (
     <>
       <Header logo={logo2} position={"relative"} bgColor={"bg-lightColor"} />
-      <GetAQuoteForm Title="Get Your Quote" />
+      <div className="h-auto px-4">
+        <GetAQuoteForm Title="Get Your Quote" second={true} first={true} />
+      </div>{" "}
       <div className="px-4">
         <h2 className="font-subHeading   text-[26px] font-bold leading-[33px] text-left mb-3">
           Book Your Cleaning date

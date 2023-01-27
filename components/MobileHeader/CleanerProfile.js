@@ -15,10 +15,10 @@ function CleanerProfile() {
     <>
       <Header bgColor="bg-lightColor" />
       <div className=" p-4">
-        <h2 className="font-subHeading  text-xl font-bold text-left">
+        <h2 className="font-subHeading  text-[36px] font-bold text-left">
           Cleaner Profile
         </h2>
-        <p className="font-text text-lg font-normal leading-6 py-5">
+        <p className="font-text text-lg font-normal leading-[130%] py-5">
           Make your online profile. What should customers know about you?
         </p>
         <h3 className="font-subHeading text-2xl text-darkColor font-bold">
@@ -30,7 +30,7 @@ function CleanerProfile() {
           </p>
           <input
             type="text"
-            className="border-2 h-10 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+            className="border-[1px] h-10 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
           />
         </div>
         <p className="font-text text-[8px] font-normal text-end">
@@ -45,7 +45,7 @@ function CleanerProfile() {
           {" "}
           “Exceptional cleaner with 5 years experience”
         </p>
-        <h3 className="font-subHeading text-xl text-darkColor font-bold py-5">
+        <h3 className="font-subHeading text-[26px] text-darkColor font-bold py-5">
           Your cleaning experience and introduction.
         </h3>
         <p className="font-text text-lg font-normal leading-6">
@@ -61,7 +61,7 @@ function CleanerProfile() {
           </p>
           <input
             type="text"
-            className="border-2 h-20 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+            className="border-[1px] h-20 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
           />
         </div>
         <p className="font-text text-[8px] font-normal text-end">
@@ -73,7 +73,7 @@ function CleanerProfile() {
           condos. I can do regular or deep cleaning. I love to clean as I find
           it relaxing....&#34;
         </p>
-        <h3 className="font-subHeading text-xl text-darkColor font-bold py-5">
+        <h3 className="font-subHeading text-[26px] text-darkColor font-bold py-5">
           Your schedule.
         </h3>
         <p className="font-text text-lg font-normal leading-6">
@@ -84,7 +84,7 @@ function CleanerProfile() {
         <div className="my-2">
           <input
             type="text"
-            className="border-2 h-20 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+            className="border-[1px] h-20 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
           />
         </div>
         <p className="font-text text-[8px] font-normal text-end">
@@ -96,47 +96,47 @@ function CleanerProfile() {
           &#34;I am available every week on these days 8am-6pm: Monday,
           Wednesday, Friday and Sundays&#34;
         </p>
-        <h3 className="font-subHeading text-xl text-darkColor font-bold py-5">
+        <h3 className="font-subHeading text-[26px] text-darkColor font-bold py-5">
           Availability
         </h3>
         <p className="font-text text-lg font-normal leading-6">
           What is your availability? Please click the boxes that apply.
         </p>
-        <div className="py-5  flex justify-between flex-wrap">
-          <button className="border-2 my-3 flex items-center justify-center border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg w-[135px] h-[45px]">
+        <div className="py-5  flex justify-between flex-wrap ">
+          <button className="border-[1px] my-3 flex items-center justify-center border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg w-[46%] h-[45px]">
             Full time
           </button>
-          <button className="border-2 my-3 flex items-center justify-center border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg w-[135px] h-[45px]">
+          <button className="border-[1px] my-3 flex items-center justify-center border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg w-[46%] h-[45px]">
             Part time
           </button>
-          <button className="border-2 flex items-center justify-center border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg w-[135px] h-[45px]">
+          <button className="border-[1px] flex items-center justify-center border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg w-[46%] h-[45px]">
             Occasional
           </button>
-          <button className="border-2 flex items-center justify-center border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg w-[135px] h-[45px]">
+          <button className="border-[1px] flex items-center justify-center border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg w-[46%] h-[45px]">
             On Call
           </button>
         </div>
-        <h3 className="font-subHeading text-xl text-darkColor font-bold py-5">
+        <h3 className="font-subHeading text-[26px] text-darkColor font-bold py-5">
           Shifts
         </h3>
         <p className="font-text text-lg font-normal leading-6">
           What shifts are you able to work? Please click the boxes that apply.
         </p>
         <div className="py-5  flex justify-between flex-wrap">
-          <button className="border-2 my-3 flex items-center justify-center border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg w-[135px] h-[45px]">
+          <button className="border-[1px] my-3 flex items-center justify-center border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg w-[46%] h-[45px]">
             Weekdays
           </button>
-          <button className="border-2 my-3 flex items-center justify-center border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg w-[135px] h-[45px]">
+          <button className="border-[1px] my-3 flex items-center justify-center border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg w-[46%] h-[45px]">
             Weeknights
           </button>
-          <button className="border-2 flex items-center justify-center border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg w-[135px] h-[45px]">
+          <button className="border-[1px] flex items-center justify-center border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg w-[46%] h-[45px]">
             Weekends
           </button>
-          <button className="border-2 flex items-center justify-center border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg w-[135px] h-[45px]">
+          <button className="border-[1px] flex items-center justify-center border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg w-[46%] h-[45px]">
             Flexible/Anytime
           </button>
         </div>
-        <h3 className="font-subHeading text-xl text-darkColor font-bold py-5">
+        <h3 className="font-subHeading text-[26px] text-darkColor font-bold py-5">
           What cleaning services you can offer?
         </h3>
         <p className="font-text text-lg font-normal leading-6">
@@ -215,7 +215,7 @@ function CleanerProfile() {
           />
           <label className="font-text text-base px-4">Wash Dishes</label>
         </div>
-        <h3 className="font-subHeading text-xl text-darkColor font-bold py-5">
+        <h3 className="font-subHeading text-[26px] text-darkColor font-bold py-5">
           What kind of properties are you able to clean?
         </h3>
         <p className="font-text text-sm font-normal">Select all that apply</p>
@@ -391,46 +391,46 @@ function CleanerProfile() {
           </div>
         </div>
         <div className="my-2">
-          <p className="font-subHeading text-xl text-darkColor font-bold leading-6 py-5">
+          <p className="font-subHeading text-[26px] text-darkColor font-bold leading-6 py-5">
             What is your nationality?
           </p>
           <input
             type="text"
-            className="border-2 h-10 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+            className="border-[1px] h-10 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
           />
         </div>
         <div className="my-2">
-          <p className="font-subHeading text-xl text-darkColor font-bold leading-6 py-5">
+          <p className="font-subHeading text-[26px] text-darkColor font-bold leading-6 py-5">
             What other languages can you speak?
           </p>
           <input
             type="text"
-            className="border-2 h-20 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+            className="border-[1px] h-20 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
           />
         </div>
         <div className="my-2">
-          <p className="font-subHeading text-xl text-darkColor font-bold leading-6 py-5">
+          <p className="font-subHeading text-[26px] text-darkColor font-bold leading-6 py-5">
             What other languages can you write?
           </p>
           <input
             type="text"
-            className="border-2 h-20 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+            className="border-[1px] h-20 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
           />
         </div>
         <div className="my-2">
-          <p className="font-subHeading text-xl text-darkColor font-bold leading-6 py-5">
+          <p className="font-subHeading text-[26px] text-darkColor font-bold leading-6 py-5">
             Will you be getting to your cleaning jobs by car or transit?
           </p>
           <div className="flex items-center justify-between flex-wrap">
-            <div className="border-2 h-10 flex items-center justify-center border-secondaryColor border-opacity-70 w-[130px] py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
+            <div className="border-[1px] h-10 flex items-center justify-center border-secondaryColor border-opacity-50 w-[130px] py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
               <p>Car</p>
             </div>
-            <div className="border-2 h-10 flex items-center justify-center border-secondaryColor border-opacity-70 w-[130px] py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
+            <div className="border-[1px] h-10 flex items-center justify-center border-secondaryColor border-opacity-50 w-[130px] py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md">
               <p>Transit</p>
             </div>
           </div>
         </div>
-        <p className="font-subHeading text-xl text-darkColor font-bold leading-6 py-5">
+        <p className="font-subHeading text-[26px] text-darkColor font-bold leading-6 py-5">
           What are your rates per hour?
         </p>
         <p className="font-text text-lg font-normal leading-6">
@@ -447,7 +447,7 @@ function CleanerProfile() {
             <p className="absolute left-3">$</p>
             <input
               type="number"
-              className="border-2 h-10 border-secondaryColor border-opacity-70 w-full pl-8 py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-[1px] h-10 border-secondaryColor border-opacity-50 w-full pl-8 py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
             />
             <p className="absolute right-3">/hour</p>
           </div>
@@ -461,7 +461,7 @@ function CleanerProfile() {
             <p className="absolute left-3">$</p>
             <input
               type="number"
-              className="border-2 h-10 border-secondaryColor border-opacity-70 w-full pl-8 py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+              className="border-[1px] h-10 border-secondaryColor border-opacity-50 w-full pl-8 py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
             />
             <p className="absolute right-3">/hour</p>
           </div>
@@ -473,8 +473,8 @@ function CleanerProfile() {
           </p>
         </div>
         <div className="my-2 flex">
-          <button className="border-2 border-secondaryColor border-opacity-70 w-full py-2 rounded-full bg-secondaryColor bg-opacity-10">
-            <p className="font-subHeading  text-xl font-bold">
+          <button className="border-[1px] border-secondaryColor border-opacity-50 w-full py-2 rounded-full bg-secondaryColor bg-opacity-10">
+            <p className="font-subHeading  text-[20px] font-bold">
               Minimum Wage Rates
             </p>
           </button>
@@ -492,35 +492,35 @@ function CleanerProfile() {
           Click all the boxes that apply.
         </p>
         <div className="py-4 flex justify-evenly items-center">
-          <div className="h-[35px] w-[35px] flex items-center justify-center border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg">
+          <div className="h-[35px] w-[35px] flex items-center justify-center border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg">
             <p className="font-text text-sm font-bold">Sun</p>
           </div>
-          <div className="h-[35px] w-[35px] flex items-center justify-center border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg">
+          <div className="h-[35px] w-[35px] flex items-center justify-center border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg">
             <p className="font-text text-sm font-bold">Mon</p>
           </div>
-          <div className="h-[35px] w-[35px] flex items-center justify-center border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg">
+          <div className="h-[35px] w-[35px] flex items-center justify-center border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg">
             <p className="font-text text-sm font-bold">Tue</p>
           </div>
-          <div className="h-[35px] w-[35px] flex items-center justify-center border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg">
+          <div className="h-[35px] w-[35px] flex items-center justify-center border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg">
             <p className="font-text text-sm font-bold">Wed</p>
           </div>
-          <div className="h-[35px] w-[35px] flex items-center justify-center border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg">
+          <div className="h-[35px] w-[35px] flex items-center justify-center border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg">
             <p className="font-text text-sm font-bold">Thu</p>
           </div>
-          <div className="h-[35px] w-[35px] flex items-center justify-center border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg">
+          <div className="h-[35px] w-[35px] flex items-center justify-center border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg">
             <p className="font-text text-sm font-bold">Fri</p>
           </div>
-          <div className="h-[35px] w-[35px] flex items-center justify-center border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg">
+          <div className="h-[35px] w-[35px] flex items-center justify-center border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg">
             <p className="font-text text-sm font-bold">Sat</p>
           </div>
         </div>
         <div className="my-2">
-          <p className="font-text text-xl text-darkColor font-normal leading-6 py-2">
+          <p className="font-text text-[26px] text-darkColor font-normal leading-6 py-2">
             Start Date
           </p>
           <input
             type="date"
-            className="border-2 h-10 border-secondaryColor border-opacity-70 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
+            className="border-[1px] h-10 border-secondaryColor border-opacity-50 w-full py-2 px-2 bg-secondaryColor bg-opacity-10 rounded-md"
           />
         </div>
         <p className="font-subHeading text-lg font-bold leading-6 py-5">
@@ -538,55 +538,55 @@ function CleanerProfile() {
         <div className="flex">
           <div className="w-[50%] flex flex-col items-center">
             <p>AM</p>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               08:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               09:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               10:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               11:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               12:00
             </div>
           </div>
           <div className="w-[50%] flex items-center flex-col ">
             <p>PM</p>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               12:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               13:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               14:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               15:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               16:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               17:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               18:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               19:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               20:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               21:00
             </div>
-            <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
+            <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 py-2 px-10 my-3 rounded-lg">
               22:00
             </div>
           </div>
@@ -603,10 +603,10 @@ function CleanerProfile() {
           page.
         </p>
         <div className="flex items-center justify-between">
-          <div className="h-[70px] w-[135px] bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-lg"></div>
-          <div className="h-[70px] w-[135px] bg-secondaryColor bg-opacity-10 border-2 border-secondaryColor border-opacity-70 rounded-lg"></div>
+          <div className="h-[70px] w-[46%] bg-secondaryColor bg-opacity-10 border-[1px] border-secondaryColor border-opacity-50 rounded-lg"></div>
+          <div className="h-[70px] w-[46%] bg-secondaryColor bg-opacity-10 border-[1px] border-secondaryColor border-opacity-50 rounded-lg"></div>
         </div>
-        <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg flex items-center  py-3 my-5 px-5">
+        <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg flex items-center  py-3 my-5 px-5">
           <div className="w-[20%] mt-3">
             <FaFileUpload className="text-4xl text-secondaryColor" />
           </div>
@@ -622,7 +622,7 @@ function CleanerProfile() {
         <p className="font-text text-lg font-normal leading-6">
           Add upto 5 photos of you showcasing your work.
         </p>
-        <div className="border-2 border-secondaryColor border-opacity-70 bg-secondaryColor bg-opacity-10 rounded-lg flex items-center  py-3 my-5 px-5">
+        <div className="border-[1px] border-secondaryColor border-opacity-50 bg-secondaryColor bg-opacity-10 rounded-lg flex items-center  py-3 my-5 px-5">
           <div className="w-[20%] mt-3 mr-2">
             {/* <FaFileUpload className="text-4xl text-secondaryColor" /> */}
             <img src="assets/Gallery_Icon.png" alt="" />
