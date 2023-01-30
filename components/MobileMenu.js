@@ -1,10 +1,7 @@
 import { useState } from "react";
-import { HiMenu } from "react-icons/hi";
-import { MdClose } from "react-icons/md";
-import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
 import Link from "next/link";
-
+import { BsInfoCircle } from "react-icons/bs";
 function MobileMenu() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
   return (
@@ -22,23 +19,27 @@ function MobileMenu() {
         </form>
         <nav>
           <ul>
-            <li className="text-lightColor text-start font-subHeading text-xl  font-bold py-3 ml-5">
+            <li className="text-lightColor flex justify-between w-[200px] text-start font-subHeading text-xl  font-bold py-3 ml-5">
+              <img src="/assets/Search-Icon.png" alt="" height={24} width={24} />
               <Link href="/">Search Cleaners</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between w-[250px]  text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/Register-Cleaner.png" alt="" height={24} width={24} />
               <Link href="/registerasacleaner">Register As A Cleaner</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between w-[135px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
+              <BsInfoCircle className="h-[25px] w-[25px]" />
               <Link href="/about">About Us</Link>
             </li>
 
             <p className="border-b-2 border-lightColor mx-5"></p>
             <li
-              className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3"
+              className="text-lightColor flex justify-between w-[165px] text-start ml-5 font-subHeading text-xl  font-bold py-3"
               onClick={() => setDropDownOpen(!dropDownOpen)}
             >
+              <img src="/assets/Our-Services.png" alt="" height={24} width={24} />
               <p>Our Services</p>
             </li>
 
@@ -116,35 +117,43 @@ function MobileMenu() {
             </div>
 
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor  flex justify-between w-[122px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/SignUp-Icon.png" alt="" height={24} width={24} />
               <Link href="/auth">Sign Up</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between w-[113px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/SignIn-Icon.png" alt="" height={24} width={24} />
               <Link href="/auth">Sign In</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between items-center w-[204px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/bookCleaning-Icon.png" alt="" height={24} width={24} />
               <Link href="/bookacleaner">Book A Cleaning</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between items-center w-[148px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/PostJob-Icon.png" alt="" height={24} width={24} />
               <Link href="/">Post a Job</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between items-center w-[148px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/JobBord-Icon.png" alt="" height={32} width={32} />
               <Link href="/">Job board</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between items-center w-[115px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/Faq-Icon.png" alt="" height={25} width={25} />
               <Link href="/">FAQ&#39;s</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between items-center w-[112px]  text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/Inbox-Icon.png" alt="" height={25} width={25} />
               <Link href="/">Inbox</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
-            <li className="text-lightColor text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <li className="text-lightColor flex justify-between items-center w-[135px]  text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/Logout-Icon.png" alt="" height={32} width={32} />
               <Link href="/">Log Out</Link>
             </li>
           </ul>
