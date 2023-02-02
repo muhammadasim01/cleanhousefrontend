@@ -6,8 +6,16 @@ import { RiCheckboxBlankLine } from "react-icons/ri";
 import { IoRadioButtonOff } from "react-icons/io";
 import PrimaryButton from "./PrimaryButton";
 import SecondryButton from "./SecondryButton";
+import {
+  signInWithPopup,
+  GoogleAuthProvider,
+  FacebookAuthProvider,
+} from "firebase/auth";
+import auth from "../../firebase";
 function SignUp() {
   const [password, setPassword] = useState(false);
+  const Googleprovider = new GoogleAuthProvider();
+  const Facebookprovider = new FacebookAuthProvider();
   const handlePassword = (e) => {
     e.preventDefault();
     setPassword(!password);
@@ -17,6 +25,43 @@ function SignUp() {
     e.preventDefault();
     router.push("/verifyaccount");
   };
+
+  const SignInWithGoogle = () => {
+    signInWithPopup(auth, Googleprovider)
+      .then(({ user }) => {
+        console.log(user);
+      })
+      .catch((error) => alert(error.message));
+  };
+
+  const SignInWithFacebook = () => {
+    signInWithPopup(auth, Facebookprovider)
+      .then(({ user }) => {
+        // The signed-in user info.
+        console.log("The user Data is:", user);
+        // This gives you a Facebook Access Token. You can use it to access the Facebook API.
+        const credential = FacebookAuthProvider.credentialFromResult(user);
+        console.log("The Credentails=", credential);
+        const accessToken = credential.accessToken;
+        console.log("The Access Token=", accessToken);
+        // ...
+      })
+      .catch((error) => {
+        // Handle Errors here.
+        const errorCode = error.code;
+        console.log("The Error Code=", errorCode);
+        const errorMessage = error.message;
+        console.log("The Error Message=", errorMessage);
+        // The email of the user's account used.
+        // const email = error.customData.email;
+        // The AuthCredential type that was used.
+        const credential = FacebookAuthProvider.credentialFromError(error);
+        console.log("The Credentails=", credential);
+
+        // ...
+      });
+  };
+
   return (
     <div className="flex flex-col h-[1300px] w-full items-center justify-between ">
       <form className="w-full  ">
@@ -110,22 +155,43 @@ function SignUp() {
         </div>
         <div className="flex flex-col items-start  mx-[10px]">
           <p className="text-left font-subHeading text-[26px] font-bold leading-[33px] my-2 ">
-            How did you hear about us? <span className="font-text text-[22px] leading-6">(Optional)</span> 
+            How did you hear about us?{" "}
+            <span className="font-text text-[22px] leading-6">(Optional)</span>
           </p>
           <select className="w-[100%] bg-[#E8EDF5] border-none decoration-0 outline-none  focus:ring-0 py-2 rounded-md">
             <option value="2x a week" className="font-text text-sm text-left">
               Select an option
             </option>
-            <option value="3x a week" className="font-text text-sm text-left">Google</option>
-            <option value="3x a week" className="font-text text-sm text-left">Yahoo</option>
-            <option value="3x a week" className="font-text text-sm text-left">Other Search Engine</option>
-            <option value="3x a week" className="font-text text-sm text-left">Facebook</option>
-            <option value="3x a week" className="font-text text-sm text-left">Twitter</option>
-            <option value="3x a week" className="font-text text-sm text-left">Instagram</option>
-            <option value="3x a week" className="font-text text-sm text-left">YouTube</option>
-            <option value="3x a week" className="font-text text-sm text-left">TikTok</option>
-            <option value="3x a week" className="font-text text-sm text-left">Other Social Media</option>
-            <option value="3x a week" className="font-text text-sm text-left">Referred by Someone</option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              Google
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              Yahoo
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              Other Search Engine
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              Facebook
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              Twitter
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              Instagram
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              YouTube
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              TikTok
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              Other Social Media
+            </option>
+            <option value="3x a week" className="font-text text-sm text-left">
+              Referred by Someone
+            </option>
           </select>
         </div>
         <div className="flex  mx-[10px]">
@@ -143,16 +209,20 @@ function SignUp() {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <SecondryButton Title="Sign Up" navigate={navigate} />
+          <SecondryButton
+            Title="Sign Up"
+            navigate={navigate}
+            customWidth={"w-[190px]"}
+          />
         </div>
       </form>
       <p className="w-full flex items-center justify-center">
         <span className="border-b-2 w-32 mr-3 text-[#A9A9A9]"></span>
         <span className="mb-1 font-text text-sm font-light">or</span>
-        <span className="border-b-2 w-32 ml-3 text-[#A9A9A9]"></span>{" "}
+        <span className="border-b-2 w-32 ml-3 text-[#A9A9A9]"></span>
       </p>
       <PrimaryButton
-        // action={SignInWithGoogle}
+        action={SignInWithGoogle}
         logo={<FcGoogle />}
         Title="Continue with Google"
         customCode="bg-[#4285F4] justify-evenly
@@ -160,7 +230,7 @@ function SignUp() {
         bgColor="bg-lightColor"
       />
       <PrimaryButton
-        // action={SignInWithFacebook}
+        action={SignInWithFacebook}
         logo={<BsFacebook />}
         Title="Continue with Facebook"
         customCode="bg-[#3B5998] justify-evenly"
@@ -181,7 +251,10 @@ function SignUp() {
         <p className="font-text text-base font-semibold  px-3">
           Already have a Maidzly account?
         </p>
-        <button onClick={()=>router.push({pathname:"signin"})} className="px-3 text-primaryColor font-subHeading text-xl font-light underline">
+        <button
+          onClick={() => router.push({ pathname: "signin" })}
+          className="px-3 text-primaryColor font-subHeading text-xl font-light underline"
+        >
           Sign In Now
         </button>
       </div>
