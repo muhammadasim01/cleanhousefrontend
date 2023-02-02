@@ -62,7 +62,8 @@ function SignIn() {
       });
   };
   return (
-    <div className="flex flex-col w-[320px] justify-between items-center h-[800px]">
+    <div className="flex flex-col w-[320px] items-center">
+      <div className="w-[320px] flex flex-col items-center justify-between h-[180px]">
       <PrimaryButton
         action={SignInWithGoogle}
         logo={<FcGoogle />}
@@ -82,14 +83,15 @@ function SignIn() {
         Title="Continue with Apple"
         customCode="bg-[#000000] justify-evenly"
       />
-      <p className="w-full flex items-center justify-center">
+      </div>
+      <p className="w-full flex items-center justify-center my-5">
         <span className="border-b-2 w-16 mr-3 text-[#A9A9A9] "></span>
         <span className="mb-1 font-text text-sm font-light">
           or continue with email
         </span>
         <span className="border-b-2 w-16 ml-3 text-[#A9A9A9]"></span>{" "}
       </p>
-      <form className="w-full flex flex-col justify-center  pt-5 ">
+      <form className="w-full flex flex-col justify-center">
         <p className="text-left font-subHeading text-2xl font-bold  my-2">
           Email
         </p>
@@ -123,7 +125,7 @@ function SignIn() {
           <SecondryButton Title="Sign In" navigate={navigate} />
         </div>
       </form>
-      <p className="text-center px-2 pb-5 font-text text-[22px] leading-[140%] mb-4">
+      <p className="w-full font-text text-sm leading-[22px] font-normal text-center mx-4  px-2 my-5">
         By signing in, I agree to Maidzly{" "}
         <span className="text-primaryColor">Terms of Services </span> and{" "}
         <span className="text-primaryColor mr-2">Privacy</span>

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { BsApple, BsFacebook } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
 import { RiCheckboxBlankLine } from "react-icons/ri";
+import { IoRadioButtonOff } from "react-icons/io";
 import PrimaryButton from "./PrimaryButton";
 import SecondryButton from "./SecondryButton";
 function SignUp() {
@@ -69,19 +70,7 @@ function SignUp() {
                   value="3x a week"
                   className="font-text text-sm text-left"
                 >
-                  +2 (CA)
-                </option>
-                <option
-                  value="3x a week"
-                  className="font-text text-sm text-left"
-                >
-                  +3 (CA)
-                </option>
-                <option
-                  value="3x a week"
-                  className="font-text text-sm text-left"
-                >
-                  +4 (CA)
+                  +1 (USA)
                 </option>
               </select>
             </div>
@@ -120,23 +109,23 @@ function SignUp() {
           </div>
         </div>
         <div className="flex flex-col items-start  mx-[10px]">
-          <p className="text-left font-subHeading text-2xl font-bold my-2 ">
-            How did you hear about us? (Optional)
+          <p className="text-left font-subHeading text-[26px] font-bold leading-[33px] my-2 ">
+            How did you hear about us? <span className="font-text text-[22px] leading-6">(Optional)</span> 
           </p>
-
           <select className="w-[100%] bg-[#E8EDF5] border-none decoration-0 outline-none  focus:ring-0 py-2 rounded-md">
             <option value="2x a week" className="font-text text-sm text-left">
               Select an option
             </option>
-            <option value="3x a week" className="font-text text-sm text-left">
-              dummy
-            </option>
-            <option value="3x a week" className="font-text text-sm text-left">
-              dummy
-            </option>
-            <option value="3x a week" className="font-text text-sm text-left">
-              dummy
-            </option>
+            <option value="3x a week" className="font-text text-sm text-left">Google</option>
+            <option value="3x a week" className="font-text text-sm text-left">Yahoo</option>
+            <option value="3x a week" className="font-text text-sm text-left">Other Search Engine</option>
+            <option value="3x a week" className="font-text text-sm text-left">Facebook</option>
+            <option value="3x a week" className="font-text text-sm text-left">Twitter</option>
+            <option value="3x a week" className="font-text text-sm text-left">Instagram</option>
+            <option value="3x a week" className="font-text text-sm text-left">YouTube</option>
+            <option value="3x a week" className="font-text text-sm text-left">TikTok</option>
+            <option value="3x a week" className="font-text text-sm text-left">Other Social Media</option>
+            <option value="3x a week" className="font-text text-sm text-left">Referred by Someone</option>
           </select>
         </div>
         <div className="flex  mx-[10px]">
@@ -181,7 +170,7 @@ function SignUp() {
         Title="Continue with Apple"
         customCode="bg-[#000000] justify-evenly"
       />
-      <p className="font-text text-[20px] leading-[140%] font-normal mt-4 mx-4  px-2">
+      <p className="font-text text-sm leading-[22px] font-normal mt-4 mx-4  px-2">
         By tapping “Sign Up” or “ Continue with Google, Facebook, or Apple” you
         agree to Maidzly{" "}
         <span className="text-primaryColor">Terms & Services </span> and{" "}
@@ -192,7 +181,7 @@ function SignUp() {
         <p className="font-text text-base font-semibold  px-3">
           Already have a Maidzly account?
         </p>
-        <button className="px-3 text-primaryColor font-subHeading text-xl font-light underline">
+        <button onClick={()=>router.push({pathname:"signin"})} className="px-3 text-primaryColor font-subHeading text-xl font-light underline">
           Sign In Now
         </button>
       </div>

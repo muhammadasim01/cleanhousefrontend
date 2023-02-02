@@ -4,8 +4,8 @@ import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import Header from "../Header";
 import logo2 from "../../public/assets/Maidzly-logo.png";
-function SignInSignUp() {
-  const [isSignIn, setIsSignIn] = useState(true);
+function SignInSignUp({toggle}) {
+  const [isSignIn, setIsSignIn] = useState(toggle);
   const handleSignInButton = () => {
     !isSignIn && setIsSignIn(true);
   };

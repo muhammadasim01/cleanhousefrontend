@@ -5,8 +5,8 @@ import { BsInfoCircle } from "react-icons/bs";
 function MobileMenu() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
   return (
-    <div className="text-center  flex flex-col sm:hidden bg-darkColor bg-opacity-8 relative w-[100%] z-50">
-      <div className="h-[90vh] overflow-y-scroll">
+    <div className="text-center border-2 border-primaryColor  flex flex-col sm:hidden bg-darkColor bg-opacity-8 relative w-[100%] z-50">
+      <div className="h-[90vh] overflow-y-scroll border-2 border-secondaryColor">
         <form className="flex items-center justify-center w-full pl-7 mt-3 sm:w-[600px]">
           <input
             type="text"
@@ -119,12 +119,12 @@ function MobileMenu() {
             <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor  flex justify-between w-[122px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
             <img src="/assets/SignUp-Icon.png" alt="" height={24} width={24} />
-              <Link href="/auth">Sign Up</Link>
+              <Link href="/signup">Sign Up</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor flex justify-between w-[113px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
             <img src="/assets/SignIn-Icon.png" alt="" height={24} width={24} />
-              <Link href="/auth">Sign In</Link>
+              <Link href="/signin">Sign In</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor flex justify-between items-center w-[204px] text-start ml-5 font-subHeading text-xl  font-bold py-3">
@@ -150,6 +150,11 @@ function MobileMenu() {
             <li className="text-lightColor flex justify-between items-center w-[112px]  text-start ml-5 font-subHeading text-xl  font-bold py-3">
             <img src="/assets/Inbox-Icon.png" alt="" height={25} width={25} />
               <Link href="/">Inbox</Link>
+            </li>
+            <p className="border-b-2 border-lightColor mx-5"></p>
+            <li className="text-lightColor flex justify-between items-center w-[112px]  text-start ml-5 font-subHeading text-xl  font-bold py-3">
+            <img src="/assets/My-Blog.png" alt="" height={25} width={25} />
+              <Link href="/">Blog</Link>
             </li>
             <p className="border-b-2 border-lightColor mx-5"></p>
             <li className="text-lightColor flex justify-between items-center w-[135px]  text-start ml-5 font-subHeading text-xl  font-bold py-3">
