@@ -5,7 +5,11 @@ import { BsInfoCircle } from "react-icons/bs";
 function MobileMenu() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
   return (
+<<<<<<< HEAD
     <div className="text-center  flex flex-col sm:hidden bg-darkColor bg-opacity-8 relative w-[100%] z-50">
+=======
+    <div className="text-center   flex flex-col sm:hidden bg-darkColor bg-opacity-8 relative w-[100%] z-50">
+>>>>>>> 4e86af3216f0698085fe9833390d4153ccb77ea7
       <div className="h-[90vh] overflow-y-scroll">
         <form className="flex items-center justify-center w-full pl-7 mt-3 sm:w-[600px]">
           <input

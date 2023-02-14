@@ -11,6 +11,7 @@ import {
 } from "firebase/auth";
 import auth from "../../firebase";
 import { useRouter } from "next/router";
+import Link from "next/link";
 function SignIn() {
   const [password, setPassword] = useState(false);
   const Googleprovider = new GoogleAuthProvider();
@@ -64,25 +65,25 @@ function SignIn() {
   return (
     <div className="flex flex-col w-[320px] items-center">
       <div className="w-[320px] flex flex-col items-center justify-between h-[180px]">
-      <PrimaryButton
-        action={SignInWithGoogle}
-        logo={<FcGoogle />}
-        Title="Continue with Google"
-        customCode="bg-[#4285F4] justify-evenly
+        <PrimaryButton
+          action={SignInWithGoogle}
+          logo={<FcGoogle />}
+          Title="Continue with Google"
+          customCode="bg-[#4285F4] justify-evenly
         "
-        bgColor="bg-lightColor"
-      />
-      <PrimaryButton
-        action={SignInWithFacebook}
-        logo={<BsFacebook />}
-        Title="Continue with Facebook"
-        customCode="bg-[#3B5998] justify-evenly"
-      />
-      <PrimaryButton
-        logo={<BsApple />}
-        Title="Continue with Apple"
-        customCode="bg-[#000000] justify-evenly"
-      />
+          bgColor="bg-lightColor"
+        />
+        <PrimaryButton
+          action={SignInWithFacebook}
+          logo={<BsFacebook />}
+          Title="Continue with Facebook"
+          customCode="bg-[#3B5998] justify-evenly"
+        />
+        <PrimaryButton
+          logo={<BsApple />}
+          Title="Continue with Apple"
+          customCode="bg-[#000000] justify-evenly"
+        />
       </div>
       <p className="w-full flex items-center justify-center my-5">
         <span className="border-b-2 w-16 mr-3 text-[#A9A9A9] "></span>
@@ -118,11 +119,26 @@ function SignIn() {
             Show
           </button>
         </div>
-        <p className="font-text text-base font-normal  mt-5">
-          Forgot your password?
-        </p>
+        <div className="flex justify-between items-center">
+          <div className="flex items-center">
+            <input
+              type="checkbox"
+              name=""
+              id=""
+              className="mr-2 border-2 border-secondaryColor rounded-sm"
+            />
+            <p>Remeber Me</p>
+          </div>
+          <p className="font-text text-base font-normal underline">
+            <Link href="/forgotpassword">Forgot your password?</Link>
+          </p>
+        </div>
         <div className="flex items-center justify-center">
-          <SecondryButton Title="Sign In" navigate={navigate} />
+          <SecondryButton
+            Title="Sign In"
+            navigate={navigate}
+            customWidth={"w-[190px]"}
+          />
         </div>
       </form>
       <p className="w-full font-text text-sm leading-[22px] font-normal text-center mx-4  px-2 my-5">

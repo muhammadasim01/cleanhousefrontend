@@ -2,15 +2,20 @@ import { useState } from "react";
 import MobileMenu from "../MobileMenu";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
+import { useRouter } from "next/router";
 import Header from "../Header";
 import logo2 from "../../public/assets/Maidzly-logo.png";
 function SignInSignUp({ toggle }) {
+<<<<<<< HEAD
+=======
+  const router = useRouter();
+>>>>>>> 4e86af3216f0698085fe9833390d4153ccb77ea7
   const [isSignIn, setIsSignIn] = useState(toggle);
   const handleSignInButton = () => {
-    !isSignIn && setIsSignIn(true);
+    router.push("/signin");
   };
   const handleSignUpButton = () => {
-    isSignIn && setIsSignIn(false);
+    router.push("/signup");
   };
   return (
     <>
