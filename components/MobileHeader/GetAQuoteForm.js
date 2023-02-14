@@ -61,7 +61,7 @@ function GetAQuoteForm({ Title, first, second, third, fourth }) {
         </div>
       </div>
       <div className="w-full mt-[1rem] ">
-        <h2 className="font-heading  text-[36px] font-bold py-2  ">{Title}</h2>
+        <h1 className="font-heading  text-[36px] font-bold py-2  ">{Title}</h1>
         <div className="flex justify-between h-10  border-[1px] border-secondaryColor pl-2 pr-3 items-center bg-secondaryColor bg-opacity-10 rounded-lg ">
           <button className=" font-text text-[10px] font-extrabold text-darkColor flex items-center ">
             <p

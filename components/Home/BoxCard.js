@@ -27,9 +27,9 @@ function BoxCard({
       </div>
       <div className="w-[63%]   md:h-[70%] lg:h-[70%] flex flex-col items-start ">
         <div>
-          <h1 className="text-black font-heading text-[40px] leading-[44px]   sm:text-center">
+          <h2 className="text-black font-heading text-[40px] leading-[44px]   sm:text-center">
             {Title}
-          </h1>
+          </h2>
           <p className="text-darkColor mt-2 font-text text-[22px] font-semibold  h-auto sm:text-center w-[88%] ">
             {Description}
           </p>

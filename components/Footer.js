@@ -13,7 +13,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-col text-lightColor sm:self-start w-full items-start my-2">
-            <h1 className="text-[40px] font-subHeading font-bold">Explore</h1>
+            <h2 className="text-[40px] font-subHeading font-bold">Explore</h2>
             <div className="flex flex-col">
               <span className="mt-2 font-text text-[20px] font-normal leading-6 my-2">
                 <Link href="/">Get The App</Link>
@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col text-lightColor sm:self-start w-full ">
-            <h1 className="text-[40px] font-subHeading font-bold">Utilites</h1>
+            <h2 className="text-[40px] font-subHeading font-bold">Utilites</h2>
             <div className="flex flex-col">
               <span className="mt-2 font-text text-[20px] font-normal leading-6 my-2">
                 <Link href="/">Get The App</Link>
@@ -77,9 +77,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col text-lightColor w-full items-start">
-            <h1 className="text-[40px] font-subHeading font-bold">
+            <h2 className="text-[40px] font-subHeading font-bold">
               Areas We Cover
-            </h1>
+            </h2>
             <div>
               <CitiesList
                 headingText="GTA"
@@ -105,9 +105,9 @@ const Footer = () => {
               <p className="font-text text-[22px] font-normal">Coming soon!</p>
             </div>
             <div>
-              <h1 className="text-[40px] font-subHeading font-bold">
+              <h2 className="text-[40px] font-subHeading font-bold">
                 Contact US
-              </h1>
+              </h2>
               <div className="flex justify-evenly">
                 <p className="font-subHeading font-light text-sm md:mt-3">
                   Email:
