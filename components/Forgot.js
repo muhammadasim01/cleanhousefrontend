@@ -1,11 +1,13 @@
 // import Image from "next/image";
 // import VerifyEmailImage1 from "../../public/assets/UpdateEmail-1.png";
 // import VerifyEmailImage2 from "../../public/assets/UpdateEmail-2.png";
+import Footer from "./Footer";
+import Header from "./Header";
 import SecondryButton from "./MobileHeader/SecondryButton";
-import TertiaryButton from "./MobileHeader/TertiaryButton";
 function Forgot() {
   return (
     <div>
+      <Header />
       <h2 className="text-center font-heading text-2xl font-bold py-8 px-5">
         Forgot password?
       </h2>
@@ -16,7 +18,7 @@ function Forgot() {
         Please enter the email address you used to create your account, and we
         will send you a link to reset your password.
       </p>
-      <form>
+      <form className="flex flex-col items-center justify-center">
         <p className="text-left font-subHeading text-2xl font-bold my-2 px-4">
           Email Address
         </p>
@@ -30,6 +32,7 @@ function Forgot() {
           <SecondryButton Title="Submit" />
         </div>
       </form>
+      <Footer />
     </div>
   );
 }
