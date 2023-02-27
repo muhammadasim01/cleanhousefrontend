@@ -11,12 +11,15 @@ import {
   signInWithPopup,
   GoogleAuthProvider,
   FacebookAuthProvider,
+  getAuth,
+  OAuthProvider,
 } from "firebase/auth";
 import auth from "../../firebase";
 function SignUp() {
   const [password, setPassword] = useState(false);
   const Googleprovider = new GoogleAuthProvider();
   const Facebookprovider = new FacebookAuthProvider();
+  const provider = new OAuthProvider("apple.com");
   const handlePassword = (e) => {
     e.preventDefault();
     setPassword(!password);
@@ -63,11 +66,41 @@ function SignUp() {
       });
   };
 
+  const SignInWithApple = () => {
+    const auth = getAuth();
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        // The signed-in user info.
+        const user = result.user;
+
+        // Apple credential
+        const credential = OAuthProvider.credentialFromResult(result);
+        console.log("The credentail from Apple ::", credential);
+        const accessToken = credential.accessToken;
+        console.log("the AccessToken from Apple ::", accessToken);
+        const idToken = credential.idToken;
+
+        // IdP data available using getAdditionalUserInfo(result)
+        // ...
+      })
+      .catch((error) => {
+        // Handle Errors here.
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        // The email of the user's account used.
+        const email = error.customData.email;
+        // The credential that was used.
+        const credential = OAuthProvider.credentialFromError(error);
+
+        // ...
+      });
+  };
+
   return (
     <>
       <div className="flex flex-col h-[1300px] w-full items-center justify-between ">
-        <form className="w-full  ">
-          <div className="flex    justify-between items-center my-2">
+        <form className="w-full">
+          <div className="flex justify-between items-center my-2">
             <div className="flex flex-col justify-between items-start  mx-2 w-[50%]">
               <p className="text-left font-subHeading text-2xl font-bold my-2 ">
                 First Name
@@ -240,6 +273,7 @@ function SignUp() {
           customCode="bg-[#3B5998] justify-evenly"
         />
         <PrimaryButton
+          action={SignInWithApple}
           logo={<BsApple />}
           Title="Continue with Apple"
           customCode="bg-[#000000] justify-evenly"
