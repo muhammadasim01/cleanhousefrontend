@@ -8,6 +8,8 @@ import {
   signInWithPopup,
   GoogleAuthProvider,
   FacebookAuthProvider,
+  getAuth,
+  OAuthProvider,
 } from "firebase/auth";
 import auth from "../../firebase";
 import { useRouter } from "next/router";
@@ -17,6 +19,7 @@ function SignIn() {
   const [password, setPassword] = useState(false);
   const Googleprovider = new GoogleAuthProvider();
   const Facebookprovider = new FacebookAuthProvider();
+  const provider = new OAuthProvider("apple.com");
   const router = useRouter();
   const handlePassword = (e) => {
     e.preventDefault();
@@ -63,6 +66,37 @@ function SignIn() {
         // ...
       });
   };
+
+  const SignInWithApple = () => {
+    const auth = getAuth();
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        // The signed-in user info.
+        const user = result.user;
+
+        // Apple credential
+        const credential = OAuthProvider.credentialFromResult(result);
+        console.log("The credentail from Apple ::", credential);
+        const accessToken = credential.accessToken;
+        console.log("the AccessToken from Apple ::", accessToken);
+        const idToken = credential.idToken;
+
+        // IdP data available using getAdditionalUserInfo(result)
+        // ...
+      })
+      .catch((error) => {
+        // Handle Errors here.
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        // The email of the user's account used.
+        const email = error.customData.email;
+        // The credential that was used.
+        const credential = OAuthProvider.credentialFromError(error);
+
+        // ...
+      });
+  };
+
   return (
     <>
       <div className="flex flex-col w-[320px] items-center">
@@ -83,6 +117,7 @@ function SignIn() {
           />
           <PrimaryButton
             logo={<BsApple />}
+            action={SignInWithApple}
             Title="Continue with Apple"
             customCode="bg-[#000000] justify-evenly"
           />

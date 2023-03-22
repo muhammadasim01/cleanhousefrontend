@@ -98,7 +98,7 @@ function SignUp() {
 
   return (
     <>
-      <div className="flex flex-col h-[1300px] w-full items-center justify-between ">
+      <div className="flex flex-col h-[1300px] w-full items-center justify-between">
         <form className="w-full">
           <div className="flex justify-between items-center my-2">
             <div className="flex flex-col justify-between items-start  mx-2 w-[50%]">
@@ -123,7 +123,7 @@ function SignUp() {
             </div>
           </div>
           <div className="flex flex-col items-start  mx-[10px] my-3">
-            <p className="text-left font-subHeading text-2xl font-bold my-2  ">
+            <p className="text-left font-subHeading text-2xl font-bold my-2 ">
               Email
             </p>
             <input
